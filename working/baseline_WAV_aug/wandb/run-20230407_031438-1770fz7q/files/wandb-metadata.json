@@ -1,0 +1,18 @@
+{
+    "os": "Linux-5.4.0-1102-gcp-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.12",
+    "heartbeatAt": "2023-04-07T03:14:42.567187",
+    "startedAt": "2023-04-07T03:14:38.933224",
+    "docker": null,
+    "gpu": "Tesla T4",
+    "gpu_count": 1,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "baseline/train.ipynb",
+    "root": "/kaggle/working",
+    "host": "3f34bd23130e",
+    "username": "root",
+    "executable": "/opt/conda/bin/python"
+}
