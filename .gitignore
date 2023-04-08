@@ -1,2 +1,4 @@
 /input
-
+/pip-lib
+*.pth
+/working/*/wandb/

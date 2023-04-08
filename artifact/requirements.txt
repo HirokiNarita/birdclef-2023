@@ -7,3 +7,5 @@ optuna
 evaluate
 nb-black
 timm
+tinytag
+torchlibrosa
