@@ -52,7 +52,7 @@ class CFG:
     # Pretraining, neck features, and final activation function
     pretrain = False
     pretrained_model_path = 'birdclef_pretrained_ckpt.pth'
-    neck_features = 0
+    inference_model_path = '/kaggle/input/birdclef-2023-baseline/fold-4.pth'
     #final_act = 'softmax'
     
     # Learning rate, optimizer, and scheduler
@@ -70,6 +70,7 @@ class CFG:
     
     # Audio duration, sample rate, and length
     duration = 8 # second
+    test_duration = 5
     sample_rate = 32000
     audio_len = duration*sample_rate
     

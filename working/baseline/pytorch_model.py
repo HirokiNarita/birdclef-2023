@@ -21,10 +21,11 @@ class BirdCLEF23Net(nn.Module):
                  n_fft=CFG.n_fft,
                  hop_length=CFG.hop_length,
                  n_mels=CFG.n_mels,
-                 top_db=CFG.top_db):
+                 top_db=CFG.top_db,
+                 pretrained=True):
        
         super(BirdCLEF23Net, self).__init__()
-        self.model=timm.create_model(pretrained=True,
+        self.model=timm.create_model(pretrained=pretrained,
                                      model_name=model_name,
                                      in_chans=in_chans,
                                      num_classes=num_classes,)

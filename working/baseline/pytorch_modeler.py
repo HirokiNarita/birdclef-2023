@@ -68,7 +68,10 @@ def inference_collate(batch):
         # テンソルでない場合は、リストとして保存
         else:
             batched_info[key] = values
-    batched_info['target'] = torch.Tensor(batched_info['target']).long()
+    try :
+        batched_info['target'] = torch.Tensor(batched_info['target']).long()
+    except:
+        pass
     return features, batched_info
 
 def make_dataloder(train_dataset, valid_dataset):
