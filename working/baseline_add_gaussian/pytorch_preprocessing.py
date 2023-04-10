@@ -107,6 +107,10 @@ class BirdDataset(Dataset):
                  step=None,
                  is_train=True,
                  is_test=False):
+        # for train / val
+        self.is_train = is_train
+        # for test
+        self.is_test = is_test
         
         self.data = data
         
@@ -118,13 +122,12 @@ class BirdDataset(Dataset):
         self.fmax = fmax or self.sr//2
         self.hop_length = hop_length
 
-        self.duration = duration
+        if self.is_test == True:
+            self.duration = CFG.test_duration
+        else:
+            self.duration = duration
         self.audio_length = self.duration*self.sr
-        self.is_train = is_train
         self.step = step or self.audio_length
-        
-        # for test
-        self.is_test = is_test
 
     def __len__(self):
         return len(self.data)
@@ -203,6 +206,8 @@ class BirdDataset(Dataset):
             sample_info_tmp = []
             for i in range(len(features)):
                 sample_info_ = copy.deepcopy(sample_info)
+                sec = str((i+1)*5)
+                sample_info_['row_id'] = sample_info_['filename'] + f'_{sec}'
                 sample_info_tmp.append(sample_info_)
             sample_info = sample_info_tmp
             

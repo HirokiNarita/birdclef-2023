@@ -14,7 +14,7 @@ class CFG:
     
     # Experiment name and comment
     exp_name = 'baseline'
-    comment = 'EfficientNetB2|224x313|t=8s|lr=cos|act=softmax|add_gausian'
+    comment = 'EfficientNetB2|224x313|t=8s|lr=cos|act=softmax|add_gaussian'
     
     # Notebook link
     notebook_link = 'https://www.kaggle.com/awsaf49/birdclef23-effnet-fsr-cutmixup-train/edit'
@@ -52,7 +52,7 @@ class CFG:
     # Pretraining, neck features, and final activation function
     pretrain = False
     pretrained_model_path = 'birdclef_pretrained_ckpt.pth'
-    neck_features = 0
+    inference_model_path = '/kaggle/input/birdclef-2023-baseline/fold-4.pth'
     #final_act = 'softmax'
     
     # Learning rate, optimizer, and scheduler

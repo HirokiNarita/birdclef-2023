@@ -30,7 +30,7 @@ import wandb
 
 # original library
 import common as com
-import preprocessing as prep
+import pytorch_preprocessing as prep
 from pytorch_model import BirdCLEF23Net
 from config import CFG
 ############################################################################
