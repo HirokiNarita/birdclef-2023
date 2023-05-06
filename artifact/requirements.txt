@@ -9,3 +9,6 @@ nb-black
 timm
 tinytag
 torchlibrosa
+ffmpeg-python
+colorednoise
+audiomentations

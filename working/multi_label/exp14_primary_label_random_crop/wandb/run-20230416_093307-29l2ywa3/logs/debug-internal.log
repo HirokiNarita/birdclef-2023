@@ -1,0 +1,269 @@
+2023-04-16 09:33:08,521 INFO    MainThread:31668 [internal.py:wandb_internal():93] W&B internal server running at pid: 31668, started at: 2023-04-16 09:33:08.521503
+2023-04-16 09:33:08,526 DEBUG   SenderThread:31668 [sender.py:send():236] send: header
+2023-04-16 09:33:08,527 INFO    WriterThread:31668 [datastore.py:open_for_write():75] open: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/run-29l2ywa3.wandb
+2023-04-16 09:33:08,527 DEBUG   SenderThread:31668 [sender.py:send():236] send: run
+2023-04-16 09:33:08,981 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: check_version
+2023-04-16 09:33:08,982 INFO    SenderThread:31668 [dir_watcher.py:__init__():216] watching files in: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files
+2023-04-16 09:33:08,982 INFO    SenderThread:31668 [sender.py:_start_run_threads():818] run started: 29l2ywa3 with start time 1681637587
+2023-04-16 09:33:08,982 DEBUG   SenderThread:31668 [sender.py:send():236] send: summary
+2023-04-16 09:33:08,982 INFO    SenderThread:31668 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-16 09:33:08,983 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: check_version
+2023-04-16 09:33:09,060 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: run_start
+2023-04-16 09:33:09,072 DEBUG   HandlerThread:31668 [meta.py:__init__():35] meta init
+2023-04-16 09:33:09,072 DEBUG   HandlerThread:31668 [meta.py:__init__():49] meta init done
+2023-04-16 09:33:09,072 DEBUG   HandlerThread:31668 [meta.py:probe():209] probe
+2023-04-16 09:33:09,082 DEBUG   HandlerThread:31668 [git.py:repo():29] git repository is invalid
+2023-04-16 09:33:09,082 DEBUG   HandlerThread:31668 [meta.py:_save_code():87] save code
+2023-04-16 09:33:09,082 WARNING HandlerThread:31668 [meta.py:_save_code():89] unable to save code -- program entry not found
+2023-04-16 09:33:09,082 DEBUG   HandlerThread:31668 [meta.py:_save_pip():53] save pip
+2023-04-16 09:33:09,083 DEBUG   HandlerThread:31668 [meta.py:_save_pip():67] save pip done
+2023-04-16 09:33:09,083 DEBUG   HandlerThread:31668 [meta.py:_save_conda():74] save conda
+2023-04-16 09:33:09,984 INFO    Thread-7  :31668 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/conda-environment.yaml
+2023-04-16 09:33:09,985 INFO    Thread-7  :31668 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/requirements.txt
+2023-04-16 09:33:09,985 INFO    Thread-7  :31668 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/wandb-summary.json
+2023-04-16 09:33:14,988 INFO    Thread-7  :31668 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/output.log
+2023-04-16 09:33:20,991 INFO    Thread-7  :31668 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/output.log
+2023-04-16 09:33:28,994 INFO    Thread-7  :31668 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/output.log
+2023-04-16 09:33:30,995 INFO    Thread-7  :31668 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/output.log
+2023-04-16 09:33:32,996 INFO    Thread-7  :31668 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/output.log
+2023-04-16 09:33:34,997 INFO    Thread-7  :31668 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/output.log
+2023-04-16 09:33:36,998 INFO    Thread-7  :31668 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/output.log
+2023-04-16 09:33:45,238 DEBUG   HandlerThread:31668 [meta.py:_save_conda():84] save conda done
+2023-04-16 09:33:45,238 DEBUG   HandlerThread:31668 [meta.py:probe():247] probe done
+2023-04-16 09:33:45,510 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-16 09:33:45,511 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: stop_status
+2023-04-16 09:33:45,511 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-16 09:33:45,516 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-16 09:33:45,517 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-16 09:33:45,517 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-16 09:33:45,519 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-16 09:33:45,519 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-16 09:33:45,520 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-16 09:33:45,521 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-16 09:33:45,521 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-16 09:33:45,522 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-16 09:33:45,522 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: pause
+2023-04-16 09:33:45,522 INFO    HandlerThread:31668 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-04-16 09:33:45,716 DEBUG   SenderThread:31668 [sender.py:send():236] send: telemetry
+2023-04-16 09:33:45,717 DEBUG   SenderThread:31668 [sender.py:send():236] send: history
+2023-04-16 09:33:45,717 DEBUG   SenderThread:31668 [sender.py:send():236] send: summary
+2023-04-16 09:33:45,719 INFO    SenderThread:31668 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-16 09:33:45,720 DEBUG   SenderThread:31668 [sender.py:send():236] send: history
+2023-04-16 09:33:45,720 DEBUG   SenderThread:31668 [sender.py:send():236] send: summary
+2023-04-16 09:33:45,720 INFO    SenderThread:31668 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-16 09:33:45,721 DEBUG   SenderThread:31668 [sender.py:send():236] send: history
+2023-04-16 09:33:45,721 DEBUG   SenderThread:31668 [sender.py:send():236] send: summary
+2023-04-16 09:33:45,721 INFO    SenderThread:31668 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-16 09:33:45,721 DEBUG   SenderThread:31668 [sender.py:send():236] send: history
+2023-04-16 09:33:45,722 DEBUG   SenderThread:31668 [sender.py:send():236] send: summary
+2023-04-16 09:33:45,722 INFO    SenderThread:31668 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-16 09:33:45,722 DEBUG   SenderThread:31668 [sender.py:send():236] send: history
+2023-04-16 09:33:45,722 DEBUG   SenderThread:31668 [sender.py:send():236] send: summary
+2023-04-16 09:33:45,723 INFO    SenderThread:31668 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-16 09:33:45,723 DEBUG   SenderThread:31668 [sender.py:send():236] send: history
+2023-04-16 09:33:45,723 DEBUG   SenderThread:31668 [sender.py:send():236] send: summary
+2023-04-16 09:33:45,723 INFO    SenderThread:31668 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-16 09:33:45,723 DEBUG   SenderThread:31668 [sender.py:send():236] send: history
+2023-04-16 09:33:45,723 DEBUG   SenderThread:31668 [sender.py:send():236] send: summary
+2023-04-16 09:33:45,724 INFO    SenderThread:31668 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-16 09:33:45,724 DEBUG   SenderThread:31668 [sender.py:send():236] send: history
+2023-04-16 09:33:45,724 DEBUG   SenderThread:31668 [sender.py:send():236] send: summary
+2023-04-16 09:33:45,724 INFO    SenderThread:31668 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-16 09:33:45,724 DEBUG   SenderThread:31668 [sender.py:send():236] send: history
+2023-04-16 09:33:45,724 DEBUG   SenderThread:31668 [sender.py:send():236] send: summary
+2023-04-16 09:33:45,725 INFO    SenderThread:31668 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-16 09:33:45,725 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: stop_status
+2023-04-16 09:33:45,923 DEBUG   SenderThread:31668 [sender.py:send():236] send: stats
+2023-04-16 09:33:45,924 DEBUG   SenderThread:31668 [sender.py:send():236] send: files
+2023-04-16 09:33:45,924 INFO    SenderThread:31668 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2023-04-16 09:33:45,925 DEBUG   SenderThread:31668 [sender.py:send():236] send: stats
+2023-04-16 09:33:46,002 INFO    Thread-7  :31668 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/wandb-summary.json
+2023-04-16 09:33:46,002 INFO    Thread-7  :31668 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/wandb-metadata.json
+2023-04-16 09:33:46,554 INFO    Thread-11 :31668 [upload_job.py:push():138] Uploaded file /tmp/tmpv1mbab5uwandb/3b2vfmgj-wandb-metadata.json
+2023-04-16 09:33:54,076 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-16 09:33:54,077 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: stop_status
+2023-04-16 09:34:09,279 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-16 09:34:09,280 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: stop_status
+2023-04-16 09:34:10,011 INFO    Thread-7  :31668 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/config.yaml
+2023-04-16 09:34:24,487 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-16 09:34:24,488 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: stop_status
+2023-04-16 09:34:39,686 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-16 09:34:39,687 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: stop_status
+2023-04-16 09:34:51,143 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: resume
+2023-04-16 09:34:51,143 INFO    HandlerThread:31668 [handler.py:handle_request_resume():686] starting system metrics thread
+2023-04-16 09:34:51,144 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: pause
+2023-04-16 09:34:51,145 INFO    HandlerThread:31668 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-04-16 09:34:51,161 DEBUG   SenderThread:31668 [sender.py:send():236] send: stats
+2023-04-16 09:34:51,313 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: resume
+2023-04-16 09:34:51,313 INFO    HandlerThread:31668 [handler.py:handle_request_resume():686] starting system metrics thread
+2023-04-16 09:34:51,314 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: pause
+2023-04-16 09:34:51,315 INFO    HandlerThread:31668 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-04-16 09:34:51,331 DEBUG   SenderThread:31668 [sender.py:send():236] send: stats
+2023-04-16 09:34:51,630 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: resume
+2023-04-16 09:34:51,630 INFO    HandlerThread:31668 [handler.py:handle_request_resume():686] starting system metrics thread
+2023-04-16 09:34:51,631 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: pause
+2023-04-16 09:34:51,632 INFO    HandlerThread:31668 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-04-16 09:34:51,650 DEBUG   SenderThread:31668 [sender.py:send():236] send: stats
+2023-04-16 09:34:51,789 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: resume
+2023-04-16 09:34:51,789 INFO    HandlerThread:31668 [handler.py:handle_request_resume():686] starting system metrics thread
+2023-04-16 09:34:51,794 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: pause
+2023-04-16 09:34:51,794 INFO    HandlerThread:31668 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-04-16 09:34:51,808 DEBUG   SenderThread:31668 [sender.py:send():236] send: stats
+2023-04-16 09:34:51,933 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: resume
+2023-04-16 09:34:51,933 INFO    HandlerThread:31668 [handler.py:handle_request_resume():686] starting system metrics thread
+2023-04-16 09:34:51,935 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: pause
+2023-04-16 09:34:51,935 INFO    HandlerThread:31668 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-04-16 09:34:51,951 DEBUG   SenderThread:31668 [sender.py:send():236] send: stats
+2023-04-16 09:34:52,054 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: resume
+2023-04-16 09:34:52,054 INFO    HandlerThread:31668 [handler.py:handle_request_resume():686] starting system metrics thread
+2023-04-16 09:34:52,057 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: pause
+2023-04-16 09:34:52,057 INFO    HandlerThread:31668 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-04-16 09:34:52,073 DEBUG   SenderThread:31668 [sender.py:send():236] send: stats
+2023-04-16 09:34:52,175 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: resume
+2023-04-16 09:34:52,175 INFO    HandlerThread:31668 [handler.py:handle_request_resume():686] starting system metrics thread
+2023-04-16 09:34:52,290 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: pause
+2023-04-16 09:34:52,290 INFO    HandlerThread:31668 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-04-16 09:34:52,395 DEBUG   SenderThread:31668 [sender.py:send():236] send: stats
+2023-04-16 09:34:52,399 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: resume
+2023-04-16 09:34:52,399 INFO    HandlerThread:31668 [handler.py:handle_request_resume():686] starting system metrics thread
+2023-04-16 09:34:52,426 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: pause
+2023-04-16 09:34:52,426 INFO    HandlerThread:31668 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-04-16 09:34:52,517 DEBUG   SenderThread:31668 [sender.py:send():236] send: stats
+2023-04-16 09:34:52,551 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: resume
+2023-04-16 09:34:52,551 INFO    HandlerThread:31668 [handler.py:handle_request_resume():686] starting system metrics thread
+2023-04-16 09:34:52,552 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: pause
+2023-04-16 09:34:52,552 INFO    HandlerThread:31668 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-04-16 09:34:52,568 DEBUG   SenderThread:31668 [sender.py:send():236] send: stats
+2023-04-16 09:34:52,682 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: resume
+2023-04-16 09:34:52,683 INFO    HandlerThread:31668 [handler.py:handle_request_resume():686] starting system metrics thread
+2023-04-16 09:34:52,684 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: pause
+2023-04-16 09:34:52,685 INFO    HandlerThread:31668 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-04-16 09:34:52,701 DEBUG   SenderThread:31668 [sender.py:send():236] send: stats
+2023-04-16 09:34:52,903 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: resume
+2023-04-16 09:34:52,903 INFO    HandlerThread:31668 [handler.py:handle_request_resume():686] starting system metrics thread
+2023-04-16 09:34:53,027 INFO    Thread-7  :31668 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/output.log
+2023-04-16 09:34:53,092 DEBUG   SenderThread:31668 [sender.py:send():236] send: telemetry
+2023-04-16 09:34:53,136 DEBUG   SenderThread:31668 [sender.py:send():236] send: config
+2023-04-16 09:34:53,150 DEBUG   SenderThread:31668 [sender.py:send():236] send: telemetry
+2023-04-16 09:34:53,275 DEBUG   SenderThread:31668 [sender.py:send():236] send: exit
+2023-04-16 09:34:53,275 INFO    SenderThread:31668 [sender.py:send_exit():372] handling exit code: 0
+2023-04-16 09:34:53,275 INFO    SenderThread:31668 [sender.py:send_exit():374] handling runtime: 37
+2023-04-16 09:34:53,276 INFO    SenderThread:31668 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-16 09:34:53,276 INFO    SenderThread:31668 [sender.py:send_exit():380] send defer
+2023-04-16 09:34:53,276 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: defer
+2023-04-16 09:34:53,277 INFO    HandlerThread:31668 [handler.py:handle_request_defer():163] handle defer: 0
+2023-04-16 09:34:53,277 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: defer
+2023-04-16 09:34:53,277 INFO    SenderThread:31668 [sender.py:send_request_defer():389] handle sender defer: 0
+2023-04-16 09:34:53,277 INFO    SenderThread:31668 [sender.py:transition_state():393] send defer: 1
+2023-04-16 09:34:53,277 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-16 09:34:53,278 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: poll_exit
+2023-04-16 09:34:53,278 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: defer
+2023-04-16 09:34:53,278 INFO    HandlerThread:31668 [handler.py:handle_request_defer():163] handle defer: 1
+2023-04-16 09:34:53,324 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: defer
+2023-04-16 09:34:53,324 INFO    SenderThread:31668 [sender.py:send_request_defer():389] handle sender defer: 1
+2023-04-16 09:34:53,324 INFO    SenderThread:31668 [sender.py:transition_state():393] send defer: 2
+2023-04-16 09:34:53,325 DEBUG   SenderThread:31668 [sender.py:send():236] send: stats
+2023-04-16 09:34:53,325 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: defer
+2023-04-16 09:34:53,326 INFO    HandlerThread:31668 [handler.py:handle_request_defer():163] handle defer: 2
+2023-04-16 09:34:53,326 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: defer
+2023-04-16 09:34:53,326 INFO    SenderThread:31668 [sender.py:send_request_defer():389] handle sender defer: 2
+2023-04-16 09:34:53,326 INFO    SenderThread:31668 [sender.py:transition_state():393] send defer: 3
+2023-04-16 09:34:53,327 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: defer
+2023-04-16 09:34:53,327 INFO    HandlerThread:31668 [handler.py:handle_request_defer():163] handle defer: 3
+2023-04-16 09:34:53,327 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: defer
+2023-04-16 09:34:53,327 INFO    SenderThread:31668 [sender.py:send_request_defer():389] handle sender defer: 3
+2023-04-16 09:34:53,327 INFO    SenderThread:31668 [sender.py:transition_state():393] send defer: 4
+2023-04-16 09:34:53,328 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: defer
+2023-04-16 09:34:53,328 INFO    HandlerThread:31668 [handler.py:handle_request_defer():163] handle defer: 4
+2023-04-16 09:34:53,328 DEBUG   SenderThread:31668 [sender.py:send():236] send: summary
+2023-04-16 09:34:53,328 INFO    SenderThread:31668 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-16 09:34:53,329 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: defer
+2023-04-16 09:34:53,329 INFO    SenderThread:31668 [sender.py:send_request_defer():389] handle sender defer: 4
+2023-04-16 09:34:53,329 INFO    SenderThread:31668 [sender.py:transition_state():393] send defer: 5
+2023-04-16 09:34:53,329 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: defer
+2023-04-16 09:34:53,329 INFO    HandlerThread:31668 [handler.py:handle_request_defer():163] handle defer: 5
+2023-04-16 09:34:53,330 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: defer
+2023-04-16 09:34:53,330 INFO    SenderThread:31668 [sender.py:send_request_defer():389] handle sender defer: 5
+2023-04-16 09:34:53,384 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-16 09:34:53,721 INFO    SenderThread:31668 [sender.py:transition_state():393] send defer: 6
+2023-04-16 09:34:53,722 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: poll_exit
+2023-04-16 09:34:53,722 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: defer
+2023-04-16 09:34:53,722 INFO    HandlerThread:31668 [handler.py:handle_request_defer():163] handle defer: 6
+2023-04-16 09:34:53,723 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: defer
+2023-04-16 09:34:53,723 INFO    SenderThread:31668 [sender.py:send_request_defer():389] handle sender defer: 6
+2023-04-16 09:34:53,723 INFO    SenderThread:31668 [dir_watcher.py:finish():353] shutting down directory watcher
+2023-04-16 09:34:53,824 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-16 09:34:54,027 INFO    Thread-7  :31668 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/output.log
+2023-04-16 09:34:54,028 INFO    SenderThread:31668 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/config.yaml
+2023-04-16 09:34:54,028 INFO    SenderThread:31668 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/wandb-summary.json
+2023-04-16 09:34:54,028 INFO    SenderThread:31668 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/code/_session_history.ipynb
+2023-04-16 09:34:54,029 INFO    SenderThread:31668 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/code
+2023-04-16 09:34:54,029 INFO    SenderThread:31668 [dir_watcher.py:finish():383] scan: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files
+2023-04-16 09:34:54,029 INFO    SenderThread:31668 [dir_watcher.py:finish():397] scan save: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/output.log output.log
+2023-04-16 09:34:54,029 INFO    SenderThread:31668 [dir_watcher.py:finish():397] scan save: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/wandb-metadata.json wandb-metadata.json
+2023-04-16 09:34:54,029 INFO    SenderThread:31668 [dir_watcher.py:finish():397] scan save: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/wandb-summary.json wandb-summary.json
+2023-04-16 09:34:54,033 INFO    SenderThread:31668 [dir_watcher.py:finish():397] scan save: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/requirements.txt requirements.txt
+2023-04-16 09:34:54,034 INFO    SenderThread:31668 [dir_watcher.py:finish():397] scan save: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/conda-environment.yaml conda-environment.yaml
+2023-04-16 09:34:54,042 INFO    SenderThread:31668 [dir_watcher.py:finish():397] scan save: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/config.yaml config.yaml
+2023-04-16 09:34:54,047 INFO    SenderThread:31668 [dir_watcher.py:finish():397] scan save: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/code/_session_history.ipynb code/_session_history.ipynb
+2023-04-16 09:34:54,047 INFO    SenderThread:31668 [sender.py:transition_state():393] send defer: 7
+2023-04-16 09:34:54,048 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: poll_exit
+2023-04-16 09:34:54,049 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: defer
+2023-04-16 09:34:54,049 INFO    HandlerThread:31668 [handler.py:handle_request_defer():163] handle defer: 7
+2023-04-16 09:34:54,049 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: defer
+2023-04-16 09:34:54,049 INFO    SenderThread:31668 [sender.py:send_request_defer():389] handle sender defer: 7
+2023-04-16 09:34:54,049 INFO    SenderThread:31668 [file_pusher.py:finish():171] shutting down file pusher
+2023-04-16 09:34:54,151 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-16 09:34:54,152 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: poll_exit
+2023-04-16 09:34:54,254 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-16 09:34:54,255 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: poll_exit
+2023-04-16 09:34:54,357 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-16 09:34:54,357 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: poll_exit
+2023-04-16 09:34:54,460 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-16 09:34:54,460 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: poll_exit
+2023-04-16 09:34:54,562 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-16 09:34:54,562 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: poll_exit
+2023-04-16 09:34:54,637 INFO    Thread-23 :31668 [upload_job.py:push():138] Uploaded file /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/output.log
+2023-04-16 09:34:54,645 INFO    Thread-26 :31668 [upload_job.py:push():138] Uploaded file /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/config.yaml
+2023-04-16 09:34:54,657 INFO    Thread-24 :31668 [upload_job.py:push():138] Uploaded file /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/wandb-summary.json
+2023-04-16 09:34:54,660 INFO    Thread-25 :31668 [upload_job.py:push():138] Uploaded file /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/requirements.txt
+2023-04-16 09:34:54,664 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-16 09:34:54,664 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: poll_exit
+2023-04-16 09:34:54,766 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-16 09:34:54,766 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: poll_exit
+2023-04-16 09:34:54,862 INFO    Thread-27 :31668 [upload_job.py:push():138] Uploaded file /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/files/code/_session_history.ipynb
+2023-04-16 09:34:54,868 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-16 09:34:54,869 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: poll_exit
+2023-04-16 09:34:54,971 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-16 09:34:54,971 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: poll_exit
+2023-04-16 09:34:55,063 INFO    Thread-6  :31668 [sender.py:transition_state():393] send defer: 8
+2023-04-16 09:34:55,064 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: defer
+2023-04-16 09:34:55,064 INFO    HandlerThread:31668 [handler.py:handle_request_defer():163] handle defer: 8
+2023-04-16 09:34:55,064 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: defer
+2023-04-16 09:34:55,064 INFO    SenderThread:31668 [sender.py:send_request_defer():389] handle sender defer: 8
+2023-04-16 09:34:55,073 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-16 09:34:55,686 INFO    SenderThread:31668 [sender.py:transition_state():393] send defer: 9
+2023-04-16 09:34:55,687 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: poll_exit
+2023-04-16 09:34:55,687 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: defer
+2023-04-16 09:34:55,688 INFO    HandlerThread:31668 [handler.py:handle_request_defer():163] handle defer: 9
+2023-04-16 09:34:55,688 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: defer
+2023-04-16 09:34:55,688 INFO    SenderThread:31668 [sender.py:send_request_defer():389] handle sender defer: 9
+2023-04-16 09:34:55,688 INFO    SenderThread:31668 [sender.py:transition_state():393] send defer: 10
+2023-04-16 09:34:55,689 DEBUG   SenderThread:31668 [sender.py:send():236] send: final
+2023-04-16 09:34:55,689 DEBUG   SenderThread:31668 [sender.py:send():236] send: footer
+2023-04-16 09:34:55,689 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: defer
+2023-04-16 09:34:55,689 INFO    HandlerThread:31668 [handler.py:handle_request_defer():163] handle defer: 10
+2023-04-16 09:34:55,689 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: defer
+2023-04-16 09:34:55,689 INFO    SenderThread:31668 [sender.py:send_request_defer():389] handle sender defer: 10
+2023-04-16 09:34:55,789 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: poll_exit
+2023-04-16 09:34:55,789 DEBUG   SenderThread:31668 [sender.py:send_request():250] send_request: poll_exit
+2023-04-16 09:34:55,789 INFO    SenderThread:31668 [file_pusher.py:join():176] waiting for file pusher
+2023-04-16 09:34:56,273 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: sampled_history
+2023-04-16 09:34:56,275 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: get_summary
+2023-04-16 09:34:56,276 DEBUG   HandlerThread:31668 [handler.py:handle_request():140] handle_request: shutdown
+2023-04-16 09:34:56,276 INFO    HandlerThread:31668 [handler.py:finish():806] shutting down handler
+2023-04-16 09:34:56,689 INFO    WriterThread:31668 [datastore.py:close():279] close: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_093307-29l2ywa3/run-29l2ywa3.wandb
+2023-04-16 09:34:57,171 INFO    SenderThread:31668 [sender.py:finish():1114] shutting down sender
+2023-04-16 09:34:57,171 INFO    SenderThread:31668 [file_pusher.py:finish():171] shutting down file pusher
+2023-04-16 09:34:57,171 INFO    SenderThread:31668 [file_pusher.py:join():176] waiting for file pusher
+2023-04-16 09:34:57,173 INFO    MainThread:31668 [internal.py:handle_exit():80] Internal process exited

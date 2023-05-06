@@ -1,0 +1,89 @@
+
+  0%|          | 0/1 [00:00<?, ?it/s]
+load pre-trained model :  /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/fold-0_20230503_21epoch.pth
+_IncompatibleKeys(missing_keys=['bn0.weight', 'bn0.bias', 'bn0.running_mean', 'bn0.running_var', 'model.classifier.weight', 'model.classifier.bias', 'fc1.weight', 'fc1.bias', 'att_block.att.weight', 'att_block.att.bias', 'att_block.cla.weight', 'att_block.cla.bias'], unexpected_keys=['to_melspec_fn.spectrogram.window', 'to_melspec_fn.mel_scale.fb'])
+#########################
+#### Training
+#### Fold: 1 | Image Size: (224, 313) | Model: tf_efficientnet_b1_ns | Batch Size: 128 | Scheduler: cos
+#### Num Train: 19,627 | Num Valid: 3,381
+torch.Size([128, 480000])
+100%|██████████| 1/1 [00:06<00:00,  6.67s/it]
+
+  4%|▎         | 1/27 [00:05<02:29,  5.77s/it]
+torch.Size([128, 480000])
+
+ 15%|█▍        | 4/27 [00:07<00:31,  1.35s/it]
+torch.Size([128, 480000])
+torch.Size([128, 1, 224, 313])
+torch.Size([128, 480000])
+torch.Size([128, 1, 224, 313])
+torch.Size([128, 480000])
+torch.Size([128, 1, 224, 313])
+torch.Size([128, 480000])
+
+ 19%|█▊        | 5/27 [00:08<00:24,  1.13s/it]
+torch.Size([128, 480000])
+
+ 33%|███▎      | 9/27 [00:12<00:14,  1.23it/s]
+torch.Size([128, 480000])
+torch.Size([128, 1, 224, 313])
+torch.Size([128, 480000])
+torch.Size([128, 1, 224, 313])
+torch.Size([128, 480000])
+
+ 37%|███▋      | 10/27 [00:14<00:19,  1.17s/it]
+torch.Size([128, 480000])
+torch.Size([128, 1, 224, 313])
+torch.Size([128, 480000])
+
+ 48%|████▊     | 13/27 [00:16<00:11,  1.21it/s]
+torch.Size([128, 480000])
+torch.Size([128, 1, 224, 313])
+torch.Size([128, 480000])
+
+ 56%|█████▌    | 15/27 [00:18<00:10,  1.14it/s]
+torch.Size([128, 480000])
+torch.Size([128, 1, 224, 313])
+torch.Size([128, 480000])
+
+ 63%|██████▎   | 17/27 [00:20<00:08,  1.13it/s]
+torch.Size([128, 480000])
+torch.Size([128, 1, 224, 313])
+torch.Size([128, 480000])
+
+ 70%|███████   | 19/27 [00:22<00:07,  1.11it/s]
+torch.Size([128, 480000])
+torch.Size([128, 1, 224, 313])
+torch.Size([128, 480000])
+
+ 78%|███████▊  | 21/27 [00:23<00:05,  1.19it/s]
+torch.Size([128, 480000])
+torch.Size([128, 1, 224, 313])
+torch.Size([128, 480000])
+
+ 85%|████████▌ | 23/27 [00:26<00:04,  1.05s/it]
+torch.Size([128, 480000])
+torch.Size([128, 1, 224, 313])
+torch.Size([128, 480000])
+torch.Size([128, 1, 224, 313])
+torch.Size([128, 480000])
+torch.Size([128, 1, 224, 313])
+torch.Size([128, 480000])
+torch.Size([128, 1, 224, 313])
+torch.Size([128, 480000])
+torch.Size([128, 1, 224, 313])
+torch.Size([53, 480000])
+
+100%|██████████| 27/27 [00:28<00:00,  1.75it/s]
+100%|██████████| 27/27 [00:28<00:00,  1.06s/it]
+100%|██████████| 1/1 [00:05<00:00,  5.59s/it]
+  0%|          | 0/27 [00:00<?, ?it/s]
+torch.Size([128, 480000])
+torch.Size([128, 1, 224, 313])
+cuda:0
+Debug : True
+local mode
+2023-05-04 17:16:11
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py:2: FutureWarning: The default value of regex will change from True to False in a future version.
+/opt/conda/lib/python3.7/site-packages/sklearn/model_selection/_split.py:680: UserWarning: The least populated class in y has only 1 members, which is less than n_splits=5.

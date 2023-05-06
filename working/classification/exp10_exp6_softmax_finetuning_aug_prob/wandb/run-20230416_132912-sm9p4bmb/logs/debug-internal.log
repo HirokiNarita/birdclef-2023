@@ -1,0 +1,59 @@
+2023-04-16 13:29:13,379 INFO    MainThread:25169 [internal.py:wandb_internal():93] W&B internal server running at pid: 25169, started at: 2023-04-16 13:29:13.379046
+2023-04-16 13:29:13,381 INFO    WriterThread:25169 [datastore.py:open_for_write():75] open: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/run-sm9p4bmb.wandb
+2023-04-16 13:29:13,384 DEBUG   SenderThread:25169 [sender.py:send():236] send: header
+2023-04-16 13:29:13,384 DEBUG   SenderThread:25169 [sender.py:send():236] send: run
+2023-04-16 13:29:13,769 DEBUG   HandlerThread:25169 [handler.py:handle_request():140] handle_request: check_version
+2023-04-16 13:29:13,769 INFO    SenderThread:25169 [dir_watcher.py:__init__():216] watching files in: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/files
+2023-04-16 13:29:13,769 INFO    SenderThread:25169 [sender.py:_start_run_threads():818] run started: sm9p4bmb with start time 1681651752
+2023-04-16 13:29:13,770 DEBUG   SenderThread:25169 [sender.py:send():236] send: summary
+2023-04-16 13:29:13,770 INFO    SenderThread:25169 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-16 13:29:13,770 DEBUG   SenderThread:25169 [sender.py:send_request():250] send_request: check_version
+2023-04-16 13:29:13,849 DEBUG   HandlerThread:25169 [handler.py:handle_request():140] handle_request: run_start
+2023-04-16 13:29:13,860 DEBUG   HandlerThread:25169 [meta.py:__init__():35] meta init
+2023-04-16 13:29:13,860 DEBUG   HandlerThread:25169 [meta.py:__init__():49] meta init done
+2023-04-16 13:29:13,860 DEBUG   HandlerThread:25169 [meta.py:probe():209] probe
+2023-04-16 13:29:13,870 DEBUG   HandlerThread:25169 [git.py:repo():29] git repository is invalid
+2023-04-16 13:29:13,870 DEBUG   HandlerThread:25169 [meta.py:_save_code():87] save code
+2023-04-16 13:29:13,870 WARNING HandlerThread:25169 [meta.py:_save_code():89] unable to save code -- program entry not found
+2023-04-16 13:29:13,870 DEBUG   HandlerThread:25169 [meta.py:_save_pip():53] save pip
+2023-04-16 13:29:13,872 DEBUG   HandlerThread:25169 [meta.py:_save_pip():67] save pip done
+2023-04-16 13:29:13,872 DEBUG   HandlerThread:25169 [meta.py:_save_conda():74] save conda
+2023-04-16 13:29:14,772 INFO    Thread-7  :25169 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/files/wandb-summary.json
+2023-04-16 13:29:14,773 INFO    Thread-7  :25169 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/files/conda-environment.yaml
+2023-04-16 13:29:14,773 INFO    Thread-7  :25169 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/files/requirements.txt
+2023-04-16 13:29:19,771 INFO    Thread-7  :25169 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/files/output.log
+2023-04-16 13:29:23,773 INFO    Thread-7  :25169 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/files/output.log
+2023-04-16 13:29:29,776 INFO    Thread-7  :25169 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/files/output.log
+2023-04-16 13:29:31,777 INFO    Thread-7  :25169 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/files/output.log
+2023-04-16 13:29:33,778 INFO    Thread-7  :25169 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/files/output.log
+2023-04-16 13:29:35,779 INFO    Thread-7  :25169 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/files/output.log
+2023-04-16 13:29:37,780 INFO    Thread-7  :25169 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/files/output.log
+2023-04-16 13:29:39,781 INFO    Thread-7  :25169 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/files/output.log
+2023-04-16 13:29:41,782 INFO    Thread-7  :25169 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/files/output.log
+2023-04-16 13:29:43,783 INFO    Thread-7  :25169 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/files/output.log
+2023-04-16 13:29:44,150 WARNING MainThread:25169 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2023-04-16 13:29:44,302 WARNING MainThread:25169 [internal.py:wandb_internal():153] Internal process interrupt: 2
+2023-04-16 13:29:44,302 ERROR   MainThread:25169 [internal.py:wandb_internal():156] Internal process interrupted.
+2023-04-16 13:29:44,317 DEBUG   HandlerThread:25169 [meta.py:_save_conda():84] save conda done
+2023-04-16 13:29:44,318 DEBUG   HandlerThread:25169 [meta.py:probe():247] probe done
+2023-04-16 13:29:44,405 INFO    WriterThread:25169 [datastore.py:close():279] close: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/run-sm9p4bmb.wandb
+2023-04-16 13:29:44,707 INFO    HandlerThread:25169 [handler.py:finish():806] shutting down handler
+2023-04-16 13:29:44,783 INFO    Thread-7  :25169 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/files/wandb-metadata.json
+2023-04-16 13:29:44,852 INFO    SenderThread:25169 [sender.py:finish():1114] shutting down sender
+2023-04-16 13:29:44,852 INFO    SenderThread:25169 [dir_watcher.py:finish():353] shutting down directory watcher
+2023-04-16 13:29:45,784 INFO    Thread-7  :25169 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/files/output.log
+2023-04-16 13:29:45,784 INFO    SenderThread:25169 [dir_watcher.py:finish():383] scan: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/files
+2023-04-16 13:29:45,785 INFO    SenderThread:25169 [dir_watcher.py:finish():397] scan save: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/files/output.log output.log
+2023-04-16 13:29:45,785 INFO    SenderThread:25169 [dir_watcher.py:finish():397] scan save: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/files/wandb-metadata.json wandb-metadata.json
+2023-04-16 13:29:45,790 INFO    SenderThread:25169 [dir_watcher.py:finish():397] scan save: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/files/wandb-summary.json wandb-summary.json
+2023-04-16 13:29:45,795 INFO    SenderThread:25169 [dir_watcher.py:finish():397] scan save: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/files/requirements.txt requirements.txt
+2023-04-16 13:29:45,800 INFO    SenderThread:25169 [dir_watcher.py:finish():397] scan save: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/files/conda-environment.yaml conda-environment.yaml
+2023-04-16 13:29:45,806 INFO    SenderThread:25169 [dir_watcher.py:finish():397] scan save: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/files/config.yaml config.yaml
+2023-04-16 13:29:45,806 INFO    SenderThread:25169 [file_pusher.py:finish():171] shutting down file pusher
+2023-04-16 13:29:45,806 INFO    SenderThread:25169 [file_pusher.py:join():176] waiting for file pusher
+2023-04-16 13:29:46,406 INFO    Thread-12 :25169 [upload_job.py:push():138] Uploaded file /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/files/wandb-metadata.json
+2023-04-16 13:29:46,408 INFO    Thread-13 :25169 [upload_job.py:push():138] Uploaded file /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/files/wandb-summary.json
+2023-04-16 13:29:46,431 INFO    Thread-15 :25169 [upload_job.py:push():138] Uploaded file /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/files/config.yaml
+2023-04-16 13:29:46,454 INFO    Thread-14 :25169 [upload_job.py:push():138] Uploaded file /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/files/requirements.txt
+2023-04-16 13:29:46,473 INFO    Thread-11 :25169 [upload_job.py:push():138] Uploaded file /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_132912-sm9p4bmb/files/output.log
+2023-04-16 13:29:47,016 INFO    MainThread:25169 [internal.py:handle_exit():80] Internal process exited

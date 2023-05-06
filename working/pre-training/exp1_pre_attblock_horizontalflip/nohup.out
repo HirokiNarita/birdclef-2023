@@ -1,0 +1,5 @@
+/opt/conda/lib/python3.7/site-packages/sklearn/model_selection/_split.py:680: UserWarning: The least populated class in y has only 1 members, which is less than n_splits=5.
+  UserWarning,
+# Samples in BirdCLEF 23: 16,941
+# Samples for Pre-Training: 80,394
+  0%|          | 0/1257 [00:00<?, ?it/s]

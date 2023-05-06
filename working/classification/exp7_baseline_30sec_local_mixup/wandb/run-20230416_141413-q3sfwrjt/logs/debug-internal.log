@@ -1,0 +1,51 @@
+2023-04-16 14:14:14,479 INFO    MainThread:21978 [internal.py:wandb_internal():93] W&B internal server running at pid: 21978, started at: 2023-04-16 14:14:14.479060
+2023-04-16 14:14:14,481 INFO    WriterThread:21978 [datastore.py:open_for_write():75] open: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_141413-q3sfwrjt/run-q3sfwrjt.wandb
+2023-04-16 14:14:14,484 DEBUG   SenderThread:21978 [sender.py:send():236] send: header
+2023-04-16 14:14:14,484 DEBUG   SenderThread:21978 [sender.py:send():236] send: run
+2023-04-16 14:14:14,882 INFO    SenderThread:21978 [dir_watcher.py:__init__():216] watching files in: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_141413-q3sfwrjt/files
+2023-04-16 14:14:14,882 INFO    SenderThread:21978 [sender.py:_start_run_threads():818] run started: q3sfwrjt with start time 1681654453
+2023-04-16 14:14:14,885 DEBUG   SenderThread:21978 [sender.py:send():236] send: summary
+2023-04-16 14:14:14,885 DEBUG   HandlerThread:21978 [handler.py:handle_request():140] handle_request: check_version
+2023-04-16 14:14:14,886 INFO    SenderThread:21978 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-16 14:14:14,886 DEBUG   SenderThread:21978 [sender.py:send_request():250] send_request: check_version
+2023-04-16 14:14:14,967 DEBUG   HandlerThread:21978 [handler.py:handle_request():140] handle_request: run_start
+2023-04-16 14:14:14,978 DEBUG   HandlerThread:21978 [meta.py:__init__():35] meta init
+2023-04-16 14:14:14,978 DEBUG   HandlerThread:21978 [meta.py:__init__():49] meta init done
+2023-04-16 14:14:14,978 DEBUG   HandlerThread:21978 [meta.py:probe():209] probe
+2023-04-16 14:14:14,988 DEBUG   HandlerThread:21978 [git.py:repo():29] git repository is invalid
+2023-04-16 14:14:14,988 DEBUG   HandlerThread:21978 [meta.py:_save_code():87] save code
+2023-04-16 14:14:14,988 WARNING HandlerThread:21978 [meta.py:_save_code():89] unable to save code -- program entry not found
+2023-04-16 14:14:14,988 DEBUG   HandlerThread:21978 [meta.py:_save_pip():53] save pip
+2023-04-16 14:14:14,989 DEBUG   HandlerThread:21978 [meta.py:_save_pip():67] save pip done
+2023-04-16 14:14:14,989 DEBUG   HandlerThread:21978 [meta.py:_save_conda():74] save conda
+2023-04-16 14:14:15,884 INFO    Thread-7  :21978 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_141413-q3sfwrjt/files/wandb-summary.json
+2023-04-16 14:14:15,885 INFO    Thread-7  :21978 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_141413-q3sfwrjt/files/conda-environment.yaml
+2023-04-16 14:14:15,885 INFO    Thread-7  :21978 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_141413-q3sfwrjt/files/requirements.txt
+2023-04-16 14:14:20,885 INFO    Thread-7  :21978 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_141413-q3sfwrjt/files/output.log
+2023-04-16 14:14:24,886 INFO    Thread-7  :21978 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_141413-q3sfwrjt/files/output.log
+2023-04-16 14:14:32,627 WARNING MainThread:21978 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2023-04-16 14:14:32,748 WARNING MainThread:21978 [internal.py:wandb_internal():153] Internal process interrupt: 2
+2023-04-16 14:14:32,748 ERROR   MainThread:21978 [internal.py:wandb_internal():156] Internal process interrupted.
+2023-04-16 14:14:32,763 DEBUG   HandlerThread:21978 [meta.py:_save_conda():84] save conda done
+2023-04-16 14:14:32,763 DEBUG   HandlerThread:21978 [meta.py:probe():247] probe done
+2023-04-16 14:14:32,901 INFO    Thread-7  :21978 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_141413-q3sfwrjt/files/output.log
+2023-04-16 14:14:32,901 INFO    Thread-7  :21978 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_141413-q3sfwrjt/files/wandb-metadata.json
+2023-04-16 14:14:32,990 INFO    SenderThread:21978 [sender.py:finish():1114] shutting down sender
+2023-04-16 14:14:32,992 INFO    SenderThread:21978 [dir_watcher.py:finish():353] shutting down directory watcher
+2023-04-16 14:14:33,131 INFO    HandlerThread:21978 [handler.py:finish():806] shutting down handler
+2023-04-16 14:14:33,486 INFO    WriterThread:21978 [datastore.py:close():279] close: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_141413-q3sfwrjt/run-q3sfwrjt.wandb
+2023-04-16 14:14:33,902 INFO    SenderThread:21978 [dir_watcher.py:finish():383] scan: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_141413-q3sfwrjt/files
+2023-04-16 14:14:33,902 INFO    SenderThread:21978 [dir_watcher.py:finish():397] scan save: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_141413-q3sfwrjt/files/output.log output.log
+2023-04-16 14:14:33,903 INFO    SenderThread:21978 [dir_watcher.py:finish():397] scan save: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_141413-q3sfwrjt/files/wandb-metadata.json wandb-metadata.json
+2023-04-16 14:14:33,907 INFO    SenderThread:21978 [dir_watcher.py:finish():397] scan save: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_141413-q3sfwrjt/files/wandb-summary.json wandb-summary.json
+2023-04-16 14:14:33,912 INFO    SenderThread:21978 [dir_watcher.py:finish():397] scan save: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_141413-q3sfwrjt/files/requirements.txt requirements.txt
+2023-04-16 14:14:33,916 INFO    SenderThread:21978 [dir_watcher.py:finish():397] scan save: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_141413-q3sfwrjt/files/conda-environment.yaml conda-environment.yaml
+2023-04-16 14:14:33,920 INFO    SenderThread:21978 [dir_watcher.py:finish():397] scan save: /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_141413-q3sfwrjt/files/config.yaml config.yaml
+2023-04-16 14:14:33,921 INFO    SenderThread:21978 [file_pusher.py:finish():171] shutting down file pusher
+2023-04-16 14:14:33,921 INFO    SenderThread:21978 [file_pusher.py:join():176] waiting for file pusher
+2023-04-16 14:14:34,530 INFO    Thread-14 :21978 [upload_job.py:push():138] Uploaded file /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_141413-q3sfwrjt/files/requirements.txt
+2023-04-16 14:14:34,541 INFO    Thread-12 :21978 [upload_job.py:push():138] Uploaded file /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_141413-q3sfwrjt/files/wandb-metadata.json
+2023-04-16 14:14:34,553 INFO    Thread-13 :21978 [upload_job.py:push():138] Uploaded file /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_141413-q3sfwrjt/files/wandb-summary.json
+2023-04-16 14:14:34,575 INFO    Thread-11 :21978 [upload_job.py:push():138] Uploaded file /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_141413-q3sfwrjt/files/output.log
+2023-04-16 14:14:34,668 INFO    Thread-15 :21978 [upload_job.py:push():138] Uploaded file /kaggle/working/exp6_baseline_holizontalflip/wandb/run-20230416_141413-q3sfwrjt/files/config.yaml
+2023-04-16 14:14:35,145 INFO    MainThread:21978 [internal.py:handle_exit():80] Internal process exited

@@ -1,7 +1,0 @@
-
-Downloading: "https://github.com/rwightman/pytorch-image-models/releases/download/v0.1-weights/tf_efficientnet_b1_ns-99dd0c41.pth" to /root/.cache/torch/hub/checkpoints/tf_efficientnet_b1_ns-99dd0c41.pth
-#########################
-#### Training
-#### Fold: 1 | Image Size: (128, 256) | Model: tf_efficientnet_b1_ns | Batch Size: 128 | Scheduler: cos
-#### Num Train: 19,627 | Num Valid: 3,381
-

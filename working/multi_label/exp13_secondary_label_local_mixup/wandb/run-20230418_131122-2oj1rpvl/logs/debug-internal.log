@@ -1,0 +1,180 @@
+2023-04-18 13:11:23,665 INFO    MainThread:1088 [internal.py:wandb_internal():93] W&B internal server running at pid: 1088, started at: 2023-04-18 13:11:23.665461
+2023-04-18 13:11:23,669 DEBUG   SenderThread:1088 [sender.py:send():236] send: header
+2023-04-18 13:11:23,670 INFO    WriterThread:1088 [datastore.py:open_for_write():75] open: /kaggle/working/exp5_attblock_horizontalflip/wandb/run-20230418_131122-2oj1rpvl/run-2oj1rpvl.wandb
+2023-04-18 13:11:23,670 DEBUG   SenderThread:1088 [sender.py:send():236] send: run
+2023-04-18 13:11:24,264 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: check_version
+2023-04-18 13:11:24,265 INFO    SenderThread:1088 [dir_watcher.py:__init__():216] watching files in: /kaggle/working/exp5_attblock_horizontalflip/wandb/run-20230418_131122-2oj1rpvl/files
+2023-04-18 13:11:24,265 INFO    SenderThread:1088 [sender.py:_start_run_threads():818] run started: 2oj1rpvl with start time 1681823482
+2023-04-18 13:11:24,265 DEBUG   SenderThread:1088 [sender.py:send():236] send: summary
+2023-04-18 13:11:24,266 INFO    SenderThread:1088 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-18 13:11:24,266 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: check_version
+2023-04-18 13:11:24,356 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: run_start
+2023-04-18 13:11:24,368 DEBUG   HandlerThread:1088 [meta.py:__init__():35] meta init
+2023-04-18 13:11:24,369 DEBUG   HandlerThread:1088 [meta.py:__init__():49] meta init done
+2023-04-18 13:11:24,369 DEBUG   HandlerThread:1088 [meta.py:probe():209] probe
+2023-04-18 13:11:24,377 DEBUG   HandlerThread:1088 [git.py:repo():29] git repository is invalid
+2023-04-18 13:11:24,377 DEBUG   HandlerThread:1088 [meta.py:_save_code():87] save code
+2023-04-18 13:11:24,377 WARNING HandlerThread:1088 [meta.py:_save_code():89] unable to save code -- program entry not found
+2023-04-18 13:11:24,377 DEBUG   HandlerThread:1088 [meta.py:_save_pip():53] save pip
+2023-04-18 13:11:24,379 DEBUG   HandlerThread:1088 [meta.py:_save_pip():67] save pip done
+2023-04-18 13:11:24,379 DEBUG   HandlerThread:1088 [meta.py:_save_conda():74] save conda
+2023-04-18 13:11:25,268 INFO    Thread-7  :1088 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock_horizontalflip/wandb/run-20230418_131122-2oj1rpvl/files/requirements.txt
+2023-04-18 13:11:25,268 INFO    Thread-7  :1088 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock_horizontalflip/wandb/run-20230418_131122-2oj1rpvl/files/wandb-summary.json
+2023-04-18 13:11:25,268 INFO    Thread-7  :1088 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock_horizontalflip/wandb/run-20230418_131122-2oj1rpvl/files/conda-environment.yaml
+2023-04-18 13:11:30,278 INFO    Thread-7  :1088 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock_horizontalflip/wandb/run-20230418_131122-2oj1rpvl/files/output.log
+2023-04-18 13:11:32,279 INFO    Thread-7  :1088 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock_horizontalflip/wandb/run-20230418_131122-2oj1rpvl/files/output.log
+2023-04-18 13:11:38,282 INFO    Thread-7  :1088 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock_horizontalflip/wandb/run-20230418_131122-2oj1rpvl/files/output.log
+2023-04-18 13:11:40,283 INFO    Thread-7  :1088 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock_horizontalflip/wandb/run-20230418_131122-2oj1rpvl/files/output.log
+2023-04-18 13:11:50,287 INFO    Thread-7  :1088 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock_horizontalflip/wandb/run-20230418_131122-2oj1rpvl/files/output.log
+2023-04-18 13:11:52,289 INFO    Thread-7  :1088 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock_horizontalflip/wandb/run-20230418_131122-2oj1rpvl/files/output.log
+2023-04-18 13:11:54,290 INFO    Thread-7  :1088 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock_horizontalflip/wandb/run-20230418_131122-2oj1rpvl/files/output.log
+2023-04-18 13:11:56,295 INFO    Thread-7  :1088 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock_horizontalflip/wandb/run-20230418_131122-2oj1rpvl/files/output.log
+2023-04-18 13:11:58,292 INFO    Thread-7  :1088 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock_horizontalflip/wandb/run-20230418_131122-2oj1rpvl/files/output.log
+2023-04-18 13:12:00,293 INFO    Thread-7  :1088 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock_horizontalflip/wandb/run-20230418_131122-2oj1rpvl/files/output.log
+2023-04-18 13:12:02,294 INFO    Thread-7  :1088 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock_horizontalflip/wandb/run-20230418_131122-2oj1rpvl/files/output.log
+2023-04-18 13:12:04,294 INFO    Thread-7  :1088 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock_horizontalflip/wandb/run-20230418_131122-2oj1rpvl/files/output.log
+2023-04-18 13:12:08,543 DEBUG   HandlerThread:1088 [meta.py:_save_conda():84] save conda done
+2023-04-18 13:12:08,543 DEBUG   HandlerThread:1088 [meta.py:probe():247] probe done
+2023-04-18 13:12:08,837 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:12:08,837 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:12:08,843 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-18 13:12:08,845 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:12:08,848 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: pause
+2023-04-18 13:12:08,848 INFO    HandlerThread:1088 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-04-18 13:12:08,939 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: resume
+2023-04-18 13:12:08,939 INFO    HandlerThread:1088 [handler.py:handle_request_resume():686] starting system metrics thread
+2023-04-18 13:12:08,940 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: pause
+2023-04-18 13:12:08,940 INFO    HandlerThread:1088 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-04-18 13:12:08,952 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: resume
+2023-04-18 13:12:08,952 INFO    HandlerThread:1088 [handler.py:handle_request_resume():686] starting system metrics thread
+2023-04-18 13:12:08,952 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: pause
+2023-04-18 13:12:08,953 INFO    HandlerThread:1088 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-04-18 13:12:08,965 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: resume
+2023-04-18 13:12:08,965 INFO    HandlerThread:1088 [handler.py:handle_request_resume():686] starting system metrics thread
+2023-04-18 13:12:08,966 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: pause
+2023-04-18 13:12:08,966 INFO    HandlerThread:1088 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-04-18 13:12:08,979 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: resume
+2023-04-18 13:12:08,979 INFO    HandlerThread:1088 [handler.py:handle_request_resume():686] starting system metrics thread
+2023-04-18 13:12:08,979 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: pause
+2023-04-18 13:12:08,979 INFO    HandlerThread:1088 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-04-18 13:12:08,991 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: resume
+2023-04-18 13:12:08,992 INFO    HandlerThread:1088 [handler.py:handle_request_resume():686] starting system metrics thread
+2023-04-18 13:12:08,992 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: pause
+2023-04-18 13:12:08,992 INFO    HandlerThread:1088 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-04-18 13:12:09,004 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: resume
+2023-04-18 13:12:09,004 INFO    HandlerThread:1088 [handler.py:handle_request_resume():686] starting system metrics thread
+2023-04-18 13:12:09,005 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: pause
+2023-04-18 13:12:09,005 INFO    HandlerThread:1088 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-04-18 13:12:09,019 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: resume
+2023-04-18 13:12:09,019 INFO    HandlerThread:1088 [handler.py:handle_request_resume():686] starting system metrics thread
+2023-04-18 13:12:09,019 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: pause
+2023-04-18 13:12:09,019 INFO    HandlerThread:1088 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-04-18 13:12:09,031 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: resume
+2023-04-18 13:12:09,031 INFO    HandlerThread:1088 [handler.py:handle_request_resume():686] starting system metrics thread
+2023-04-18 13:12:09,031 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: pause
+2023-04-18 13:12:09,031 INFO    HandlerThread:1088 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-04-18 13:12:09,297 INFO    Thread-7  :1088 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock_horizontalflip/wandb/run-20230418_131122-2oj1rpvl/files/wandb-metadata.json
+2023-04-18 13:12:09,370 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:12:11,290 DEBUG   SenderThread:1088 [sender.py:send():236] send: telemetry
+2023-04-18 13:12:11,290 DEBUG   SenderThread:1088 [sender.py:send():236] send: history
+2023-04-18 13:12:11,291 DEBUG   SenderThread:1088 [sender.py:send():236] send: summary
+2023-04-18 13:12:11,295 INFO    SenderThread:1088 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-18 13:12:11,295 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:12:11,301 INFO    Thread-7  :1088 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock_horizontalflip/wandb/run-20230418_131122-2oj1rpvl/files/wandb-summary.json
+2023-04-18 13:12:12,189 DEBUG   SenderThread:1088 [sender.py:send():236] send: stats
+2023-04-18 13:12:12,189 DEBUG   SenderThread:1088 [sender.py:send():236] send: files
+2023-04-18 13:12:12,189 INFO    SenderThread:1088 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2023-04-18 13:12:12,191 DEBUG   SenderThread:1088 [sender.py:send():236] send: stats
+2023-04-18 13:12:12,191 DEBUG   SenderThread:1088 [sender.py:send():236] send: stats
+2023-04-18 13:12:12,191 DEBUG   SenderThread:1088 [sender.py:send():236] send: stats
+2023-04-18 13:12:12,191 DEBUG   SenderThread:1088 [sender.py:send():236] send: stats
+2023-04-18 13:12:12,192 DEBUG   SenderThread:1088 [sender.py:send():236] send: stats
+2023-04-18 13:12:12,192 DEBUG   SenderThread:1088 [sender.py:send():236] send: stats
+2023-04-18 13:12:12,192 DEBUG   SenderThread:1088 [sender.py:send():236] send: stats
+2023-04-18 13:12:12,192 DEBUG   SenderThread:1088 [sender.py:send():236] send: stats
+2023-04-18 13:12:12,193 DEBUG   SenderThread:1088 [sender.py:send():236] send: stats
+2023-04-18 13:12:12,193 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:12:13,195 INFO    Thread-19 :1088 [upload_job.py:push():138] Uploaded file /tmp/tmpp3pbiyjnwandb/158bah42-wandb-metadata.json
+2023-04-18 13:12:25,308 INFO    Thread-7  :1088 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock_horizontalflip/wandb/run-20230418_131122-2oj1rpvl/files/config.yaml
+2023-04-18 13:12:27,773 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:12:27,773 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:12:42,968 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:12:42,968 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:12:58,173 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:12:58,173 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:13:13,404 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:13:13,404 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:13:28,654 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:13:28,654 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:13:43,862 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:13:43,863 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:13:59,073 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:13:59,073 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:14:14,304 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:14:14,304 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:14:29,516 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:14:29,516 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:14:44,739 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:14:44,739 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:14:59,956 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:14:59,957 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:15:15,169 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:15:15,169 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:15:30,408 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:15:30,408 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:15:45,619 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:15:45,619 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:16:00,820 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:16:00,820 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:16:16,018 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:16:16,018 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:16:31,233 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:16:31,234 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:16:46,585 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:16:46,585 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:17:01,808 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:17:01,808 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:17:17,037 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:17:17,037 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:17:32,269 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:17:32,269 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:17:47,482 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:17:47,482 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:18:02,697 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:18:02,697 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:18:17,900 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:18:17,900 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:18:33,103 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:18:33,103 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:18:48,355 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:18:48,355 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:19:03,548 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:19:03,548 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:19:18,762 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:19:18,762 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:19:34,025 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:19:34,026 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:19:49,235 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:19:49,236 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:20:04,440 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:20:04,440 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:20:19,665 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:20:19,665 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:20:34,891 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:20:34,892 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:20:50,104 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:20:50,105 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:21:05,317 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:21:05,318 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:21:20,551 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:21:20,551 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:21:35,755 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:21:35,756 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:21:54,255 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:21:54,255 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:22:09,473 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:22:09,473 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:22:24,669 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:22:24,669 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status
+2023-04-18 13:22:39,886 DEBUG   HandlerThread:1088 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-18 13:22:39,887 DEBUG   SenderThread:1088 [sender.py:send_request():250] send_request: stop_status

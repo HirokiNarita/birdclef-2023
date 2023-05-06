@@ -1,0 +1,75 @@
+2023-05-04 07:44:32,890 INFO    MainThread:2396 [internal.py:wandb_internal():93] W&B internal server running at pid: 2396, started at: 2023-05-04 07:44:32.890406
+2023-05-04 07:44:32,898 DEBUG   SenderThread:2396 [sender.py:send():236] send: header
+2023-05-04 07:44:32,898 INFO    WriterThread:2396 [datastore.py:open_for_write():75] open: /kaggle/working/multi_label/exp10_secondary_label/wandb/run-20230504_074431-2nqgkdq5/run-2nqgkdq5.wandb
+2023-05-04 07:44:32,899 DEBUG   SenderThread:2396 [sender.py:send():236] send: run
+2023-05-04 07:44:34,636 INFO    SenderThread:2396 [dir_watcher.py:__init__():216] watching files in: /kaggle/working/multi_label/exp10_secondary_label/wandb/run-20230504_074431-2nqgkdq5/files
+2023-05-04 07:44:34,637 INFO    SenderThread:2396 [sender.py:_start_run_threads():818] run started: 2nqgkdq5 with start time 1683186271
+2023-05-04 07:44:34,648 DEBUG   SenderThread:2396 [sender.py:send():236] send: summary
+2023-05-04 07:44:34,648 DEBUG   HandlerThread:2396 [handler.py:handle_request():140] handle_request: check_version
+2023-05-04 07:44:34,649 INFO    SenderThread:2396 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-04 07:44:34,649 DEBUG   SenderThread:2396 [sender.py:send_request():250] send_request: check_version
+2023-05-04 07:44:34,741 DEBUG   HandlerThread:2396 [handler.py:handle_request():140] handle_request: run_start
+2023-05-04 07:44:34,754 DEBUG   HandlerThread:2396 [meta.py:__init__():35] meta init
+2023-05-04 07:44:34,755 DEBUG   HandlerThread:2396 [meta.py:__init__():49] meta init done
+2023-05-04 07:44:34,755 DEBUG   HandlerThread:2396 [meta.py:probe():209] probe
+2023-05-04 07:44:34,769 DEBUG   HandlerThread:2396 [git.py:repo():29] git repository is invalid
+2023-05-04 07:44:34,769 DEBUG   HandlerThread:2396 [meta.py:_save_code():87] save code
+2023-05-04 07:44:34,769 WARNING HandlerThread:2396 [meta.py:_save_code():89] unable to save code -- program entry not found
+2023-05-04 07:44:34,769 DEBUG   HandlerThread:2396 [meta.py:_save_pip():53] save pip
+2023-05-04 07:44:34,772 DEBUG   HandlerThread:2396 [meta.py:_save_pip():67] save pip done
+2023-05-04 07:44:34,773 DEBUG   HandlerThread:2396 [meta.py:_save_conda():74] save conda
+2023-05-04 07:44:35,638 INFO    Thread-7  :2396 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/multi_label/exp10_secondary_label/wandb/run-20230504_074431-2nqgkdq5/files/conda-environment.yaml
+2023-05-04 07:44:35,639 INFO    Thread-7  :2396 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/multi_label/exp10_secondary_label/wandb/run-20230504_074431-2nqgkdq5/files/wandb-summary.json
+2023-05-04 07:44:35,639 INFO    Thread-7  :2396 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/multi_label/exp10_secondary_label/wandb/run-20230504_074431-2nqgkdq5/files/requirements.txt
+2023-05-04 07:44:40,641 INFO    Thread-7  :2396 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/multi_label/exp10_secondary_label/wandb/run-20230504_074431-2nqgkdq5/files/output.log
+2023-05-04 07:44:46,643 INFO    Thread-7  :2396 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp10_secondary_label/wandb/run-20230504_074431-2nqgkdq5/files/output.log
+2023-05-04 07:44:52,654 INFO    Thread-7  :2396 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp10_secondary_label/wandb/run-20230504_074431-2nqgkdq5/files/output.log
+2023-05-04 07:45:04,678 INFO    Thread-7  :2396 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp10_secondary_label/wandb/run-20230504_074431-2nqgkdq5/files/output.log
+2023-05-04 07:45:06,683 INFO    Thread-7  :2396 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp10_secondary_label/wandb/run-20230504_074431-2nqgkdq5/files/output.log
+2023-05-04 07:45:08,684 INFO    Thread-7  :2396 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp10_secondary_label/wandb/run-20230504_074431-2nqgkdq5/files/output.log
+2023-05-04 07:45:12,687 INFO    Thread-7  :2396 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp10_secondary_label/wandb/run-20230504_074431-2nqgkdq5/files/output.log
+2023-05-04 07:45:14,689 INFO    Thread-7  :2396 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp10_secondary_label/wandb/run-20230504_074431-2nqgkdq5/files/output.log
+2023-05-04 07:45:16,690 INFO    Thread-7  :2396 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp10_secondary_label/wandb/run-20230504_074431-2nqgkdq5/files/output.log
+2023-05-04 07:45:18,815 INFO    Thread-7  :2396 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp10_secondary_label/wandb/run-20230504_074431-2nqgkdq5/files/output.log
+2023-05-04 07:45:20,820 INFO    Thread-7  :2396 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp10_secondary_label/wandb/run-20230504_074431-2nqgkdq5/files/output.log
+2023-05-04 07:45:35,696 DEBUG   HandlerThread:2396 [meta.py:_save_conda():84] save conda done
+2023-05-04 07:45:35,697 DEBUG   HandlerThread:2396 [meta.py:probe():247] probe done
+2023-05-04 07:45:35,831 INFO    Thread-7  :2396 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/multi_label/exp10_secondary_label/wandb/run-20230504_074431-2nqgkdq5/files/wandb-metadata.json
+2023-05-04 07:45:36,989 DEBUG   HandlerThread:2396 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-04 07:45:36,989 DEBUG   SenderThread:2396 [sender.py:send_request():250] send_request: stop_status
+2023-05-04 07:45:36,994 DEBUG   HandlerThread:2396 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-04 07:45:36,998 DEBUG   HandlerThread:2396 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-04 07:45:37,000 DEBUG   HandlerThread:2396 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-04 07:45:37,002 DEBUG   HandlerThread:2396 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-04 07:45:37,003 DEBUG   HandlerThread:2396 [handler.py:handle_request():140] handle_request: pause
+2023-05-04 07:45:37,003 INFO    HandlerThread:2396 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-05-04 07:45:37,306 DEBUG   SenderThread:2396 [sender.py:send():236] send: telemetry
+2023-05-04 07:45:37,306 DEBUG   SenderThread:2396 [sender.py:send():236] send: history
+2023-05-04 07:45:37,306 DEBUG   SenderThread:2396 [sender.py:send():236] send: summary
+2023-05-04 07:45:37,309 INFO    SenderThread:2396 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-04 07:45:37,310 DEBUG   SenderThread:2396 [sender.py:send():236] send: history
+2023-05-04 07:45:37,310 DEBUG   SenderThread:2396 [sender.py:send():236] send: summary
+2023-05-04 07:45:37,311 INFO    SenderThread:2396 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-04 07:45:37,311 DEBUG   SenderThread:2396 [sender.py:send_request():250] send_request: stop_status
+2023-05-04 07:45:37,566 DEBUG   SenderThread:2396 [sender.py:send():236] send: stats
+2023-05-04 07:45:37,568 DEBUG   SenderThread:2396 [sender.py:send_request():250] send_request: stop_status
+2023-05-04 07:45:37,824 DEBUG   SenderThread:2396 [sender.py:send():236] send: stats
+2023-05-04 07:45:37,824 DEBUG   SenderThread:2396 [sender.py:send():236] send: files
+2023-05-04 07:45:37,825 INFO    SenderThread:2396 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2023-05-04 07:45:37,825 DEBUG   SenderThread:2396 [sender.py:send():236] send: stats
+2023-05-04 07:45:37,834 INFO    Thread-7  :2396 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp10_secondary_label/wandb/run-20230504_074431-2nqgkdq5/files/wandb-summary.json
+2023-05-04 07:45:38,583 INFO    Thread-11 :2396 [upload_job.py:push():138] Uploaded file /tmp/tmp15dd06lmwandb/349pf20h-wandb-metadata.json
+2023-05-04 07:45:39,792 DEBUG   HandlerThread:2396 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-04 07:45:39,793 DEBUG   SenderThread:2396 [sender.py:send_request():250] send_request: stop_status
+2023-05-04 07:45:55,014 DEBUG   HandlerThread:2396 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-04 07:45:55,014 DEBUG   SenderThread:2396 [sender.py:send_request():250] send_request: stop_status
+2023-05-04 07:46:05,854 INFO    Thread-7  :2396 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp10_secondary_label/wandb/run-20230504_074431-2nqgkdq5/files/config.yaml
+2023-05-04 07:46:10,217 DEBUG   HandlerThread:2396 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-04 07:46:10,217 DEBUG   SenderThread:2396 [sender.py:send_request():250] send_request: stop_status
+2023-05-04 07:46:25,426 DEBUG   HandlerThread:2396 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-04 07:46:25,426 DEBUG   SenderThread:2396 [sender.py:send_request():250] send_request: stop_status
+2023-05-04 07:46:40,693 DEBUG   HandlerThread:2396 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-04 07:46:40,694 DEBUG   SenderThread:2396 [sender.py:send_request():250] send_request: stop_status
+2023-05-04 07:46:55,905 DEBUG   HandlerThread:2396 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-04 07:46:55,905 DEBUG   SenderThread:2396 [sender.py:send_request():250] send_request: stop_status
+2023-05-04 07:46:59,459 WARNING MainThread:2396 [internal.py:wandb_internal():153] Internal process interrupt: 1

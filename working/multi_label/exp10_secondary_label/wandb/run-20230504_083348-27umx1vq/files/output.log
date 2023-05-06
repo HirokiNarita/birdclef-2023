@@ -1,0 +1,274 @@
+
+  0%|          | 0/154 [00:00<?, ?it/s]
+load pre-trained model :  /kaggle/working/pre-training/exp1_pre_attblock_fold-0_20230501_pretrained.pth
+_IncompatibleKeys(missing_keys=['model.classifier.weight', 'model.classifier.bias', 'att_block.att.weight', 'att_block.att.bias', 'att_block.cla.weight', 'att_block.cla.bias'], unexpected_keys=['to_melspec_fn.spectrogram.window', 'to_melspec_fn.mel_scale.fb'])
+#########################
+#### Training
+#### Fold: 1 | Image Size: (224, 313) | Model: tf_efficientnet_b1_ns | Batch Size: 128 | Scheduler: cos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 154/154 [02:35<00:00,  1.01s/it]
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 27/27 [00:28<00:00,  1.05s/it]
+Epoch: 1 | Train Loss: 0.11182826821535051 | Val Loss: 0.008589566340325054 | Val Padded_cmAP : 0.4534439110772096
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 154/154 [02:31<00:00,  1.02it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 27/27 [00:28<00:00,  1.04s/it]
+Epoch: 2 | Train Loss: 0.007599029814001995 | Val Loss: 0.007964293834649853 | Val Padded_cmAP : 0.45440830228824
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 55%|█████▍    | 84/154 [01:24<01:06,  1.05it/s]Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x7f2df81d9320>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1510, in __del__
+    self._shutdown_workers()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1474, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/opt/conda/lib/python3.7/multiprocessing/process.py", line 140, in join
+    res = self._popen.wait(timeout)
+  File "/opt/conda/lib/python3.7/multiprocessing/popen_fork.py", line 45, in wait
+    if not wait([self.sentinel], timeout):
+  File "/opt/conda/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+    ready = selector.select(timeout)
+  File "/opt/conda/lib/python3.7/selectors.py", line 425, in select
+    key = self._key_from_fd(fd)
+  File "/opt/conda/lib/python3.7/selectors.py", line 284, in _key_from_fd
+    try:
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/signal_handling.py", line 66, in handler
+    _error_if_any_worker_fails()
+RuntimeError: DataLoader worker (pid 4394) exited unexpectedly with exit code 1. Details are lost due to multiprocessing. Rerunning with num_workers=0 may give better error trace.
+ 55%|█████▍    | 84/154 [01:25<01:11,  1.02s/it]
+Exception in thread NetStatThr:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/opt/conda/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 152, in check_network_status
+    status_response = self._interface.communicate_network_status()
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 138, in communicate_network_status
+    resp = self._communicate_network_status(status)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 405, in _communicate_network_status
+    resp = self._communicate(req, local=True)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Exception in thread ChkStopThr:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/opt/conda/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 170, in check_status
+    status_response = self._interface.communicate_stop_status()
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 127, in communicate_stop_status
+    resp = self._communicate_stop_status(status)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 395, in _communicate_stop_status
+    resp = self._communicate(req, local=True)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")

@@ -1,0 +1,27 @@
+2023-04-15 17:22:52,381 INFO    MainThread:19775 [internal.py:wandb_internal():93] W&B internal server running at pid: 19775, started at: 2023-04-15 17:22:52.380879
+2023-04-15 17:22:52,383 INFO    WriterThread:19775 [datastore.py:open_for_write():75] open: /kaggle/working/exp5_attblock/wandb/run-20230415_172250-27jd2pqx/run-27jd2pqx.wandb
+2023-04-15 17:22:52,387 DEBUG   SenderThread:19775 [sender.py:send():236] send: header
+2023-04-15 17:22:52,387 DEBUG   SenderThread:19775 [sender.py:send():236] send: run
+2023-04-15 17:22:52,845 INFO    SenderThread:19775 [dir_watcher.py:__init__():216] watching files in: /kaggle/working/exp5_attblock/wandb/run-20230415_172250-27jd2pqx/files
+2023-04-15 17:22:52,846 INFO    SenderThread:19775 [sender.py:_start_run_threads():818] run started: 27jd2pqx with start time 1681579370
+2023-04-15 17:22:52,846 DEBUG   SenderThread:19775 [sender.py:send():236] send: summary
+2023-04-15 17:22:52,847 DEBUG   HandlerThread:19775 [handler.py:handle_request():140] handle_request: check_version
+2023-04-15 17:22:52,847 INFO    SenderThread:19775 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-15 17:22:52,847 DEBUG   SenderThread:19775 [sender.py:send_request():250] send_request: check_version
+2023-04-15 17:22:52,931 DEBUG   HandlerThread:19775 [handler.py:handle_request():140] handle_request: run_start
+2023-04-15 17:22:52,946 DEBUG   HandlerThread:19775 [meta.py:__init__():35] meta init
+2023-04-15 17:22:52,946 DEBUG   HandlerThread:19775 [meta.py:__init__():49] meta init done
+2023-04-15 17:22:52,946 DEBUG   HandlerThread:19775 [meta.py:probe():209] probe
+2023-04-15 17:22:52,955 DEBUG   HandlerThread:19775 [git.py:repo():29] git repository is invalid
+2023-04-15 17:22:52,956 DEBUG   HandlerThread:19775 [meta.py:_save_code():87] save code
+2023-04-15 17:22:52,956 WARNING HandlerThread:19775 [meta.py:_save_code():89] unable to save code -- program entry not found
+2023-04-15 17:22:52,956 DEBUG   HandlerThread:19775 [meta.py:_save_pip():53] save pip
+2023-04-15 17:22:52,957 DEBUG   HandlerThread:19775 [meta.py:_save_pip():67] save pip done
+2023-04-15 17:22:52,958 DEBUG   HandlerThread:19775 [meta.py:_save_conda():74] save conda
+2023-04-15 17:22:53,841 INFO    Thread-7  :19775 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock/wandb/run-20230415_172250-27jd2pqx/files/requirements.txt
+2023-04-15 17:22:53,842 INFO    Thread-7  :19775 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock/wandb/run-20230415_172250-27jd2pqx/files/wandb-summary.json
+2023-04-15 17:22:53,842 INFO    Thread-7  :19775 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock/wandb/run-20230415_172250-27jd2pqx/files/conda-environment.yaml
+2023-04-15 17:22:58,842 INFO    Thread-7  :19775 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock/wandb/run-20230415_172250-27jd2pqx/files/output.log
+2023-04-15 17:23:04,845 INFO    Thread-7  :19775 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock/wandb/run-20230415_172250-27jd2pqx/files/output.log
+2023-04-15 17:23:16,857 INFO    Thread-7  :19775 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock/wandb/run-20230415_172250-27jd2pqx/files/output.log
+2023-04-15 17:23:29,528 WARNING MainThread:19775 [internal.py:wandb_internal():153] Internal process interrupt: 1

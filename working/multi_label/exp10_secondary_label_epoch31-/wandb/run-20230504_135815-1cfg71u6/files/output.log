@@ -1,0 +1,61 @@
+load pre-trained model :  /kaggle/working/multi_label/exp10_secondary_label/20230504_ver1_fold-0.pth
+_IncompatibleKeys(missing_keys=['model.classifier.weight', 'model.classifier.bias', 'att_block.att.weight', 'att_block.att.bias', 'att_block.cla.weight', 'att_block.cla.bias'], unexpected_keys=[])
+#########################
+#### Training
+#### Fold: 1 | Image Size: (224, 313) | Model: tf_efficientnet_b1_ns | Batch Size: 128 | Scheduler: cos
+#### Num Train: 19,627 | Num Valid: 3,381
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 34%|███▍      | 53/154 [01:05<01:40,  1.00it/s]Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x7fb6c76e90e0>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1510, in __del__
+    self._shutdown_workers()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1474, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/opt/conda/lib/python3.7/multiprocessing/process.py", line 140, in join
+    res = self._popen.wait(timeout)
+  File "/opt/conda/lib/python3.7/multiprocessing/popen_fork.py", line 45, in wait
+    if not wait([self.sentinel], timeout):
+  File "/opt/conda/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+    ready = selector.select(timeout)
+  File "/opt/conda/lib/python3.7/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt:
+ 34%|███▍      | 53/154 [01:06<02:06,  1.25s/it]
+Process wandb_internal:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/opt/conda/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/internal/internal.py", line 160, in wandb_internal
+    thread.join()
+  File "/opt/conda/lib/python3.7/threading.py", line 1044, in join
+    self._wait_for_tstate_lock()
+  File "/opt/conda/lib/python3.7/threading.py", line 1060, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):

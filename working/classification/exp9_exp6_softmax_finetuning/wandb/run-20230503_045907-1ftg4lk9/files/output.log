@@ -1,0 +1,17 @@
+
+  0%|          | 0/1 [00:00<?, ?it/s]
+load pre-trained model :  /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/fold-0_20230503_21epoch.pth
+_IncompatibleKeys(missing_keys=['model.classifier.weight', 'model.classifier.bias'], unexpected_keys=['to_melspec_fn.spectrogram.window', 'to_melspec_fn.mel_scale.fb'])
+#########################
+#### Training
+#### Fold: 1 | Image Size: (224, 313) | Model: tf_efficientnet_b1_ns | Batch Size: 64 | Scheduler: cos
+
+100%|██████████| 1/1 [00:03<00:00,  3.81s/it]
+100%|██████████| 1/1 [00:01<00:00,  1.36s/it]
+Epoch: 1 | Train Loss: 5.687129974365234 | Val Loss: 5.961477756500244 | Val Padded_cmAP : 0.9906163030266115
+100%|██████████| 1/1 [00:01<00:00,  1.68s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]
+Epoch: 2 | Train Loss: 5.647881031036377 | Val Loss: 5.833189964294434 | Val Padded_cmAP : 0.9908523224813547
+# Loading best model
+100%|██████████| 1/1 [00:01<00:00,  1.05s/it]
+

@@ -1,0 +1,171 @@
+#########################
+#### Training
+#### Fold: 1 | Image Size: (224, 224) | Model: tf_efficientnet_b1_ns | Batch Size: 128 | Scheduler: cos
+#### Num Train: 19,627 | Num Valid: 3,381
+  0%|          | 0/154 [00:00<?, ?it/s]
+tensor([[[[-24.6382, -20.5719, -35.1173,  ..., -25.4435, -17.6263, -24.2181],
+          [-23.2477, -19.1803, -33.7248,  ..., -24.0528, -16.2363, -22.8245],
+          [-17.6379, -21.1062, -26.4512,  ..., -19.3538, -17.6494, -13.1296],
+          ...,
+          [ -5.2636,  -5.3828,  -3.6097,  ...,  -3.4542,  -4.9842,  -4.5733],
+          [ -6.2716,  -6.4178,  -4.7627,  ...,  -4.6716,  -5.6431,  -5.7136],
+          [ -4.2852,  -7.5624,  -4.2203,  ...,  -3.0018,  -6.1432,  -5.3029]]],
+        [[[-41.9941, -66.5635, -66.5635,  ..., -66.5635, -61.4554, -56.8065],
+          [-40.6007, -66.5635, -66.5635,  ..., -66.5635, -60.2060, -55.4348],
+          [-38.8348, -66.5635, -66.5635,  ..., -65.2575, -55.0044, -53.8587],
+          ...,
+          [-38.7680, -66.5635, -66.5635,  ..., -48.1648, -38.7215, -39.5967],
+          [-39.0499, -66.5635, -66.5635,  ..., -57.0621, -47.3476, -44.8753],
+          [-39.2066, -66.5635, -66.5635,  ..., -66.5635, -66.5635, -48.3202]]],
+        [[[ -3.3567,  -3.3178, -18.0703,  ..., -12.4268, -10.4182, -15.9014],
+          [ -1.9639,  -1.9240, -16.6788,  ..., -11.0349,  -9.0267, -14.5099],
+          [ -0.7859,   0.6888, -15.4673,  ..., -18.3016,  -2.5710,  -4.6283],
+          ...,
+          [  7.0870,   4.9648,   4.8829,  ...,   8.7234,   8.1448,   4.7994],
+          [  3.5105,   6.1129,   6.4522,  ...,   9.3811,   5.3402,   6.4020],
+          [  6.7919,   9.5650,   9.3968,  ...,   7.5042,   7.3758,   7.9152]]],
+        ...,
+        [[[-11.6753, -15.3318, -12.3556,  ..., -47.2446, -47.2446, -47.2446],
+          [-10.2831, -13.9389, -10.9649,  ..., -47.2446, -47.2446, -47.2446],
+          [-14.6740,  -8.8279, -12.5514,  ..., -47.2446, -47.2446, -47.2446],
+          ...,
+          [  2.4594,   0.4964,   2.3497,  ..., -47.2446, -47.2446, -47.2446],
+          [  3.0441,   0.4085,   3.2415,  ..., -47.2446, -47.2446, -47.2446],
+          [ -2.5672,   3.6151,   0.5153,  ..., -47.2446, -47.2446, -47.2446]]],
+        [[[ -9.1688, -11.9864,  -7.3759,  ..., -42.3572, -28.9382,  -8.9929],
+          [ -7.7762, -10.5939,  -5.9826,  ..., -40.9664, -27.5460,  -7.6019],
+          [  1.6318,   6.7526,  -2.0276,  ..., -23.6971, -18.9714,  -5.3318],
+          ...,
+          [-47.1693, -47.1693, -47.1693,  ..., -47.1693, -47.1693, -47.1693],
+          [-47.1693, -47.1693, -47.1693,  ..., -47.1693, -47.1693, -47.1693],
+          [-47.1693, -47.1693, -47.1693,  ..., -47.1693, -47.1693, -47.1693]]],
+        [[[-24.8531, -38.1316, -38.1316,  ..., -38.1316, -38.1316, -34.6702],
+          [-23.4592, -38.1316, -38.1316,  ..., -38.1316, -38.1316, -33.2775],
+          [-21.5443, -38.1316, -38.1316,  ..., -38.1316, -38.1316, -33.9323],
+          ...,
+          [-38.1316, -38.1316, -38.1316,  ..., -38.1316, -38.1316, -38.1316],
+          [-38.1316, -38.1316, -38.1316,  ..., -38.1316, -38.1316, -38.1316],
+          [-38.1316, -38.1316, -38.1316,  ..., -38.1316, -38.1316, -38.1316]]]],
+  0%|          | 0/154 [00:00<?, ?it/s]Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x7f28d31cb0e0>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1510, in __del__
+    self._shutdown_workers()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1474, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/opt/conda/lib/python3.7/multiprocessing/process.py", line 140, in join
+    res = self._popen.wait(timeout)
+  File "/opt/conda/lib/python3.7/multiprocessing/popen_fork.py", line 45, in wait
+    if not wait([self.sentinel], timeout):
+  File "/opt/conda/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+    ready = selector.select(timeout)
+  File "/opt/conda/lib/python3.7/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt:
+  0%|          | 0/154 [00:06<?, ?it/s]
+Process wandb_internal:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/opt/conda/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/internal/internal.py", line 160, in wandb_internal
+    thread.join()
+  File "/opt/conda/lib/python3.7/threading.py", line 1044, in join
+    self._wait_for_tstate_lock()
+  File "/opt/conda/lib/python3.7/threading.py", line 1060, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3552, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "/tmp/ipykernel_31877/3015497698.py", line 97, in <module>
+    outputs, mix_targets = model(inputs, targets)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/kaggle/working/exp6_baseline_holizontalflip/pytorch_model.py", line 102, in forward
+    x = self.model(x)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/timm/models/efficientnet.py", line 557, in forward
+    x = self.forward_features(x)
+  File "/opt/conda/lib/python3.7/site-packages/timm/models/efficientnet.py", line 541, in forward_features
+    x = self.bn1(x)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1130, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/timm/models/layers/norm_act.py", line 109, in forward
+    self.eps,
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/functional.py", line 2439, in batch_norm
+    input, weight, bias, running_mean, running_var, training, momentum, eps, torch.backends.cudnn.enabled
+KeyboardInterrupt
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2098, in showtraceback
+    stb = value._render_traceback_()
+AttributeError: 'KeyboardInterrupt' object has no attribute '_render_traceback_'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 1101, in get_records
+    return _fixed_getinnerframes(etb, number_of_lines_of_context, tb_offset)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 248, in wrapped
+    return f(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 281, in _fixed_getinnerframes
+    records = fix_frame_records_filenames(inspect.getinnerframes(etb, context))
+  File "/opt/conda/lib/python3.7/inspect.py", line 1502, in getinnerframes
+    frameinfo = (tb.tb_frame,) + getframeinfo(tb, context)
+  File "/opt/conda/lib/python3.7/inspect.py", line 1460, in getframeinfo
+    filename = getsourcefile(frame) or getfile(frame)
+  File "/opt/conda/lib/python3.7/inspect.py", line 696, in getsourcefile
+    if getattr(getmodule(object, filename), '__loader__', None) is not None:
+  File "/opt/conda/lib/python3.7/inspect.py", line 742, in getmodule
+    os.path.realpath(f)] = module.__name__
+  File "/opt/conda/lib/python3.7/posixpath.py", line 395, in realpath
+    path, ok = _joinrealpath(filename[:0], filename, {})
+  File "/opt/conda/lib/python3.7/posixpath.py", line 429, in _joinrealpath
+    if not islink(newpath):
+  File "/opt/conda/lib/python3.7/posixpath.py", line 171, in islink
+    st = os.lstat(path)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/opt/conda/lib/python3.7/multiprocessing/spawn.py", line 105, in spawn_main
+    exitcode = _main(fd)
+  File "/opt/conda/lib/python3.7/multiprocessing/spawn.py", line 118, in _main
+    return self._bootstrap()
+  File "/opt/conda/lib/python3.7/multiprocessing/process.py", line 315, in _bootstrap
+    threading._shutdown()
+  File "/opt/conda/lib/python3.7/threading.py", line 1307, in _shutdown
+    lock.acquire()
+KeyboardInterrupt
+Exception in thread ChkStopThr:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/opt/conda/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 170, in check_status
+    status_response = self._interface.communicate_stop_status()
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 127, in communicate_stop_status
+    resp = self._communicate_stop_status(status)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 395, in _communicate_stop_status
+    resp = self._communicate(req, local=True)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Exception in thread NetStatThr:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/opt/conda/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 152, in check_network_status
+    status_response = self._interface.communicate_network_status()
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 138, in communicate_network_status
+    resp = self._communicate_network_status(status)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 405, in _communicate_network_status
+    resp = self._communicate(req, local=True)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")

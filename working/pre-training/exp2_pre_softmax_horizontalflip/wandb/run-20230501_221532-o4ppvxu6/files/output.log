@@ -1,0 +1,45 @@
+
+  0%|          | 0/1 [00:00<?, ?it/s]
+#########################
+#### Training
+#### Fold: 1 | Image Size: (224, 313) | Model: tf_efficientnet_b1_ns | Batch Size: 128 | Scheduler: cos
+100%|██████████| 1/1 [00:04<00:00,  4.22s/it]
+
+
+
+
+
+
+100%|██████████| 26/26 [00:44<00:00,  1.72s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]
+
+100%|██████████| 1/1 [00:02<00:00,  2.33s/it]
+
+
+
+
+
+
+
+100%|██████████| 26/26 [00:41<00:00,  1.60s/it]
+  0%|          | 0/26 [00:00<?, ?it/s]
+Epoch: 2 | Train Loss: 6.334932327270508 | Val Loss: 319.6454591017503 | Val Padded_cmAP : 0.5049190630247589
+# Loading best model
+
+
+
+
+
+
+
+
+100%|██████████| 26/26 [00:39<00:00,  1.50s/it]
+>>> FOLD 1 Padded_cmAP = 0.505
+# WandB
+/opt/conda/lib/python3.7/site-packages/pandas/core/frame.py:3678: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead.  To get a de-fragmented frame, use `newframe = frame.copy()`
+  self[col] = igetitem(value, i)
+/opt/conda/lib/python3.7/site-packages/pandas/core/indexing.py:1667: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  self.obj[key] = value

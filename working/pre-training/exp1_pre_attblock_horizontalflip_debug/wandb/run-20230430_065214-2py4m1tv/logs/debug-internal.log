@@ -1,0 +1,81 @@
+2023-04-30 06:52:16,963 INFO    MainThread:7070 [internal.py:wandb_internal():93] W&B internal server running at pid: 7070, started at: 2023-04-30 06:52:16.962778
+2023-04-30 06:52:16,967 DEBUG   SenderThread:7070 [sender.py:send():236] send: header
+2023-04-30 06:52:16,968 INFO    WriterThread:7070 [datastore.py:open_for_write():75] open: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065214-2py4m1tv/run-2py4m1tv.wandb
+2023-04-30 06:52:16,969 DEBUG   SenderThread:7070 [sender.py:send():236] send: run
+2023-04-30 06:52:17,528 INFO    SenderThread:7070 [dir_watcher.py:__init__():216] watching files in: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065214-2py4m1tv/files
+2023-04-30 06:52:17,529 INFO    SenderThread:7070 [sender.py:_start_run_threads():818] run started: 2py4m1tv with start time 1682837534
+2023-04-30 06:52:17,555 DEBUG   HandlerThread:7070 [handler.py:handle_request():140] handle_request: check_version
+2023-04-30 06:52:17,555 DEBUG   SenderThread:7070 [sender.py:send():236] send: summary
+2023-04-30 06:52:17,556 INFO    SenderThread:7070 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-30 06:52:17,556 DEBUG   SenderThread:7070 [sender.py:send_request():250] send_request: check_version
+2023-04-30 06:52:17,649 DEBUG   HandlerThread:7070 [handler.py:handle_request():140] handle_request: run_start
+2023-04-30 06:52:17,663 DEBUG   HandlerThread:7070 [meta.py:__init__():35] meta init
+2023-04-30 06:52:17,663 DEBUG   HandlerThread:7070 [meta.py:__init__():49] meta init done
+2023-04-30 06:52:17,663 DEBUG   HandlerThread:7070 [meta.py:probe():209] probe
+2023-04-30 06:52:17,673 DEBUG   HandlerThread:7070 [git.py:repo():29] git repository is invalid
+2023-04-30 06:52:17,673 DEBUG   HandlerThread:7070 [meta.py:_save_code():87] save code
+2023-04-30 06:52:17,674 WARNING HandlerThread:7070 [meta.py:_save_code():89] unable to save code -- program entry not found
+2023-04-30 06:52:17,674 DEBUG   HandlerThread:7070 [meta.py:_save_pip():53] save pip
+2023-04-30 06:52:17,676 DEBUG   HandlerThread:7070 [meta.py:_save_pip():67] save pip done
+2023-04-30 06:52:17,677 DEBUG   HandlerThread:7070 [meta.py:_save_conda():74] save conda
+2023-04-30 06:52:18,532 INFO    Thread-7  :7070 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065214-2py4m1tv/files/requirements.txt
+2023-04-30 06:52:18,533 INFO    Thread-7  :7070 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065214-2py4m1tv/files/wandb-summary.json
+2023-04-30 06:52:18,533 INFO    Thread-7  :7070 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065214-2py4m1tv/files/conda-environment.yaml
+2023-04-30 06:52:23,531 INFO    Thread-7  :7070 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065214-2py4m1tv/files/output.log
+2023-04-30 06:52:29,536 INFO    Thread-7  :7070 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065214-2py4m1tv/files/output.log
+2023-04-30 06:52:32,358 WARNING MainThread:7070 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2023-04-30 06:52:32,832 DEBUG   HandlerThread:7070 [meta.py:_save_conda():84] save conda done
+2023-04-30 06:52:32,832 DEBUG   HandlerThread:7070 [meta.py:probe():247] probe done
+2023-04-30 06:52:33,146 DEBUG   HandlerThread:7070 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-30 06:52:33,147 DEBUG   SenderThread:7070 [sender.py:send_request():250] send_request: stop_status
+2023-04-30 06:52:33,150 DEBUG   HandlerThread:7070 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-30 06:52:33,152 DEBUG   HandlerThread:7070 [handler.py:handle_request():140] handle_request: pause
+2023-04-30 06:52:33,152 INFO    HandlerThread:7070 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-04-30 06:52:33,349 DEBUG   SenderThread:7070 [sender.py:send():236] send: telemetry
+2023-04-30 06:52:33,349 DEBUG   SenderThread:7070 [sender.py:send():236] send: history
+2023-04-30 06:52:33,349 DEBUG   SenderThread:7070 [sender.py:send():236] send: summary
+2023-04-30 06:52:33,353 INFO    SenderThread:7070 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-30 06:52:33,354 DEBUG   SenderThread:7070 [sender.py:send():236] send: files
+2023-04-30 06:52:33,354 INFO    SenderThread:7070 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2023-04-30 06:52:33,355 DEBUG   SenderThread:7070 [sender.py:send():236] send: stats
+2023-04-30 06:52:33,538 INFO    Thread-7  :7070 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065214-2py4m1tv/files/wandb-summary.json
+2023-04-30 06:52:33,539 INFO    Thread-7  :7070 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065214-2py4m1tv/files/wandb-metadata.json
+2023-04-30 06:52:34,073 INFO    Thread-11 :7070 [upload_job.py:push():138] Uploaded file /tmp/tmppomycus7wandb/rx8wt4h7-wandb-metadata.json
+2023-04-30 06:52:35,540 INFO    Thread-7  :7070 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065214-2py4m1tv/files/output.log
+2023-04-30 06:52:42,668 DEBUG   HandlerThread:7070 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-30 06:52:42,668 DEBUG   SenderThread:7070 [sender.py:send_request():250] send_request: stop_status
+2023-04-30 06:52:48,546 INFO    Thread-7  :7070 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065214-2py4m1tv/files/config.yaml
+2023-04-30 06:52:57,863 DEBUG   HandlerThread:7070 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-30 06:52:57,864 DEBUG   SenderThread:7070 [sender.py:send_request():250] send_request: stop_status
+2023-04-30 06:53:13,074 DEBUG   HandlerThread:7070 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-30 06:53:13,074 DEBUG   SenderThread:7070 [sender.py:send_request():250] send_request: stop_status
+2023-04-30 06:53:28,299 DEBUG   HandlerThread:7070 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-30 06:53:28,300 DEBUG   SenderThread:7070 [sender.py:send_request():250] send_request: stop_status
+2023-04-30 06:53:43,507 DEBUG   HandlerThread:7070 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-30 06:53:43,507 DEBUG   SenderThread:7070 [sender.py:send_request():250] send_request: stop_status
+2023-04-30 06:53:58,713 DEBUG   HandlerThread:7070 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-30 06:53:58,714 DEBUG   SenderThread:7070 [sender.py:send_request():250] send_request: stop_status
+2023-04-30 06:54:13,920 DEBUG   HandlerThread:7070 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-30 06:54:13,920 DEBUG   SenderThread:7070 [sender.py:send_request():250] send_request: stop_status
+2023-04-30 06:54:29,129 DEBUG   HandlerThread:7070 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-30 06:54:29,130 DEBUG   SenderThread:7070 [sender.py:send_request():250] send_request: stop_status
+2023-04-30 06:54:44,340 DEBUG   HandlerThread:7070 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-30 06:54:44,341 DEBUG   SenderThread:7070 [sender.py:send_request():250] send_request: stop_status
+2023-04-30 06:54:59,546 DEBUG   HandlerThread:7070 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-30 06:54:59,546 DEBUG   SenderThread:7070 [sender.py:send_request():250] send_request: stop_status
+2023-04-30 06:55:14,750 DEBUG   HandlerThread:7070 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-30 06:55:14,751 DEBUG   SenderThread:7070 [sender.py:send_request():250] send_request: stop_status
+2023-04-30 06:55:29,942 DEBUG   HandlerThread:7070 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-30 06:55:29,943 DEBUG   SenderThread:7070 [sender.py:send_request():250] send_request: stop_status
+2023-04-30 06:55:45,156 DEBUG   HandlerThread:7070 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-30 06:55:45,156 DEBUG   SenderThread:7070 [sender.py:send_request():250] send_request: stop_status
+2023-04-30 06:56:00,356 DEBUG   HandlerThread:7070 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-30 06:56:00,357 DEBUG   SenderThread:7070 [sender.py:send_request():250] send_request: stop_status
+2023-04-30 06:56:15,554 DEBUG   HandlerThread:7070 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-30 06:56:15,555 DEBUG   SenderThread:7070 [sender.py:send_request():250] send_request: stop_status
+2023-04-30 06:56:30,755 DEBUG   HandlerThread:7070 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-30 06:56:30,756 DEBUG   SenderThread:7070 [sender.py:send_request():250] send_request: stop_status
+2023-04-30 06:56:45,950 DEBUG   HandlerThread:7070 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-30 06:56:45,950 DEBUG   SenderThread:7070 [sender.py:send_request():250] send_request: stop_status
+2023-04-30 06:56:59,978 WARNING MainThread:7070 [internal.py:wandb_internal():153] Internal process interrupt: 2
+2023-04-30 06:56:59,979 ERROR   MainThread:7070 [internal.py:wandb_internal():156] Internal process interrupted.
