@@ -1,0 +1,18 @@
+{
+    "os": "Linux-5.4.0-1104-gcp-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.12",
+    "heartbeatAt": "2023-04-30T06:30:28.125825",
+    "startedAt": "2023-04-30T06:30:22.289236",
+    "docker": null,
+    "gpu": "Tesla T4",
+    "gpu_count": 1,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "pre-training/exp1_pre_attblock_horizontalflip_debug/train.ipynb",
+    "root": "/kaggle/working",
+    "host": "98cd85ec5384",
+    "username": "root",
+    "executable": "/opt/conda/bin/python"
+}

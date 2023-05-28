@@ -1,0 +1,58 @@
+2023-05-02 12:35:38,949 INFO    MainThread:227 [internal.py:wandb_internal():93] W&B internal server running at pid: 227, started at: 2023-05-02 12:35:38.948633
+2023-05-02 12:35:38,951 INFO    WriterThread:227 [datastore.py:open_for_write():75] open: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230502_123537-imuco110/run-imuco110.wandb
+2023-05-02 12:35:38,953 DEBUG   SenderThread:227 [sender.py:send():236] send: header
+2023-05-02 12:35:38,955 DEBUG   SenderThread:227 [sender.py:send():236] send: run
+2023-05-02 12:35:42,081 INFO    SenderThread:227 [dir_watcher.py:__init__():216] watching files in: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230502_123537-imuco110/files
+2023-05-02 12:35:42,081 INFO    SenderThread:227 [sender.py:_start_run_threads():818] run started: imuco110 with start time 1683030937
+2023-05-02 12:35:42,099 DEBUG   SenderThread:227 [sender.py:send():236] send: summary
+2023-05-02 12:35:42,099 DEBUG   HandlerThread:227 [handler.py:handle_request():140] handle_request: check_version
+2023-05-02 12:35:42,100 INFO    SenderThread:227 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-02 12:35:42,100 DEBUG   SenderThread:227 [sender.py:send_request():250] send_request: check_version
+2023-05-02 12:35:42,179 DEBUG   HandlerThread:227 [handler.py:handle_request():140] handle_request: run_start
+2023-05-02 12:35:42,190 DEBUG   HandlerThread:227 [meta.py:__init__():35] meta init
+2023-05-02 12:35:42,190 DEBUG   HandlerThread:227 [meta.py:__init__():49] meta init done
+2023-05-02 12:35:42,190 DEBUG   HandlerThread:227 [meta.py:probe():209] probe
+2023-05-02 12:35:42,200 DEBUG   HandlerThread:227 [git.py:repo():29] git repository is invalid
+2023-05-02 12:35:42,200 DEBUG   HandlerThread:227 [meta.py:_save_code():87] save code
+2023-05-02 12:35:42,200 WARNING HandlerThread:227 [meta.py:_save_code():89] unable to save code -- program entry not found
+2023-05-02 12:35:42,200 DEBUG   HandlerThread:227 [meta.py:_save_pip():53] save pip
+2023-05-02 12:35:42,203 DEBUG   HandlerThread:227 [meta.py:_save_pip():67] save pip done
+2023-05-02 12:35:42,203 DEBUG   HandlerThread:227 [meta.py:_save_conda():74] save conda
+2023-05-02 12:35:43,084 INFO    Thread-7  :227 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230502_123537-imuco110/files/conda-environment.yaml
+2023-05-02 12:35:43,085 INFO    Thread-7  :227 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230502_123537-imuco110/files/requirements.txt
+2023-05-02 12:35:43,085 INFO    Thread-7  :227 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230502_123537-imuco110/files/wandb-summary.json
+2023-05-02 12:35:48,084 INFO    Thread-7  :227 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230502_123537-imuco110/files/output.log
+2023-05-02 12:36:17,045 DEBUG   HandlerThread:227 [meta.py:_save_conda():84] save conda done
+2023-05-02 12:36:17,045 DEBUG   HandlerThread:227 [meta.py:probe():247] probe done
+2023-05-02 12:36:17,096 INFO    Thread-7  :227 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230502_123537-imuco110/files/wandb-metadata.json
+2023-05-02 12:36:17,359 DEBUG   HandlerThread:227 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-02 12:36:17,359 DEBUG   HandlerThread:227 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-02 12:36:17,360 DEBUG   SenderThread:227 [sender.py:send_request():250] send_request: stop_status
+2023-05-02 12:36:17,364 DEBUG   HandlerThread:227 [handler.py:handle_request():140] handle_request: pause
+2023-05-02 12:36:17,364 INFO    HandlerThread:227 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-05-02 12:36:17,453 DEBUG   HandlerThread:227 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-02 12:36:17,569 DEBUG   SenderThread:227 [sender.py:send():236] send: telemetry
+2023-05-02 12:36:17,569 DEBUG   SenderThread:227 [sender.py:send():236] send: history
+2023-05-02 12:36:17,569 DEBUG   SenderThread:227 [sender.py:send():236] send: summary
+2023-05-02 12:36:17,572 INFO    SenderThread:227 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-02 12:36:17,572 DEBUG   SenderThread:227 [sender.py:send_request():250] send_request: stop_status
+2023-05-02 12:36:17,774 DEBUG   SenderThread:227 [sender.py:send():236] send: stats
+2023-05-02 12:36:17,774 DEBUG   SenderThread:227 [sender.py:send():236] send: files
+2023-05-02 12:36:17,774 INFO    SenderThread:227 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2023-05-02 12:36:17,775 DEBUG   SenderThread:227 [sender.py:send():236] send: stats
+2023-05-02 12:36:18,096 INFO    Thread-7  :227 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230502_123537-imuco110/files/wandb-summary.json
+2023-05-02 12:36:18,384 INFO    Thread-11 :227 [upload_job.py:push():138] Uploaded file /tmp/tmpm573pkf5wandb/3ozyqwqf-wandb-metadata.json
+2023-05-02 12:36:27,197 DEBUG   HandlerThread:227 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-02 12:36:27,197 DEBUG   SenderThread:227 [sender.py:send_request():250] send_request: stop_status
+2023-05-02 12:36:41,106 INFO    Thread-7  :227 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230502_123537-imuco110/files/config.yaml
+2023-05-02 12:36:42,414 DEBUG   HandlerThread:227 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-02 12:36:42,415 DEBUG   SenderThread:227 [sender.py:send_request():250] send_request: stop_status
+2023-05-02 12:36:57,632 DEBUG   HandlerThread:227 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-02 12:36:57,632 DEBUG   SenderThread:227 [sender.py:send_request():250] send_request: stop_status
+2023-05-02 12:37:12,820 DEBUG   HandlerThread:227 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-02 12:37:12,821 DEBUG   SenderThread:227 [sender.py:send_request():250] send_request: stop_status
+2023-05-02 12:37:28,024 DEBUG   HandlerThread:227 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-02 12:37:28,025 DEBUG   SenderThread:227 [sender.py:send_request():250] send_request: stop_status
+2023-05-02 12:37:43,298 DEBUG   HandlerThread:227 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-02 12:37:43,299 DEBUG   SenderThread:227 [sender.py:send_request():250] send_request: stop_status
+2023-05-02 12:37:53,193 WARNING MainThread:227 [internal.py:wandb_internal():153] Internal process interrupt: 1

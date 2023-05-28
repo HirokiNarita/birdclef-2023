@@ -1,0 +1,258 @@
+2023-05-07 06:50:48,612 INFO    MainThread:2428 [internal.py:wandb_internal():93] W&B internal server running at pid: 2428, started at: 2023-05-07 06:50:48.612275
+2023-05-07 06:50:48,614 INFO    WriterThread:2428 [datastore.py:open_for_write():75] open: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/run-ywjye66y.wandb
+2023-05-07 06:50:48,616 DEBUG   SenderThread:2428 [sender.py:send():236] send: header
+2023-05-07 06:50:48,617 DEBUG   SenderThread:2428 [sender.py:send():236] send: run
+2023-05-07 06:50:49,002 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: check_version
+2023-05-07 06:50:49,041 INFO    SenderThread:2428 [dir_watcher.py:__init__():216] watching files in: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files
+2023-05-07 06:50:49,042 INFO    SenderThread:2428 [sender.py:_start_run_threads():818] run started: ywjye66y with start time 1683442247
+2023-05-07 06:50:49,042 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:50:49,042 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:50:49,042 DEBUG   SenderThread:2428 [sender.py:send_request():250] send_request: check_version
+2023-05-07 06:50:49,113 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: run_start
+2023-05-07 06:50:49,143 DEBUG   HandlerThread:2428 [meta.py:__init__():35] meta init
+2023-05-07 06:50:49,143 DEBUG   HandlerThread:2428 [meta.py:__init__():49] meta init done
+2023-05-07 06:50:49,143 DEBUG   HandlerThread:2428 [meta.py:probe():209] probe
+2023-05-07 06:50:49,152 DEBUG   HandlerThread:2428 [git.py:repo():29] git repository is invalid
+2023-05-07 06:50:49,152 DEBUG   HandlerThread:2428 [meta.py:_save_code():87] save code
+2023-05-07 06:50:49,152 WARNING HandlerThread:2428 [meta.py:_save_code():89] unable to save code -- program entry not found
+2023-05-07 06:50:49,152 DEBUG   HandlerThread:2428 [meta.py:_save_pip():53] save pip
+2023-05-07 06:50:49,154 DEBUG   HandlerThread:2428 [meta.py:_save_pip():67] save pip done
+2023-05-07 06:50:49,154 DEBUG   HandlerThread:2428 [meta.py:_save_conda():74] save conda
+2023-05-07 06:50:50,036 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/conda-environment.yaml
+2023-05-07 06:50:50,037 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/requirements.txt
+2023-05-07 06:50:50,037 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json
+2023-05-07 06:50:55,036 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/output.log
+2023-05-07 06:51:02,039 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/output.log
+2023-05-07 06:51:30,049 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/output.log
+2023-05-07 06:51:32,050 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/output.log
+2023-05-07 06:51:35,035 DEBUG   HandlerThread:2428 [meta.py:_save_conda():84] save conda done
+2023-05-07 06:51:35,035 DEBUG   HandlerThread:2428 [meta.py:probe():247] probe done
+2023-05-07 06:51:35,051 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-metadata.json
+2023-05-07 06:51:35,432 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-07 06:51:35,432 DEBUG   SenderThread:2428 [sender.py:send_request():250] send_request: stop_status
+2023-05-07 06:51:35,436 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:51:35,438 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-07 06:51:35,438 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:51:35,439 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:51:35,440 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:51:35,441 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:51:35,441 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-07 06:51:35,635 DEBUG   SenderThread:2428 [sender.py:send():236] send: telemetry
+2023-05-07 06:51:35,635 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:51:35,635 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:51:35,639 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:51:35,640 DEBUG   SenderThread:2428 [sender.py:send_request():250] send_request: stop_status
+2023-05-07 06:51:35,847 DEBUG   SenderThread:2428 [sender.py:send():236] send: stats
+2023-05-07 06:51:35,847 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:51:35,847 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:51:35,848 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:51:35,848 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:51:35,848 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:51:35,849 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:51:35,849 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:51:35,850 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:51:35,850 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:51:35,850 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:51:35,850 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:51:35,850 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:51:35,851 DEBUG   SenderThread:2428 [sender.py:send_request():250] send_request: stop_status
+2023-05-07 06:51:36,051 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json
+2023-05-07 06:51:36,074 DEBUG   SenderThread:2428 [sender.py:send():236] send: files
+2023-05-07 06:51:36,074 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2023-05-07 06:51:36,698 INFO    Thread-11 :2428 [upload_job.py:push():138] Uploaded file /tmp/tmpk9_2tb99wandb/lk8wuuyo-wandb-metadata.json
+2023-05-07 06:51:41,001 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:51:41,002 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:51:41,002 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:51:41,003 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:51:41,053 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json
+2023-05-07 06:51:41,852 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:51:41,852 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:51:41,853 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:51:41,853 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:51:42,054 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json
+2023-05-07 06:51:42,728 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:51:42,729 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:51:42,729 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:51:42,730 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:51:43,054 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json
+2023-05-07 06:51:44,055 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/output.log
+2023-05-07 06:51:46,056 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/output.log
+2023-05-07 06:51:47,671 DEBUG   SenderThread:2428 [sender.py:send():236] send: stats
+2023-05-07 06:51:50,057 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/config.yaml
+2023-05-07 06:51:51,086 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-07 06:51:51,086 DEBUG   SenderThread:2428 [sender.py:send_request():250] send_request: stop_status
+2023-05-07 06:51:51,141 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:51:51,292 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:51:51,293 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:51:51,293 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:51:52,058 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json
+2023-05-07 06:51:54,059 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/output.log
+2023-05-07 06:51:59,418 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:51:59,419 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:51:59,420 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:51:59,420 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:52:00,062 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json
+2023-05-07 06:52:00,268 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:52:00,269 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:52:00,269 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:52:00,270 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:52:01,062 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json
+2023-05-07 06:52:01,121 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:52:01,122 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:52:01,122 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:52:01,123 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:52:02,063 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/output.log
+2023-05-07 06:52:02,063 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json
+2023-05-07 06:52:04,064 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/output.log
+2023-05-07 06:52:06,294 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-07 06:52:06,294 DEBUG   SenderThread:2428 [sender.py:send_request():250] send_request: stop_status
+2023-05-07 06:52:08,545 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:52:08,545 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:52:08,546 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:52:08,554 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:52:09,066 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json
+2023-05-07 06:52:10,066 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/output.log
+2023-05-07 06:52:17,199 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:52:17,199 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:52:17,200 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:52:17,200 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:52:17,924 DEBUG   SenderThread:2428 [sender.py:send():236] send: stats
+2023-05-07 06:52:18,055 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:52:18,056 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:52:18,056 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:52:18,057 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:52:18,070 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json
+2023-05-07 06:52:18,903 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:52:18,904 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:52:18,904 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:52:18,904 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:52:19,070 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json
+2023-05-07 06:52:20,071 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/output.log
+2023-05-07 06:52:21,490 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-07 06:52:21,490 DEBUG   SenderThread:2428 [sender.py:send_request():250] send_request: stop_status
+2023-05-07 06:52:22,071 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/output.log
+2023-05-07 06:52:23,425 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:52:23,425 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:52:23,426 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:52:23,426 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:52:24,072 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json
+2023-05-07 06:52:26,073 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/output.log
+2023-05-07 06:52:33,679 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:52:33,680 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:52:33,680 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:52:33,680 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:52:34,077 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json
+2023-05-07 06:52:34,521 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:52:34,522 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:52:34,522 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:52:34,523 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:52:35,078 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json
+2023-05-07 06:52:35,410 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:52:35,411 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:52:35,411 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:52:35,412 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:52:36,078 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/output.log
+2023-05-07 06:52:36,078 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json
+2023-05-07 06:52:36,684 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-07 06:52:36,685 DEBUG   SenderThread:2428 [sender.py:send_request():250] send_request: stop_status
+2023-05-07 06:52:37,569 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:52:37,570 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:52:37,570 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:52:37,571 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:52:38,079 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/output.log
+2023-05-07 06:52:38,079 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json
+2023-05-07 06:52:40,080 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/output.log
+2023-05-07 06:52:45,384 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:52:45,385 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:52:45,385 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:52:45,386 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:52:46,082 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json
+2023-05-07 06:52:46,242 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:52:46,243 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:52:46,243 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:52:46,244 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:52:47,083 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json
+2023-05-07 06:52:47,097 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:52:47,098 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:52:47,098 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:52:47,099 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:52:48,083 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/output.log
+2023-05-07 06:52:48,083 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json
+2023-05-07 06:52:48,153 DEBUG   SenderThread:2428 [sender.py:send():236] send: stats
+2023-05-07 06:52:50,084 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/output.log
+2023-05-07 06:52:51,887 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-07 06:52:51,887 DEBUG   SenderThread:2428 [sender.py:send_request():250] send_request: stop_status
+2023-05-07 06:52:57,041 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:52:57,042 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:52:57,042 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:52:57,043 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:52:57,087 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json
+2023-05-07 06:53:00,088 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/output.log
+2023-05-07 06:53:01,572 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:53:01,572 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:53:01,573 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:53:01,573 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:53:02,089 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json
+2023-05-07 06:53:02,422 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:53:02,423 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:53:02,423 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:53:02,424 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:53:03,090 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json
+2023-05-07 06:53:03,295 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:53:03,296 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:53:03,296 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:53:03,297 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:53:04,090 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/output.log
+2023-05-07 06:53:04,090 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json
+2023-05-07 06:53:06,091 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/output.log
+2023-05-07 06:53:07,084 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-07 06:53:07,084 DEBUG   SenderThread:2428 [sender.py:send_request():250] send_request: stop_status
+2023-05-07 06:53:13,506 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:53:13,506 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:53:13,506 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:53:13,507 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:53:14,094 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json
+2023-05-07 06:53:15,946 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:53:15,947 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:53:15,947 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:53:15,950 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:53:16,095 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/output.log
+2023-05-07 06:53:16,096 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json
+2023-05-07 06:53:16,823 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:53:16,824 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:53:16,824 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:53:16,824 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:53:17,096 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json
+2023-05-07 06:53:17,851 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 06:53:17,852 DEBUG   SenderThread:2428 [sender.py:send():236] send: history
+2023-05-07 06:53:17,853 DEBUG   SenderThread:2428 [sender.py:send():236] send: summary
+2023-05-07 06:53:17,853 INFO    SenderThread:2428 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 06:53:18,096 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/output.log
+2023-05-07 06:53:18,097 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json
+2023-05-07 06:53:18,378 DEBUG   SenderThread:2428 [sender.py:send():236] send: stats
+2023-05-07 06:53:20,097 INFO    Thread-7  :2428 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/output.log
+2023-05-07 06:53:22,267 WARNING MainThread:2428 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2023-05-07 06:53:22,304 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-07 06:53:22,305 DEBUG   SenderThread:2428 [sender.py:send_request():250] send_request: stop_status
+2023-05-07 06:53:22,415 WARNING MainThread:2428 [internal.py:wandb_internal():153] Internal process interrupt: 2
+2023-05-07 06:53:22,415 ERROR   MainThread:2428 [internal.py:wandb_internal():156] Internal process interrupted.
+2023-05-07 06:53:22,511 INFO    SenderThread:2428 [sender.py:finish():1114] shutting down sender
+2023-05-07 06:53:22,511 INFO    SenderThread:2428 [dir_watcher.py:finish():353] shutting down directory watcher
+2023-05-07 06:53:22,712 DEBUG   HandlerThread:2428 [handler.py:handle_request():140] handle_request: pause
+2023-05-07 06:53:22,713 INFO    HandlerThread:2428 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-05-07 06:53:22,816 INFO    HandlerThread:2428 [handler.py:finish():806] shutting down handler
+2023-05-07 06:53:23,099 INFO    SenderThread:2428 [dir_watcher.py:finish():383] scan: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files
+2023-05-07 06:53:23,099 INFO    SenderThread:2428 [dir_watcher.py:finish():397] scan save: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/output.log output.log
+2023-05-07 06:53:23,099 INFO    SenderThread:2428 [dir_watcher.py:finish():397] scan save: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-metadata.json wandb-metadata.json
+2023-05-07 06:53:23,099 INFO    SenderThread:2428 [dir_watcher.py:finish():397] scan save: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json wandb-summary.json
+2023-05-07 06:53:23,103 INFO    SenderThread:2428 [dir_watcher.py:finish():397] scan save: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/requirements.txt requirements.txt
+2023-05-07 06:53:23,104 INFO    SenderThread:2428 [dir_watcher.py:finish():397] scan save: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/conda-environment.yaml conda-environment.yaml
+2023-05-07 06:53:23,104 INFO    SenderThread:2428 [dir_watcher.py:finish():397] scan save: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/config.yaml config.yaml
+2023-05-07 06:53:23,111 INFO    SenderThread:2428 [file_pusher.py:finish():171] shutting down file pusher
+2023-05-07 06:53:23,111 INFO    SenderThread:2428 [file_pusher.py:join():176] waiting for file pusher
+2023-05-07 06:53:23,298 INFO    WriterThread:2428 [datastore.py:close():279] close: /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/run-ywjye66y.wandb
+2023-05-07 06:53:23,675 INFO    Thread-12 :2428 [upload_job.py:push():138] Uploaded file /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/output.log
+2023-05-07 06:53:23,680 INFO    Thread-15 :2428 [upload_job.py:push():138] Uploaded file /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/config.yaml
+2023-05-07 06:53:23,682 INFO    Thread-14 :2428 [upload_job.py:push():138] Uploaded file /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/requirements.txt
+2023-05-07 06:53:23,761 INFO    Thread-13 :2428 [upload_job.py:push():138] Uploaded file /kaggle/working/multi_label/exp16_primary_label_add_background_noise_epoch31-/wandb/run-20230507_065047-ywjye66y/files/wandb-summary.json
+2023-05-07 06:53:24,332 INFO    MainThread:2428 [internal.py:handle_exit():80] Internal process exited

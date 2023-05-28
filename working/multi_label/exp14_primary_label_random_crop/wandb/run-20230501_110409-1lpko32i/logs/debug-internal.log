@@ -1,0 +1,67 @@
+2023-05-01 11:04:10,771 INFO    MainThread:12068 [internal.py:wandb_internal():93] W&B internal server running at pid: 12068, started at: 2023-05-01 11:04:10.771206
+2023-05-01 11:04:10,773 INFO    WriterThread:12068 [datastore.py:open_for_write():75] open: /kaggle/working/exp8_exp5finetune_attblock_horizontalflip/wandb/run-20230501_110409-1lpko32i/run-1lpko32i.wandb
+2023-05-01 11:04:10,775 DEBUG   SenderThread:12068 [sender.py:send():236] send: header
+2023-05-01 11:04:10,776 DEBUG   SenderThread:12068 [sender.py:send():236] send: run
+2023-05-01 11:04:12,334 INFO    SenderThread:12068 [dir_watcher.py:__init__():216] watching files in: /kaggle/working/exp8_exp5finetune_attblock_horizontalflip/wandb/run-20230501_110409-1lpko32i/files
+2023-05-01 11:04:12,335 INFO    SenderThread:12068 [sender.py:_start_run_threads():818] run started: 1lpko32i with start time 1682939049
+2023-05-01 11:04:12,335 DEBUG   SenderThread:12068 [sender.py:send():236] send: summary
+2023-05-01 11:04:12,335 DEBUG   HandlerThread:12068 [handler.py:handle_request():140] handle_request: check_version
+2023-05-01 11:04:12,335 INFO    SenderThread:12068 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-01 11:04:12,336 DEBUG   SenderThread:12068 [sender.py:send_request():250] send_request: check_version
+2023-05-01 11:04:12,416 DEBUG   HandlerThread:12068 [handler.py:handle_request():140] handle_request: run_start
+2023-05-01 11:04:12,430 DEBUG   HandlerThread:12068 [meta.py:__init__():35] meta init
+2023-05-01 11:04:12,430 DEBUG   HandlerThread:12068 [meta.py:__init__():49] meta init done
+2023-05-01 11:04:12,430 DEBUG   HandlerThread:12068 [meta.py:probe():209] probe
+2023-05-01 11:04:12,440 DEBUG   HandlerThread:12068 [git.py:repo():29] git repository is invalid
+2023-05-01 11:04:12,440 DEBUG   HandlerThread:12068 [meta.py:_save_code():87] save code
+2023-05-01 11:04:12,440 WARNING HandlerThread:12068 [meta.py:_save_code():89] unable to save code -- program entry not found
+2023-05-01 11:04:12,440 DEBUG   HandlerThread:12068 [meta.py:_save_pip():53] save pip
+2023-05-01 11:04:12,442 DEBUG   HandlerThread:12068 [meta.py:_save_pip():67] save pip done
+2023-05-01 11:04:12,442 DEBUG   HandlerThread:12068 [meta.py:_save_conda():74] save conda
+2023-05-01 11:04:13,338 INFO    Thread-7  :12068 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp8_exp5finetune_attblock_horizontalflip/wandb/run-20230501_110409-1lpko32i/files/conda-environment.yaml
+2023-05-01 11:04:13,338 INFO    Thread-7  :12068 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp8_exp5finetune_attblock_horizontalflip/wandb/run-20230501_110409-1lpko32i/files/wandb-summary.json
+2023-05-01 11:04:13,339 INFO    Thread-7  :12068 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp8_exp5finetune_attblock_horizontalflip/wandb/run-20230501_110409-1lpko32i/files/requirements.txt
+2023-05-01 11:04:18,342 INFO    Thread-7  :12068 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp8_exp5finetune_attblock_horizontalflip/wandb/run-20230501_110409-1lpko32i/files/output.log
+2023-05-01 11:04:23,345 INFO    Thread-7  :12068 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp8_exp5finetune_attblock_horizontalflip/wandb/run-20230501_110409-1lpko32i/files/output.log
+2023-05-01 11:04:45,630 DEBUG   HandlerThread:12068 [meta.py:_save_conda():84] save conda done
+2023-05-01 11:04:45,630 DEBUG   HandlerThread:12068 [meta.py:probe():247] probe done
+2023-05-01 11:04:45,912 DEBUG   HandlerThread:12068 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-01 11:04:45,912 DEBUG   SenderThread:12068 [sender.py:send_request():250] send_request: stop_status
+2023-05-01 11:04:45,916 DEBUG   HandlerThread:12068 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-01 11:04:45,917 DEBUG   HandlerThread:12068 [handler.py:handle_request():140] handle_request: pause
+2023-05-01 11:04:45,917 INFO    HandlerThread:12068 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-05-01 11:04:46,003 DEBUG   HandlerThread:12068 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-01 11:04:46,136 DEBUG   SenderThread:12068 [sender.py:send():236] send: telemetry
+2023-05-01 11:04:46,137 DEBUG   SenderThread:12068 [sender.py:send():236] send: history
+2023-05-01 11:04:46,137 DEBUG   SenderThread:12068 [sender.py:send():236] send: summary
+2023-05-01 11:04:46,139 INFO    SenderThread:12068 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-01 11:04:46,140 DEBUG   SenderThread:12068 [sender.py:send_request():250] send_request: stop_status
+2023-05-01 11:04:46,335 DEBUG   SenderThread:12068 [sender.py:send():236] send: stats
+2023-05-01 11:04:46,336 DEBUG   SenderThread:12068 [sender.py:send():236] send: files
+2023-05-01 11:04:46,336 INFO    SenderThread:12068 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2023-05-01 11:04:46,336 DEBUG   SenderThread:12068 [sender.py:send():236] send: stats
+2023-05-01 11:04:46,354 INFO    Thread-7  :12068 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp8_exp5finetune_attblock_horizontalflip/wandb/run-20230501_110409-1lpko32i/files/wandb-summary.json
+2023-05-01 11:04:46,354 INFO    Thread-7  :12068 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp8_exp5finetune_attblock_horizontalflip/wandb/run-20230501_110409-1lpko32i/files/wandb-metadata.json
+2023-05-01 11:04:47,018 INFO    Thread-11 :12068 [upload_job.py:push():138] Uploaded file /tmp/tmpur3j65_jwandb/2k5o6iia-wandb-metadata.json
+2023-05-01 11:04:57,434 DEBUG   HandlerThread:12068 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-01 11:04:57,434 DEBUG   SenderThread:12068 [sender.py:send_request():250] send_request: stop_status
+2023-05-01 11:05:12,637 DEBUG   HandlerThread:12068 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-01 11:05:13,122 DEBUG   SenderThread:12068 [sender.py:send_request():250] send_request: stop_status
+2023-05-01 11:05:13,364 INFO    Thread-7  :12068 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp8_exp5finetune_attblock_horizontalflip/wandb/run-20230501_110409-1lpko32i/files/config.yaml
+2023-05-01 11:05:28,315 DEBUG   HandlerThread:12068 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-01 11:05:28,315 DEBUG   SenderThread:12068 [sender.py:send_request():250] send_request: stop_status
+2023-05-01 11:05:43,503 DEBUG   HandlerThread:12068 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-01 11:05:43,503 DEBUG   SenderThread:12068 [sender.py:send_request():250] send_request: stop_status
+2023-05-01 11:05:58,706 DEBUG   HandlerThread:12068 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-01 11:05:58,706 DEBUG   SenderThread:12068 [sender.py:send_request():250] send_request: stop_status
+2023-05-01 11:06:13,900 DEBUG   HandlerThread:12068 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-01 11:06:13,900 DEBUG   SenderThread:12068 [sender.py:send_request():250] send_request: stop_status
+2023-05-01 11:06:29,104 DEBUG   HandlerThread:12068 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-01 11:06:29,104 DEBUG   SenderThread:12068 [sender.py:send_request():250] send_request: stop_status
+2023-05-01 11:06:44,305 DEBUG   HandlerThread:12068 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-01 11:06:44,305 DEBUG   SenderThread:12068 [sender.py:send_request():250] send_request: stop_status
+2023-05-01 11:06:59,501 DEBUG   HandlerThread:12068 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-01 11:06:59,501 DEBUG   SenderThread:12068 [sender.py:send_request():250] send_request: stop_status
+2023-05-01 11:07:14,707 DEBUG   HandlerThread:12068 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-01 11:07:14,707 DEBUG   SenderThread:12068 [sender.py:send_request():250] send_request: stop_status
+2023-05-01 11:07:21,821 WARNING MainThread:12068 [internal.py:wandb_internal():153] Internal process interrupt: 1

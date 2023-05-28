@@ -1,0 +1,77 @@
+#########################
+#### Training
+#### Fold: 1 | Image Size: (224, 313) | Model: tf_efficientnet_b1_ns | Batch Size: 128 | Scheduler: cos
+#### Num Train: 19,627 | Num Valid: 3,381
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 52%|█████▏    | 80/154 [01:22<01:06,  1.11it/s]wandb: Network error (ReadTimeout), entering retry loop.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 154/154 [02:29<00:00,  1.03it/s]
+
+  0%|          | 0/27 [00:07<?, ?it/s]

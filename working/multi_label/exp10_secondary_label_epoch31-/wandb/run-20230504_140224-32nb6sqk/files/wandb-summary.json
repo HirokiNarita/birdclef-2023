@@ -1,0 +1,1 @@
+{"num_train": 19627, "num_valid": 3381, "_timestamp": 1683210145, "_runtime": 1201, "_step": 930, "loss": 0.002502745483070612, "train_loss": 0.002025661330107696, "lr": 0.001, "epoch": 6, "valid_loss": 0.002994123788084835, "valid_padded_cmAP": 0.7790273504950266}

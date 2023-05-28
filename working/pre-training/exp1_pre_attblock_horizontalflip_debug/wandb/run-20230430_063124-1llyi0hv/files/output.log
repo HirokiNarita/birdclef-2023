@@ -1,0 +1,200 @@
+#########################
+#### Training
+#### Fold: 1 | Image Size: (224, 313) | Model: tf_efficientnet_b1_ns | Batch Size: 128 | Scheduler: cos
+#### Num Train: 78,407 | Num Valid: 3,216
+  0%|          | 0/613 [00:00<?, ?it/s]
+tensor([[[-14.4824,  -7.0561, -10.6598,  ..., -14.6534, -22.8515, -27.8972],
+         [-13.0907,  -5.6644,  -9.2682,  ..., -13.2617, -21.4599, -26.5055],
+         [ -6.5952,  -5.8274,  -6.5319,  ..., -16.5405, -14.1144, -25.0419],
+         ...,
+         [  1.1019,   1.4542,   3.2999,  ...,   4.2065,   2.5905,   2.4566],
+         [  2.4047,   4.8027,   4.5214,  ...,   5.2389,   3.9111,   4.2820],
+         [  2.2450,   3.8104,   2.7570,  ...,   4.7913,   7.9781,   4.0692]]],
+
+  0%|          | 1/613 [00:42<7:15:23, 42.69s/it]
+tensor([[[ -3.2591,  -1.6995,  -4.3905,  ...,  -4.6665,  -6.4089,   8.8693],
+         [ -1.8675,  -0.3079,  -2.9988,  ...,  -3.2749,  -5.0173,  10.2610],
+         [ -8.1389,  -0.1994,  -4.2918,  ...,  -4.8107,   1.4967,   7.3651],
+         ...,
+         [-37.4994, -37.4994, -36.4700,  ..., -37.4994, -37.4994, -37.4994],
+         [-37.4994, -37.4994, -37.4994,  ..., -37.4994, -37.4994, -37.4994],
+         [-37.4994, -37.4994, -37.4994,  ..., -37.4994, -37.4994, -37.4994]]],
+       device='cuda:0')
+tensor([[[ 13.7537,  20.8197,  22.7556,  ...,  18.7064,  23.7855,  31.2409],
+         [ 15.1453,  22.2113,  24.1472,  ...,  20.0980,  25.1772,  32.6325],
+         [  3.3563,  18.6074,  20.6698,  ...,  19.5168,  19.9386,  24.4331],
+         ...,
+         [-33.4973, -32.0845, -31.3249,  ..., -31.9303, -30.9163, -29.8983],
+         [-32.9210, -31.7718, -33.7039,  ..., -31.6032, -31.4007, -26.4082],
+         [-31.2519, -34.1604, -35.0167,  ..., -33.4998, -34.8371, -28.1909]]],
+
+
+  0%|          | 3/613 [00:50<2:03:02, 12.10s/it]
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3552, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "/tmp/ipykernel_12307/2851739522.py", line 94, in <module>
+    for batch_idx, (inputs, sample_info) in enumerate(tqdm(train_dataloader)):
+  File "/opt/conda/lib/python3.7/site-packages/tqdm/std.py", line 1195, in __iter__
+    for obj in iterable:
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 681, in __next__
+    data = self._next_data()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1359, in _next_data
+    idx, data = self._get_data()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1325, in _get_data
+    success, data = self._try_get_data()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1163, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/opt/conda/lib/python3.7/multiprocessing/queues.py", line 104, in get
+    if not self._poll(timeout):
+  File "/opt/conda/lib/python3.7/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/opt/conda/lib/python3.7/multiprocessing/connection.py", line 414, in _poll
+    r = wait([self], timeout)
+  File "/opt/conda/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+    ready = selector.select(timeout)
+  File "/opt/conda/lib/python3.7/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2098, in showtraceback
+    stb = value._render_traceback_()
+AttributeError: 'KeyboardInterrupt' object has no attribute '_render_traceback_'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 1101, in get_records
+    return _fixed_getinnerframes(etb, number_of_lines_of_context, tb_offset)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 248, in wrapped
+    return f(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 281, in _fixed_getinnerframes
+    records = fix_frame_records_filenames(inspect.getinnerframes(etb, context))
+  File "/opt/conda/lib/python3.7/inspect.py", line 1502, in getinnerframes
+    frameinfo = (tb.tb_frame,) + getframeinfo(tb, context)
+  File "/opt/conda/lib/python3.7/inspect.py", line 1460, in getframeinfo
+    filename = getsourcefile(frame) or getfile(frame)
+  File "/opt/conda/lib/python3.7/inspect.py", line 696, in getsourcefile
+    if getattr(getmodule(object, filename), '__loader__', None) is not None:
+  File "/opt/conda/lib/python3.7/inspect.py", line 742, in getmodule
+    os.path.realpath(f)] = module.__name__
+  File "/opt/conda/lib/python3.7/posixpath.py", line 395, in realpath
+    path, ok = _joinrealpath(filename[:0], filename, {})
+  File "/opt/conda/lib/python3.7/posixpath.py", line 429, in _joinrealpath
+    if not islink(newpath):
+  File "/opt/conda/lib/python3.7/posixpath.py", line 170, in islink
+    try:
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3552, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "/tmp/ipykernel_12307/2851739522.py", line 94, in <module>
+    for batch_idx, (inputs, sample_info) in enumerate(tqdm(train_dataloader)):
+  File "/opt/conda/lib/python3.7/site-packages/tqdm/std.py", line 1195, in __iter__
+    for obj in iterable:
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 681, in __next__
+    data = self._next_data()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1359, in _next_data
+    idx, data = self._get_data()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1325, in _get_data
+    success, data = self._try_get_data()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1163, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/opt/conda/lib/python3.7/multiprocessing/queues.py", line 104, in get
+    if not self._poll(timeout):
+  File "/opt/conda/lib/python3.7/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/opt/conda/lib/python3.7/multiprocessing/connection.py", line 414, in _poll
+    r = wait([self], timeout)
+  File "/opt/conda/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+    ready = selector.select(timeout)
+  File "/opt/conda/lib/python3.7/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2098, in showtraceback
+    stb = value._render_traceback_()
+AttributeError: 'KeyboardInterrupt' object has no attribute '_render_traceback_'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3472, in run_ast_nodes
+    if (await self.run_code(code, result,  async_=asy)):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3569, in run_code
+    self.showtraceback(running_compiled_code=True)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2101, in showtraceback
+    value, tb, tb_offset=tb_offset)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 1368, in structured_traceback
+    self, etype, value, tb, tb_offset, number_of_lines_of_context)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 1268, in structured_traceback
+    self, etype, value, tb, tb_offset, number_of_lines_of_context
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 1125, in structured_traceback
+    tb_offset)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 1082, in format_exception_as_a_whole
+    last_unique, recursion_repeat = find_recursion(orig_etype, evalue, records)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 382, in find_recursion
+    return len(records), 0
+TypeError: object of type 'NoneType' has no len()
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2098, in showtraceback
+    stb = value._render_traceback_()
+AttributeError: 'TypeError' object has no attribute '_render_traceback_'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 1101, in get_records
+    return _fixed_getinnerframes(etb, number_of_lines_of_context, tb_offset)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 248, in wrapped
+    return f(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 281, in _fixed_getinnerframes
+    records = fix_frame_records_filenames(inspect.getinnerframes(etb, context))
+  File "/opt/conda/lib/python3.7/inspect.py", line 1502, in getinnerframes
+    frameinfo = (tb.tb_frame,) + getframeinfo(tb, context)
+  File "/opt/conda/lib/python3.7/inspect.py", line 1460, in getframeinfo
+    filename = getsourcefile(frame) or getfile(frame)
+  File "/opt/conda/lib/python3.7/inspect.py", line 696, in getsourcefile
+    if getattr(getmodule(object, filename), '__loader__', None) is not None:
+  File "/opt/conda/lib/python3.7/inspect.py", line 742, in getmodule
+    os.path.realpath(f)] = module.__name__
+  File "/opt/conda/lib/python3.7/posixpath.py", line 395, in realpath
+    path, ok = _joinrealpath(filename[:0], filename, {})
+  File "/opt/conda/lib/python3.7/posixpath.py", line 429, in _joinrealpath
+    if not islink(newpath):
+  File "/opt/conda/lib/python3.7/posixpath.py", line 171, in islink
+    st = os.lstat(path)
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/signal_handling.py", line 66, in handler
+    _error_if_any_worker_fails()
+
+  0%|          | 3/613 [01:00<3:25:55, 20.25s/it]
+Exception in thread ChkStopThr:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/opt/conda/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 170, in check_status
+    status_response = self._interface.communicate_stop_status()
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 127, in communicate_stop_status
+    resp = self._communicate_stop_status(status)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 395, in _communicate_stop_status
+    resp = self._communicate(req, local=True)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Exception in thread NetStatThr:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/opt/conda/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 152, in check_network_status
+    status_response = self._interface.communicate_network_status()
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 138, in communicate_network_status
+    resp = self._communicate_network_status(status)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 405, in _communicate_network_status
+    resp = self._communicate(req, local=True)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")

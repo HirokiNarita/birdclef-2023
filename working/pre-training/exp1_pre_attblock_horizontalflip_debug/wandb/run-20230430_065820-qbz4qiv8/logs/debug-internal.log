@@ -1,0 +1,163 @@
+2023-04-30 06:58:21,451 INFO    MainThread:14657 [internal.py:wandb_internal():93] W&B internal server running at pid: 14657, started at: 2023-04-30 06:58:21.451473
+2023-04-30 06:58:21,455 DEBUG   SenderThread:14657 [sender.py:send():236] send: header
+2023-04-30 06:58:21,455 INFO    WriterThread:14657 [datastore.py:open_for_write():75] open: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/run-qbz4qiv8.wandb
+2023-04-30 06:58:21,456 DEBUG   SenderThread:14657 [sender.py:send():236] send: run
+2023-04-30 06:58:25,008 INFO    SenderThread:14657 [dir_watcher.py:__init__():216] watching files in: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files
+2023-04-30 06:58:25,008 INFO    SenderThread:14657 [sender.py:_start_run_threads():818] run started: qbz4qiv8 with start time 1682837900
+2023-04-30 06:58:25,041 DEBUG   SenderThread:14657 [sender.py:send():236] send: summary
+2023-04-30 06:58:25,041 DEBUG   HandlerThread:14657 [handler.py:handle_request():140] handle_request: check_version
+2023-04-30 06:58:25,042 INFO    SenderThread:14657 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-30 06:58:25,042 DEBUG   SenderThread:14657 [sender.py:send_request():250] send_request: check_version
+2023-04-30 06:58:25,131 DEBUG   HandlerThread:14657 [handler.py:handle_request():140] handle_request: run_start
+2023-04-30 06:58:25,144 DEBUG   HandlerThread:14657 [meta.py:__init__():35] meta init
+2023-04-30 06:58:25,144 DEBUG   HandlerThread:14657 [meta.py:__init__():49] meta init done
+2023-04-30 06:58:25,145 DEBUG   HandlerThread:14657 [meta.py:probe():209] probe
+2023-04-30 06:58:25,154 DEBUG   HandlerThread:14657 [git.py:repo():29] git repository is invalid
+2023-04-30 06:58:25,154 DEBUG   HandlerThread:14657 [meta.py:_save_code():87] save code
+2023-04-30 06:58:25,154 WARNING HandlerThread:14657 [meta.py:_save_code():89] unable to save code -- program entry not found
+2023-04-30 06:58:25,154 DEBUG   HandlerThread:14657 [meta.py:_save_pip():53] save pip
+2023-04-30 06:58:25,157 DEBUG   HandlerThread:14657 [meta.py:_save_pip():67] save pip done
+2023-04-30 06:58:25,157 DEBUG   HandlerThread:14657 [meta.py:_save_conda():74] save conda
+2023-04-30 06:58:26,012 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/wandb-summary.json
+2023-04-30 06:58:26,013 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/requirements.txt
+2023-04-30 06:58:26,013 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/conda-environment.yaml
+2023-04-30 06:58:31,011 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/output.log
+2023-04-30 06:58:37,019 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/output.log
+2023-04-30 06:58:43,034 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/output.log
+2023-04-30 06:58:49,050 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/output.log
+2023-04-30 06:58:51,051 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/output.log
+2023-04-30 06:58:57,054 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/output.log
+2023-04-30 06:58:59,055 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/output.log
+2023-04-30 06:59:01,056 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/output.log
+2023-04-30 06:59:11,042 DEBUG   HandlerThread:14657 [meta.py:_save_conda():84] save conda done
+2023-04-30 06:59:11,043 DEBUG   HandlerThread:14657 [meta.py:probe():247] probe done
+2023-04-30 06:59:11,072 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/wandb-metadata.json
+2023-04-30 06:59:11,350 DEBUG   HandlerThread:14657 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-30 06:59:11,351 DEBUG   SenderThread:14657 [sender.py:send_request():250] send_request: stop_status
+2023-04-30 06:59:11,355 DEBUG   HandlerThread:14657 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-30 06:59:11,358 DEBUG   HandlerThread:14657 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-30 06:59:11,359 DEBUG   HandlerThread:14657 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-30 06:59:11,360 DEBUG   HandlerThread:14657 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-30 06:59:11,361 DEBUG   HandlerThread:14657 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-30 06:59:11,362 DEBUG   HandlerThread:14657 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-30 06:59:11,363 DEBUG   HandlerThread:14657 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-30 06:59:11,364 DEBUG   HandlerThread:14657 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-30 06:59:11,365 DEBUG   HandlerThread:14657 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-30 06:59:11,566 DEBUG   SenderThread:14657 [sender.py:send():236] send: telemetry
+2023-04-30 06:59:11,567 DEBUG   SenderThread:14657 [sender.py:send():236] send: history
+2023-04-30 06:59:11,567 DEBUG   SenderThread:14657 [sender.py:send():236] send: summary
+2023-04-30 06:59:11,572 INFO    SenderThread:14657 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-30 06:59:11,577 DEBUG   SenderThread:14657 [sender.py:send():236] send: history
+2023-04-30 06:59:11,577 DEBUG   SenderThread:14657 [sender.py:send():236] send: summary
+2023-04-30 06:59:11,578 INFO    SenderThread:14657 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-30 06:59:11,578 DEBUG   SenderThread:14657 [sender.py:send():236] send: history
+2023-04-30 06:59:11,578 DEBUG   SenderThread:14657 [sender.py:send():236] send: summary
+2023-04-30 06:59:11,579 INFO    SenderThread:14657 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-30 06:59:11,579 DEBUG   SenderThread:14657 [sender.py:send():236] send: history
+2023-04-30 06:59:11,579 DEBUG   SenderThread:14657 [sender.py:send():236] send: summary
+2023-04-30 06:59:11,579 INFO    SenderThread:14657 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-30 06:59:11,580 DEBUG   SenderThread:14657 [sender.py:send_request():250] send_request: stop_status
+2023-04-30 06:59:11,784 DEBUG   SenderThread:14657 [sender.py:send():236] send: stats
+2023-04-30 06:59:11,785 DEBUG   SenderThread:14657 [sender.py:send():236] send: history
+2023-04-30 06:59:11,785 DEBUG   SenderThread:14657 [sender.py:send():236] send: summary
+2023-04-30 06:59:11,786 INFO    SenderThread:14657 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-30 06:59:11,786 DEBUG   SenderThread:14657 [sender.py:send():236] send: history
+2023-04-30 06:59:11,786 DEBUG   SenderThread:14657 [sender.py:send():236] send: summary
+2023-04-30 06:59:11,787 INFO    SenderThread:14657 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-30 06:59:11,787 DEBUG   SenderThread:14657 [sender.py:send():236] send: history
+2023-04-30 06:59:11,787 DEBUG   SenderThread:14657 [sender.py:send():236] send: summary
+2023-04-30 06:59:11,788 INFO    SenderThread:14657 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-30 06:59:11,788 DEBUG   SenderThread:14657 [sender.py:send_request():250] send_request: stop_status
+2023-04-30 06:59:11,990 DEBUG   SenderThread:14657 [sender.py:send():236] send: files
+2023-04-30 06:59:11,991 INFO    SenderThread:14657 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2023-04-30 06:59:12,072 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/wandb-summary.json
+2023-04-30 06:59:12,635 INFO    Thread-11 :14657 [upload_job.py:push():138] Uploaded file /tmp/tmpcf0w8p5gwandb/2sqhs6ep-wandb-metadata.json
+2023-04-30 06:59:16,201 DEBUG   HandlerThread:14657 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-30 06:59:16,202 DEBUG   SenderThread:14657 [sender.py:send():236] send: history
+2023-04-30 06:59:16,202 DEBUG   SenderThread:14657 [sender.py:send():236] send: summary
+2023-04-30 06:59:16,203 INFO    SenderThread:14657 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-30 06:59:17,075 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/wandb-summary.json
+2023-04-30 06:59:17,076 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/output.log
+2023-04-30 06:59:19,076 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/output.log
+2023-04-30 06:59:19,243 DEBUG   HandlerThread:14657 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-30 06:59:19,244 DEBUG   SenderThread:14657 [sender.py:send():236] send: history
+2023-04-30 06:59:19,244 DEBUG   SenderThread:14657 [sender.py:send():236] send: summary
+2023-04-30 06:59:19,245 INFO    SenderThread:14657 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-30 06:59:20,077 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/wandb-summary.json
+2023-04-30 06:59:20,323 DEBUG   HandlerThread:14657 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-30 06:59:20,324 DEBUG   SenderThread:14657 [sender.py:send():236] send: history
+2023-04-30 06:59:20,324 DEBUG   SenderThread:14657 [sender.py:send():236] send: summary
+2023-04-30 06:59:20,325 INFO    SenderThread:14657 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-30 06:59:21,077 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/wandb-summary.json
+2023-04-30 06:59:21,078 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/output.log
+2023-04-30 06:59:23,078 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/config.yaml
+2023-04-30 06:59:23,079 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/output.log
+2023-04-30 06:59:23,998 DEBUG   SenderThread:14657 [sender.py:send():236] send: stats
+2023-04-30 06:59:26,992 DEBUG   HandlerThread:14657 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-30 06:59:26,992 DEBUG   SenderThread:14657 [sender.py:send_request():250] send_request: stop_status
+2023-04-30 06:59:35,224 DEBUG   HandlerThread:14657 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-30 06:59:35,225 DEBUG   SenderThread:14657 [sender.py:send():236] send: history
+2023-04-30 06:59:35,226 DEBUG   SenderThread:14657 [sender.py:send():236] send: summary
+2023-04-30 06:59:35,226 INFO    SenderThread:14657 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-30 06:59:36,088 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/wandb-summary.json
+2023-04-30 06:59:37,088 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/output.log
+2023-04-30 06:59:38,027 DEBUG   HandlerThread:14657 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-30 06:59:38,028 DEBUG   SenderThread:14657 [sender.py:send():236] send: history
+2023-04-30 06:59:38,029 DEBUG   SenderThread:14657 [sender.py:send():236] send: summary
+2023-04-30 06:59:38,030 INFO    SenderThread:14657 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-30 06:59:38,089 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/wandb-summary.json
+2023-04-30 06:59:39,089 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/output.log
+2023-04-30 06:59:39,160 DEBUG   HandlerThread:14657 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-30 06:59:39,161 DEBUG   SenderThread:14657 [sender.py:send():236] send: history
+2023-04-30 06:59:39,161 DEBUG   SenderThread:14657 [sender.py:send():236] send: summary
+2023-04-30 06:59:39,162 INFO    SenderThread:14657 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-30 06:59:40,090 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/wandb-summary.json
+2023-04-30 06:59:41,090 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/output.log
+2023-04-30 06:59:42,204 DEBUG   HandlerThread:14657 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-30 06:59:42,204 DEBUG   SenderThread:14657 [sender.py:send_request():250] send_request: stop_status
+2023-04-30 06:59:54,296 DEBUG   SenderThread:14657 [sender.py:send():236] send: stats
+2023-04-30 06:59:55,447 DEBUG   HandlerThread:14657 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-30 06:59:55,448 DEBUG   SenderThread:14657 [sender.py:send():236] send: history
+2023-04-30 06:59:55,448 DEBUG   SenderThread:14657 [sender.py:send():236] send: summary
+2023-04-30 06:59:55,448 INFO    SenderThread:14657 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-30 06:59:56,098 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/wandb-summary.json
+2023-04-30 06:59:57,098 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/output.log
+2023-04-30 06:59:57,409 DEBUG   HandlerThread:14657 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-30 06:59:57,410 DEBUG   SenderThread:14657 [sender.py:send_request():250] send_request: stop_status
+2023-04-30 06:59:59,138 DEBUG   HandlerThread:14657 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-30 06:59:59,139 DEBUG   SenderThread:14657 [sender.py:send():236] send: history
+2023-04-30 06:59:59,139 DEBUG   SenderThread:14657 [sender.py:send():236] send: summary
+2023-04-30 06:59:59,140 INFO    SenderThread:14657 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-30 07:00:00,099 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/wandb-summary.json
+2023-04-30 07:00:00,376 DEBUG   HandlerThread:14657 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-30 07:00:00,377 DEBUG   SenderThread:14657 [sender.py:send():236] send: history
+2023-04-30 07:00:00,377 DEBUG   SenderThread:14657 [sender.py:send():236] send: summary
+2023-04-30 07:00:00,380 INFO    SenderThread:14657 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-30 07:00:01,100 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/wandb-summary.json
+2023-04-30 07:00:01,100 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/output.log
+2023-04-30 07:00:03,102 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/output.log
+2023-04-30 07:00:12,607 DEBUG   HandlerThread:14657 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-30 07:00:12,608 DEBUG   SenderThread:14657 [sender.py:send_request():250] send_request: stop_status
+2023-04-30 07:00:15,165 DEBUG   HandlerThread:14657 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-30 07:00:15,165 DEBUG   SenderThread:14657 [sender.py:send():236] send: history
+2023-04-30 07:00:15,166 DEBUG   SenderThread:14657 [sender.py:send():236] send: summary
+2023-04-30 07:00:15,167 INFO    SenderThread:14657 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-30 07:00:16,109 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/wandb-summary.json
+2023-04-30 07:00:17,109 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/output.log
+2023-04-30 07:00:18,944 DEBUG   HandlerThread:14657 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-30 07:00:18,945 DEBUG   SenderThread:14657 [sender.py:send():236] send: history
+2023-04-30 07:00:18,945 DEBUG   SenderThread:14657 [sender.py:send():236] send: summary
+2023-04-30 07:00:18,946 INFO    SenderThread:14657 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-30 07:00:19,126 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/wandb-summary.json
+2023-04-30 07:00:19,126 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/output.log
+2023-04-30 07:00:20,064 DEBUG   HandlerThread:14657 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-30 07:00:20,066 DEBUG   SenderThread:14657 [sender.py:send():236] send: history
+2023-04-30 07:00:20,067 DEBUG   SenderThread:14657 [sender.py:send():236] send: summary
+2023-04-30 07:00:20,067 INFO    SenderThread:14657 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-30 07:00:20,130 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/wandb-summary.json
+2023-04-30 07:00:21,130 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/output.log
+2023-04-30 07:00:23,131 INFO    Thread-7  :14657 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip_debug/wandb/run-20230430_065820-qbz4qiv8/files/output.log
+2023-04-30 07:00:24,581 DEBUG   SenderThread:14657 [sender.py:send():236] send: stats
+2023-04-30 07:00:27,825 DEBUG   HandlerThread:14657 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-30 07:00:27,825 DEBUG   SenderThread:14657 [sender.py:send_request():250] send_request: stop_status
+2023-04-30 07:00:36,149 WARNING MainThread:14657 [internal.py:wandb_internal():153] Internal process interrupt: 1

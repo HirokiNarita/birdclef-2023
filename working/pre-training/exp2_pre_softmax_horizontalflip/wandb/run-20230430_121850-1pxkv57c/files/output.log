@@ -1,0 +1,30 @@
+#########################
+#### Training
+#### Fold: 1 | Image Size: (224, 313) | Model: tf_efficientnet_b1_ns | Batch Size: 128 | Scheduler: cos
+#### Num Train: 78,407 | Num Valid: 3,216
+100%|██████████| 1/1 [00:05<00:00,  5.72s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]
+100%|██████████| 1/1 [00:44<00:00, 44.22s/it]
+100%|██████████| 1/1 [00:02<00:00,  2.77s/it]
+100%|██████████| 1/1 [00:31<00:00, 31.81s/it]
+  0%|          | 0/1 [00:00<?, ?it/s]
+Epoch: 2 | Train Loss: 0.8864513635635376 | Val Loss: 285.6842956542969 | Val Padded_cmAP : 0.3481175185341366
+# Loading best model
+
+100%|██████████| 1/1 [00:29<00:00, 29.04s/it]
+Exception in thread NetStatThr:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/opt/conda/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 152, in check_network_status
+    status_response = self._interface.communicate_network_status()
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 138, in communicate_network_status
+    resp = self._communicate_network_status(status)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 405, in _communicate_network_status
+    resp = self._communicate(req, local=True)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")

@@ -1,0 +1,120 @@
+load pre-trained model :  /kaggle/working/pre-training/exp1_pre_attblock_fold-0_20230501_pretrained.pth
+_IncompatibleKeys(missing_keys=['bn0.weight', 'bn0.bias', 'bn0.running_mean', 'bn0.running_var', 'bn0.num_batches_tracked', 'model.classifier.weight', 'model.classifier.bias', 'att_block.att.weight', 'att_block.att.bias', 'att_block.cla.weight', 'att_block.cla.bias'], unexpected_keys=['to_melspec_fn.spectrogram.window', 'to_melspec_fn.mel_scale.fb'])
+#########################
+#### Training
+#### Fold: 1 | Image Size: (224, 313) | Model: tf_efficientnet_b1_ns | Batch Size: 128 | Scheduler: cos
+#### Num Train: 19,627 | Num Valid: 3,381
+  0%|          | 0/154 [00:00<?, ?it/s]
+tensor([[[[  29.4838,   22.6397,   36.8004,  ...,   34.2310,   28.7874,
+             34.5377],
+          [  25.2916,   24.9471,   30.4446,  ...,   29.2715,   34.2313,
+             32.7318],
+          [  27.1041,   29.0396,   29.2499,  ...,   31.0678,   26.8110,
+             30.9484],
+          ...,
+          [  16.5994,   20.0266,   17.4187,  ...,   16.5073,   18.6722,
+             17.1112],
+          [  16.5368,   17.6751,   18.8933,  ...,   17.4360,   19.0700,
+             19.4689],
+          [  19.5070,   16.0667,   16.9726,  ...,   17.1433,   18.9063,
+             18.4137]]],
+        [[[   4.3522,   -3.2516,    1.3202,  ...,   -1.2361,   -2.2298,
+             -1.5834],
+          [  -0.5804,   -6.0825,   -0.4206,  ...,   -2.6032,    1.4671,
+             -1.0421],
+          [  -5.5564,   -4.0854,    0.7939,  ...,   -0.7746,   -1.6876,
+              1.0788],
+          ...,
+          [  13.4248,   15.0501,   12.8929,  ...,   13.5924,   14.8506,
+             14.8214],
+          [  14.8851,   14.0459,   11.8713,  ...,   13.0955,   11.9193,
+             14.1377],
+          [  14.8269,   12.8333,   12.8020,  ...,   13.1137,   12.8906,
+             12.7237]]],
+        [[[ -84.4236, -100.0000, -100.0000,  ..., -100.0000, -100.0000,
+           -100.0000],
+          [ -84.4917, -100.0000, -100.0000,  ..., -100.0000, -100.0000,
+           -100.0000],
+          [ -84.6705, -100.0000, -100.0000,  ..., -100.0000, -100.0000,
+           -100.0000],
+          ...,
+          [ -52.1802,  -53.6942,  -51.6842,  ..., -100.0000, -100.0000,
+           -100.0000],
+          [ -64.1121,  -61.6814,  -59.0391,  ..., -100.0000, -100.0000,
+           -100.0000],
+          [ -65.3052, -100.0000, -100.0000,  ..., -100.0000, -100.0000,
+           -100.0000]]],
+        ...,
+        [[[   6.1439,   -5.2346,   -2.0525,  ...,   -8.3545,   -3.6826,
+             -3.7670],
+          [   7.0607,   -0.5936,   -1.0675,  ...,   -2.6788,   -6.8506,
+             -5.9135],
+          [   6.9258,    2.5096,   -6.1869,  ...,   -2.8759,   -5.6398,
+             -0.6795],
+          ...,
+          [   5.8511,    7.3014,    7.8669,  ...,    7.8436,    8.1434,
+              9.3924],
+          [   8.3195,    8.1745,    8.4678,  ...,    8.8339,    9.0989,
+              8.0343],
+          [   7.3359,    8.4460,    8.6007,  ...,    9.7747,    7.3032,
+              8.0212]]],
+        [[[  -1.4617,   -4.8678,   -2.2910,  ..., -100.0000, -100.0000,
+           -100.0000],
+          [   1.6293,   -2.2842,   -4.4691,  ..., -100.0000, -100.0000,
+           -100.0000],
+          [   3.3600,    0.1748,   -7.9852,  ..., -100.0000, -100.0000,
+           -100.0000],
+          ...,
+          [   9.8552,   11.0466,    8.8243,  ..., -100.0000, -100.0000,
+           -100.0000],
+          [   7.5996,   10.7320,    9.9798,  ..., -100.0000, -100.0000,
+           -100.0000],
+          [   7.2852,   10.2330,   10.3344,  ..., -100.0000, -100.0000,
+           -100.0000]]],
+        [[[ -75.4750,  -44.1296,  -21.2353,  ...,  -25.4004,  -23.8210,
+            -21.9678],
+          [ -72.1120,  -42.3167,  -29.4291,  ...,  -39.5697,  -40.9176,
+            -36.5267],
+          [ -72.0177,  -41.6724,  -36.7461,  ...,  -47.5935,  -47.6050,
+            -40.4894],
+          ...,
+          [ -53.2402,  -49.4014,  -34.6000,  ...,  -36.2004,  -32.5308,
+            -32.7213],
+          [ -55.4989,  -57.5884,  -41.1871,  ...,  -49.9953,  -43.4283,
+            -42.2901],
+          [ -69.8350, -100.0000, -100.0000,  ..., -100.0000, -100.0000,
+
+  0%|          | 0/154 [00:11<?, ?it/s]
+Exception in thread ChkStopThr:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/opt/conda/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 170, in check_status
+    status_response = self._interface.communicate_stop_status()
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 127, in communicate_stop_status
+    resp = self._communicate_stop_status(status)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 395, in _communicate_stop_status
+    resp = self._communicate(req, local=True)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Exception in thread NetStatThr:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/opt/conda/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 152, in check_network_status
+    status_response = self._interface.communicate_network_status()
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 138, in communicate_network_status
+    resp = self._communicate_network_status(status)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 405, in _communicate_network_status
+    resp = self._communicate(req, local=True)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")

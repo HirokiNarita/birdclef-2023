@@ -1,0 +1,126 @@
+load pre-trained model :  /kaggle/working/pre-training/exp1_pre_attblock_fold-0_20230501_pretrained.pth
+_IncompatibleKeys(missing_keys=['model.classifier.weight', 'model.classifier.bias', 'att_block.att.weight', 'att_block.att.bias', 'att_block.cla.weight', 'att_block.cla.bias'], unexpected_keys=['to_melspec_fn.spectrogram.window', 'to_melspec_fn.mel_scale.fb'])
+#########################
+#### Training
+#### Fold: 1 | Image Size: (224, 313) | Model: tf_efficientnet_b1_ns | Batch Size: 128 | Scheduler: cos
+#### Num Train: 19,627 | Num Valid: 3,381
+100%|██████████| 1/1 [00:06<00:00,  6.05s/it]
+
+
+
+
+
+
+
+100%|██████████| 27/27 [00:14<00:00,  1.81it/s]
+Epoch: 1 | Train Loss: 0.9665268659591675 | Val Loss: 0.958632124794854 | Val Padded_cmAP : 0.4536446135113061
+100%|██████████| 1/1 [00:03<00:00,  3.84s/it]
+
+
+
+
+
+
+
+100%|██████████| 27/27 [00:14<00:00,  1.81it/s]
+Epoch: 2 | Train Loss: 0.9577890038490295 | Val Loss: 0.9229896708771035 | Val Padded_cmAP : 0.45383126559753867
+# Loading best model
+# Infering OOF
+
+
+
+
+
+
+ 93%|█████████▎| 25/27 [00:13<00:00,  2.36it/s]
+>>> FOLD 1 Primary_Padded_cmAP = 0.480
+100%|██████████| 27/27 [00:13<00:00,  1.95it/s]
+/opt/conda/lib/python3.7/site-packages/pandas/core/frame.py:3678: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead.  To get a de-fragmented frame, use `newframe = frame.copy()`
+  self[col] = igetitem(value, i)
+/opt/conda/lib/python3.7/site-packages/pandas/core/indexing.py:1667: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  self.obj[key] = value
+
+wandb :   1%|          | 38/3374 [00:03<03:38, 15.29it/s]
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3552, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "/tmp/ipykernel_10703/2390640549.py", line 212, in <module>
+    log_wandb(valid_df)
+  File "/tmp/ipykernel_10703/2619424295.py", line 29, in log_wandb
+    audio, sr = librosa.load(filepath, sr=None)
+  File "/opt/conda/lib/python3.7/site-packages/librosa/util/decorators.py", line 88, in inner_f
+    return f(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/librosa/core/audio.py", line 164, in load
+    y, sr_native = __soundfile_load(path, offset, duration, dtype)
+  File "/opt/conda/lib/python3.7/site-packages/librosa/core/audio.py", line 208, in __soundfile_load
+    y = sf_desc.read(frames=frame_duration, dtype=dtype, always_2d=False).T
+  File "/opt/conda/lib/python3.7/site-packages/soundfile.py", line 892, in read
+    frames = self._array_io('read', out, frames)
+  File "/opt/conda/lib/python3.7/site-packages/soundfile.py", line 1341, in _array_io
+    return self._cdata_io(action, cdata, ctype, frames)
+  File "/opt/conda/lib/python3.7/site-packages/soundfile.py", line 1350, in _cdata_io
+    frames = func(self._file, data, frames)
+KeyboardInterrupt
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2098, in showtraceback
+    stb = value._render_traceback_()
+AttributeError: 'KeyboardInterrupt' object has no attribute '_render_traceback_'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 1101, in get_records
+    return _fixed_getinnerframes(etb, number_of_lines_of_context, tb_offset)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 248, in wrapped
+    return f(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 281, in _fixed_getinnerframes
+    records = fix_frame_records_filenames(inspect.getinnerframes(etb, context))
+  File "/opt/conda/lib/python3.7/inspect.py", line 1502, in getinnerframes
+    frameinfo = (tb.tb_frame,) + getframeinfo(tb, context)
+  File "/opt/conda/lib/python3.7/inspect.py", line 1460, in getframeinfo
+    filename = getsourcefile(frame) or getfile(frame)
+  File "/opt/conda/lib/python3.7/inspect.py", line 696, in getsourcefile
+    if getattr(getmodule(object, filename), '__loader__', None) is not None:
+  File "/opt/conda/lib/python3.7/inspect.py", line 742, in getmodule
+    os.path.realpath(f)] = module.__name__
+  File "/opt/conda/lib/python3.7/posixpath.py", line 395, in realpath
+    path, ok = _joinrealpath(filename[:0], filename, {})
+  File "/opt/conda/lib/python3.7/posixpath.py", line 415, in _joinrealpath
+    name, _, rest = rest.partition(sep)
+
+wandb :   2%|▏         | 60/3374 [00:04<03:47, 14.56it/s]
+Exception in thread ChkStopThr:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/opt/conda/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 170, in check_status
+    status_response = self._interface.communicate_stop_status()
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 127, in communicate_stop_status
+    resp = self._communicate_stop_status(status)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 395, in _communicate_stop_status
+    resp = self._communicate(req, local=True)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Exception in thread NetStatThr:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/opt/conda/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 152, in check_network_status
+    status_response = self._interface.communicate_network_status()
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 138, in communicate_network_status
+    resp = self._communicate_network_status(status)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 405, in _communicate_network_status
+    resp = self._communicate(req, local=True)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")

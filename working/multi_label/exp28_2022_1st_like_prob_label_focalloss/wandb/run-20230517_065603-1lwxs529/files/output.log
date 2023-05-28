@@ -1,0 +1,58 @@
+load pre-trained model :  /kaggle/working/multi_label/exp22_primary_label_2022_1st_like/fold-0.pth
+<All keys matched successfully>
+#########################
+#### Training
+#### Fold: 1 | Image Size: (128, 1001) | Model: tf_efficientnet_b1_ns | Batch Size: 64 | Scheduler: cos
+#### Num Train: 19,627 | Num Valid: 3,381
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

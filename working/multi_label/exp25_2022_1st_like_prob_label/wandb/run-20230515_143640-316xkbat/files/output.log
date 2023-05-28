@@ -1,0 +1,407 @@
+
+  0%|          | 0/307 [00:00<?, ?it/s]
+load pre-trained model :  /kaggle/working/WSL/exp10_softmax_model/fold-0.pth
+_IncompatibleKeys(missing_keys=['bn0.weight', 'bn0.bias', 'bn0.running_mean', 'bn0.running_var', 'fc1.weight', 'fc1.bias', 'global_pool.p', 'head.weight', 'head.bias'], unexpected_keys=[])
+#########################
+#### Training
+#### Fold: 1 | Image Size: (128, 1001) | Model: tf_efficientnet_b1_ns | Batch Size: 64 | Scheduler: cos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 307/307 [04:24<00:00,  1.16it/s]
+
+
+
+
+
+
+
+
+
+
+ 96%|█████████▋| 26/27 [00:23<00:00,  1.38it/s]
+100%|██████████| 27/27 [00:23<00:00,  1.14it/s]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 307/307 [04:27<00:00,  1.15it/s]
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 27/27 [00:23<00:00,  1.16it/s]
+Epoch: 2 | Train Loss: 6.095828522300099 | Val Loss: 4.530599973819874 | Val Padded_cmAP : 0.5848887022714355
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 36%|███▋      | 112/307 [02:31<06:44,  2.07s/it]Thread SenderThread:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/internal/internal_util.py", line 51, in run
+    self._run()
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/internal/internal_util.py", line 102, in _run
+    self._process(record)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/internal/internal.py", line 310, in _process
+    self._sm.send(record)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/internal/sender.py", line 238, in send
+    send_handler(record)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/internal/sender.py", line 833, in send_summary
+    self._update_summary()
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/internal/sender.py", line 845, in _update_summary
+    with open(summary_path, "w") as f:
+FileNotFoundError: [Errno 2] No such file or directory: '/kaggle/working/multi_label/exp21_primary_label/wandb/run-20230515_143640-316xkbat/files/wandb-summary.json'
+ 37%|███▋      | 113/307 [02:33<06:14,  1.93s/it]wandb: ERROR Internal wandb error: file data was not synced
+ 37%|███▋      | 115/307 [02:35<04:59,  1.56s/it]Exception in thread NetStatThr:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/opt/conda/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 152, in check_network_status
+    status_response = self._interface.communicate_network_status()
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 138, in communicate_network_status
+    resp = self._communicate_network_status(status)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 405, in _communicate_network_status
+    resp = self._communicate(req, local=True)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+Exception in thread ChkStopThr:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/opt/conda/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 170, in check_status
+    status_response = self._interface.communicate_stop_status()
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 127, in communicate_stop_status
+    resp = self._communicate_stop_status(status)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 395, in _communicate_stop_status
+    resp = self._communicate(req, local=True)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown
+ 37%|███▋      | 115/307 [02:45<04:35,  1.43s/it]

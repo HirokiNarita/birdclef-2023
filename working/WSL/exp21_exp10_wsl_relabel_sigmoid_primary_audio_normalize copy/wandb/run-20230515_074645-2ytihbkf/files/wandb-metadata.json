@@ -1,0 +1,18 @@
+{
+    "os": "Linux-5.4.0-1104-gcp-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.12",
+    "heartbeatAt": "2023-05-15T07:46:49.024095",
+    "startedAt": "2023-05-15T07:46:45.643049",
+    "docker": null,
+    "gpu": "Tesla T4",
+    "gpu_count": 1,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "WSL/exp21_exp10_wsl_relabel_sigmoid_primary_audio_normalize/train.ipynb",
+    "root": "/kaggle/working",
+    "host": "a85f36d97f2d",
+    "username": "root",
+    "executable": "/opt/conda/bin/python"
+}

@@ -1,0 +1,18 @@
+{
+    "os": "Linux-5.4.0-1104-gcp-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.12",
+    "heartbeatAt": "2023-05-06T17:26:54.456477",
+    "startedAt": "2023-05-06T17:26:52.620663",
+    "docker": null,
+    "gpu": "Tesla T4",
+    "gpu_count": 1,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "multi_label/exp15_primary_label_add_background_noise/train.ipynb",
+    "root": "/kaggle/working",
+    "host": "a85f36d97f2d",
+    "username": "root",
+    "executable": "/opt/conda/bin/python"
+}

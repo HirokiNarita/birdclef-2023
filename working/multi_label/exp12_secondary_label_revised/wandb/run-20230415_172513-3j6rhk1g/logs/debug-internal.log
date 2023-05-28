@@ -1,0 +1,52 @@
+2023-04-15 17:25:15,388 INFO    MainThread:20049 [internal.py:wandb_internal():93] W&B internal server running at pid: 20049, started at: 2023-04-15 17:25:15.388275
+2023-04-15 17:25:15,393 DEBUG   SenderThread:20049 [sender.py:send():236] send: header
+2023-04-15 17:25:15,393 INFO    WriterThread:20049 [datastore.py:open_for_write():75] open: /kaggle/working/exp5_attblock/wandb/run-20230415_172513-3j6rhk1g/run-3j6rhk1g.wandb
+2023-04-15 17:25:15,393 DEBUG   SenderThread:20049 [sender.py:send():236] send: run
+2023-04-15 17:25:15,803 INFO    SenderThread:20049 [dir_watcher.py:__init__():216] watching files in: /kaggle/working/exp5_attblock/wandb/run-20230415_172513-3j6rhk1g/files
+2023-04-15 17:25:15,804 INFO    SenderThread:20049 [sender.py:_start_run_threads():818] run started: 3j6rhk1g with start time 1681579513
+2023-04-15 17:25:15,807 DEBUG   SenderThread:20049 [sender.py:send():236] send: summary
+2023-04-15 17:25:15,807 DEBUG   HandlerThread:20049 [handler.py:handle_request():140] handle_request: check_version
+2023-04-15 17:25:15,808 INFO    SenderThread:20049 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-15 17:25:15,808 DEBUG   SenderThread:20049 [sender.py:send_request():250] send_request: check_version
+2023-04-15 17:25:15,889 DEBUG   HandlerThread:20049 [handler.py:handle_request():140] handle_request: run_start
+2023-04-15 17:25:15,903 DEBUG   HandlerThread:20049 [meta.py:__init__():35] meta init
+2023-04-15 17:25:15,903 DEBUG   HandlerThread:20049 [meta.py:__init__():49] meta init done
+2023-04-15 17:25:15,903 DEBUG   HandlerThread:20049 [meta.py:probe():209] probe
+2023-04-15 17:25:15,912 DEBUG   HandlerThread:20049 [git.py:repo():29] git repository is invalid
+2023-04-15 17:25:15,912 DEBUG   HandlerThread:20049 [meta.py:_save_code():87] save code
+2023-04-15 17:25:15,912 WARNING HandlerThread:20049 [meta.py:_save_code():89] unable to save code -- program entry not found
+2023-04-15 17:25:15,913 DEBUG   HandlerThread:20049 [meta.py:_save_pip():53] save pip
+2023-04-15 17:25:15,914 DEBUG   HandlerThread:20049 [meta.py:_save_pip():67] save pip done
+2023-04-15 17:25:15,918 DEBUG   HandlerThread:20049 [meta.py:_save_conda():74] save conda
+2023-04-15 17:25:16,807 INFO    Thread-7  :20049 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock/wandb/run-20230415_172513-3j6rhk1g/files/requirements.txt
+2023-04-15 17:25:16,807 INFO    Thread-7  :20049 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock/wandb/run-20230415_172513-3j6rhk1g/files/wandb-summary.json
+2023-04-15 17:25:16,807 INFO    Thread-7  :20049 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock/wandb/run-20230415_172513-3j6rhk1g/files/conda-environment.yaml
+2023-04-15 17:25:21,808 INFO    Thread-7  :20049 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock/wandb/run-20230415_172513-3j6rhk1g/files/output.log
+2023-04-15 17:25:27,811 INFO    Thread-7  :20049 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock/wandb/run-20230415_172513-3j6rhk1g/files/output.log
+2023-04-15 17:25:39,835 INFO    Thread-7  :20049 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock/wandb/run-20230415_172513-3j6rhk1g/files/output.log
+2023-04-15 17:25:41,836 INFO    Thread-7  :20049 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock/wandb/run-20230415_172513-3j6rhk1g/files/output.log
+2023-04-15 17:25:54,546 WARNING MainThread:20049 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2023-04-15 17:25:55,054 DEBUG   HandlerThread:20049 [meta.py:_save_conda():84] save conda done
+2023-04-15 17:25:55,054 DEBUG   HandlerThread:20049 [meta.py:probe():247] probe done
+2023-04-15 17:25:55,549 DEBUG   HandlerThread:20049 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 17:25:55,550 DEBUG   SenderThread:20049 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 17:25:55,554 DEBUG   HandlerThread:20049 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-15 17:25:55,556 DEBUG   HandlerThread:20049 [handler.py:handle_request():140] handle_request: pause
+2023-04-15 17:25:55,557 INFO    HandlerThread:20049 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-04-15 17:25:55,621 DEBUG   HandlerThread:20049 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 17:25:55,743 DEBUG   SenderThread:20049 [sender.py:send():236] send: telemetry
+2023-04-15 17:25:55,743 DEBUG   SenderThread:20049 [sender.py:send():236] send: history
+2023-04-15 17:25:55,743 DEBUG   SenderThread:20049 [sender.py:send():236] send: summary
+2023-04-15 17:25:55,746 INFO    SenderThread:20049 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-15 17:25:55,746 DEBUG   SenderThread:20049 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 17:25:55,841 INFO    Thread-7  :20049 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock/wandb/run-20230415_172513-3j6rhk1g/files/wandb-summary.json
+2023-04-15 17:25:55,842 INFO    Thread-7  :20049 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock/wandb/run-20230415_172513-3j6rhk1g/files/wandb-metadata.json
+2023-04-15 17:25:55,932 DEBUG   SenderThread:20049 [sender.py:send():236] send: stats
+2023-04-15 17:25:55,932 DEBUG   SenderThread:20049 [sender.py:send():236] send: files
+2023-04-15 17:25:55,932 INFO    SenderThread:20049 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2023-04-15 17:25:55,933 DEBUG   SenderThread:20049 [sender.py:send():236] send: stats
+2023-04-15 17:25:56,619 INFO    Thread-11 :20049 [upload_job.py:push():138] Uploaded file /tmp/tmp6bush59awandb/wc0643xs-wandb-metadata.json
+2023-04-15 17:26:00,914 DEBUG   HandlerThread:20049 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 17:26:00,915 DEBUG   SenderThread:20049 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 17:26:03,506 WARNING MainThread:20049 [internal.py:wandb_internal():153] Internal process interrupt: 2
+2023-04-15 17:26:03,506 ERROR   MainThread:20049 [internal.py:wandb_internal():156] Internal process interrupted.

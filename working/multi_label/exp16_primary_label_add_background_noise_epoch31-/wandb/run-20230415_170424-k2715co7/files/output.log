@@ -1,0 +1,7 @@
+
+  0%|          | 0/154 [00:00<?, ?it/s]
+#########################
+#### Training
+#### Fold: 1 | Image Size: (224, 313) | Model: tf_efficientnet_b1_ns | Batch Size: 128 | Scheduler: cos
+
+  0%|          | 0/154 [00:05<?, ?it/s]

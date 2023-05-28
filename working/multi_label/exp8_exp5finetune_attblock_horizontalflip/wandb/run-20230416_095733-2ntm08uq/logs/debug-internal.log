@@ -1,0 +1,24 @@
+2023-04-16 09:57:34,476 INFO    MainThread:15077 [internal.py:wandb_internal():93] W&B internal server running at pid: 15077, started at: 2023-04-16 09:57:34.475889
+2023-04-16 09:57:34,478 INFO    WriterThread:15077 [datastore.py:open_for_write():75] open: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_095733-2ntm08uq/run-2ntm08uq.wandb
+2023-04-16 09:57:34,480 DEBUG   SenderThread:15077 [sender.py:send():236] send: header
+2023-04-16 09:57:34,480 DEBUG   SenderThread:15077 [sender.py:send():236] send: run
+2023-04-16 09:57:34,835 INFO    SenderThread:15077 [dir_watcher.py:__init__():216] watching files in: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_095733-2ntm08uq/files
+2023-04-16 09:57:34,835 INFO    SenderThread:15077 [sender.py:_start_run_threads():818] run started: 2ntm08uq with start time 1681639053
+2023-04-16 09:57:34,838 DEBUG   SenderThread:15077 [sender.py:send():236] send: summary
+2023-04-16 09:57:34,839 DEBUG   HandlerThread:15077 [handler.py:handle_request():140] handle_request: check_version
+2023-04-16 09:57:34,839 INFO    SenderThread:15077 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-16 09:57:34,839 DEBUG   SenderThread:15077 [sender.py:send_request():250] send_request: check_version
+2023-04-16 09:57:34,931 DEBUG   HandlerThread:15077 [handler.py:handle_request():140] handle_request: run_start
+2023-04-16 09:57:34,942 DEBUG   HandlerThread:15077 [meta.py:__init__():35] meta init
+2023-04-16 09:57:34,942 DEBUG   HandlerThread:15077 [meta.py:__init__():49] meta init done
+2023-04-16 09:57:34,942 DEBUG   HandlerThread:15077 [meta.py:probe():209] probe
+2023-04-16 09:57:34,950 DEBUG   HandlerThread:15077 [git.py:repo():29] git repository is invalid
+2023-04-16 09:57:34,950 DEBUG   HandlerThread:15077 [meta.py:_save_code():87] save code
+2023-04-16 09:57:34,950 WARNING HandlerThread:15077 [meta.py:_save_code():89] unable to save code -- program entry not found
+2023-04-16 09:57:34,950 DEBUG   HandlerThread:15077 [meta.py:_save_pip():53] save pip
+2023-04-16 09:57:34,951 DEBUG   HandlerThread:15077 [meta.py:_save_pip():67] save pip done
+2023-04-16 09:57:34,952 DEBUG   HandlerThread:15077 [meta.py:_save_conda():74] save conda
+2023-04-16 09:57:35,838 INFO    Thread-7  :15077 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_095733-2ntm08uq/files/wandb-summary.json
+2023-04-16 09:57:35,843 INFO    Thread-7  :15077 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_095733-2ntm08uq/files/requirements.txt
+2023-04-16 09:57:35,843 INFO    Thread-7  :15077 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_095733-2ntm08uq/files/conda-environment.yaml
+2023-04-16 09:57:40,838 INFO    Thread-7  :15077 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock_mono2color/wandb/run-20230416_095733-2ntm08uq/files/output.log

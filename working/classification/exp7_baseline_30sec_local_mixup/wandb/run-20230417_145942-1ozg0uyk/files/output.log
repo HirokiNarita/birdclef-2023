@@ -1,0 +1,13 @@
+#########################
+#### Training
+#### Fold: 1 | Image Size: (224, 313) | Model: tf_efficientnet_b1_ns | Batch Size: 64 | Scheduler: cos
+#### Num Train: 19,627 | Num Valid: 3,381
+  0%|          | 0/307 [00:00<?, ?it/s]
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py:2: FutureWarning: The default value of regex will change from True to False in a future version.
+/opt/conda/lib/python3.7/site-packages/sklearn/model_selection/_split.py:680: UserWarning: The least populated class in y has only 1 members, which is less than n_splits=5.
+  UserWarning,
+cuda:0
+Debug : False
+local mode
+2023-04-18 00:01:49

@@ -1,0 +1,104 @@
+2023-04-15 15:57:03,903 INFO    MainThread:7436 [internal.py:wandb_internal():93] W&B internal server running at pid: 7436, started at: 2023-04-15 15:57:03.903526
+2023-04-15 15:57:03,905 INFO    WriterThread:7436 [datastore.py:open_for_write():75] open: /kaggle/working/exp5_attblock/wandb/run-20230415_155702-2p6hrffv/run-2p6hrffv.wandb
+2023-04-15 15:57:03,908 DEBUG   SenderThread:7436 [sender.py:send():236] send: header
+2023-04-15 15:57:03,908 DEBUG   SenderThread:7436 [sender.py:send():236] send: run
+2023-04-15 15:57:04,305 INFO    SenderThread:7436 [dir_watcher.py:__init__():216] watching files in: /kaggle/working/exp5_attblock/wandb/run-20230415_155702-2p6hrffv/files
+2023-04-15 15:57:04,305 INFO    SenderThread:7436 [sender.py:_start_run_threads():818] run started: 2p6hrffv with start time 1681574222
+2023-04-15 15:57:04,308 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: check_version
+2023-04-15 15:57:04,309 DEBUG   SenderThread:7436 [sender.py:send():236] send: summary
+2023-04-15 15:57:04,309 INFO    SenderThread:7436 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-15 15:57:04,310 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: check_version
+2023-04-15 15:57:04,388 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: run_start
+2023-04-15 15:57:04,400 DEBUG   HandlerThread:7436 [meta.py:__init__():35] meta init
+2023-04-15 15:57:04,400 DEBUG   HandlerThread:7436 [meta.py:__init__():49] meta init done
+2023-04-15 15:57:04,400 DEBUG   HandlerThread:7436 [meta.py:probe():209] probe
+2023-04-15 15:57:04,408 DEBUG   HandlerThread:7436 [git.py:repo():29] git repository is invalid
+2023-04-15 15:57:04,409 DEBUG   HandlerThread:7436 [meta.py:_save_code():87] save code
+2023-04-15 15:57:04,409 WARNING HandlerThread:7436 [meta.py:_save_code():89] unable to save code -- program entry not found
+2023-04-15 15:57:04,409 DEBUG   HandlerThread:7436 [meta.py:_save_pip():53] save pip
+2023-04-15 15:57:04,410 DEBUG   HandlerThread:7436 [meta.py:_save_pip():67] save pip done
+2023-04-15 15:57:04,410 DEBUG   HandlerThread:7436 [meta.py:_save_conda():74] save conda
+2023-04-15 15:57:05,308 INFO    Thread-7  :7436 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock/wandb/run-20230415_155702-2p6hrffv/files/requirements.txt
+2023-04-15 15:57:05,308 INFO    Thread-7  :7436 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock/wandb/run-20230415_155702-2p6hrffv/files/conda-environment.yaml
+2023-04-15 15:57:05,309 INFO    Thread-7  :7436 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock/wandb/run-20230415_155702-2p6hrffv/files/wandb-summary.json
+2023-04-15 15:57:10,307 INFO    Thread-7  :7436 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock/wandb/run-20230415_155702-2p6hrffv/files/output.log
+2023-04-15 15:57:16,310 INFO    Thread-7  :7436 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock/wandb/run-20230415_155702-2p6hrffv/files/output.log
+2023-04-15 15:57:38,712 DEBUG   HandlerThread:7436 [meta.py:_save_conda():84] save conda done
+2023-04-15 15:57:38,712 DEBUG   HandlerThread:7436 [meta.py:probe():247] probe done
+2023-04-15 15:57:39,004 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 15:57:39,005 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 15:57:39,012 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: partial_history
+2023-04-15 15:57:39,013 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: pause
+2023-04-15 15:57:39,013 INFO    HandlerThread:7436 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-04-15 15:57:39,048 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 15:57:39,206 DEBUG   SenderThread:7436 [sender.py:send():236] send: telemetry
+2023-04-15 15:57:39,206 DEBUG   SenderThread:7436 [sender.py:send():236] send: history
+2023-04-15 15:57:39,207 DEBUG   SenderThread:7436 [sender.py:send():236] send: summary
+2023-04-15 15:57:39,241 INFO    SenderThread:7436 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-15 15:57:39,242 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 15:57:39,318 INFO    Thread-7  :7436 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock/wandb/run-20230415_155702-2p6hrffv/files/wandb-summary.json
+2023-04-15 15:57:39,319 INFO    Thread-7  :7436 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp5_attblock/wandb/run-20230415_155702-2p6hrffv/files/wandb-metadata.json
+2023-04-15 15:57:39,435 DEBUG   SenderThread:7436 [sender.py:send():236] send: stats
+2023-04-15 15:57:39,436 DEBUG   SenderThread:7436 [sender.py:send():236] send: files
+2023-04-15 15:57:39,437 INFO    SenderThread:7436 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2023-04-15 15:57:39,437 DEBUG   SenderThread:7436 [sender.py:send():236] send: stats
+2023-04-15 15:57:40,083 INFO    Thread-11 :7436 [upload_job.py:push():138] Uploaded file /tmp/tmp1iod3iwxwandb/114ofq08-wandb-metadata.json
+2023-04-15 15:57:49,406 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 15:57:49,406 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 15:58:04,608 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 15:58:04,608 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 15:58:05,328 INFO    Thread-7  :7436 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp5_attblock/wandb/run-20230415_155702-2p6hrffv/files/config.yaml
+2023-04-15 15:58:19,819 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 15:58:19,820 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 15:58:35,023 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 15:58:35,023 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 15:58:50,223 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 15:58:50,223 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 15:59:05,430 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 15:59:05,431 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 15:59:20,634 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 15:59:20,635 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 15:59:35,845 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 15:59:35,846 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 15:59:51,047 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 15:59:51,048 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 16:00:06,240 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 16:00:06,240 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 16:00:22,142 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 16:00:22,142 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 16:00:37,341 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 16:00:37,341 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 16:00:52,545 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 16:00:52,545 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 16:01:07,738 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 16:01:07,738 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 16:01:22,929 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 16:01:22,930 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 16:01:38,131 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 16:01:38,132 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 16:01:53,326 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 16:01:53,326 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 16:02:08,518 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 16:02:08,518 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 16:02:23,718 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 16:02:23,719 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 16:02:38,926 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 16:02:38,926 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 16:02:54,117 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 16:02:54,118 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 16:03:09,329 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 16:03:09,330 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 16:03:24,527 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 16:03:24,527 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 16:03:39,732 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 16:03:39,733 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 16:03:54,930 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 16:03:54,930 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 16:04:10,137 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 16:04:10,138 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 16:04:25,336 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 16:04:25,336 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 16:04:40,538 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 16:04:40,538 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status
+2023-04-15 16:04:55,800 DEBUG   HandlerThread:7436 [handler.py:handle_request():140] handle_request: stop_status
+2023-04-15 16:04:55,800 DEBUG   SenderThread:7436 [sender.py:send_request():250] send_request: stop_status

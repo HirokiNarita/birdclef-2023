@@ -1,0 +1,85 @@
+
+  0%|          | 0/1 [00:00<?, ?it/s]
+load pre-trained model :  /kaggle/working/pre-training/exp1_pre_attblock_fold-0_20230501_pretrained.pth
+_IncompatibleKeys(missing_keys=['model.classifier.weight', 'model.classifier.bias', 'att_block.att.weight', 'att_block.att.bias', 'att_block.cla.weight', 'att_block.cla.bias'], unexpected_keys=['to_melspec_fn.spectrogram.window', 'to_melspec_fn.mel_scale.fb'])
+#########################
+#### Training
+#### Fold: 1 | Image Size: (224, 313) | Model: tf_efficientnet_b1_ns | Batch Size: 128 | Scheduler: cos
+100%|██████████| 1/1 [00:07<00:00,  7.41s/it]
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 27/27 [00:25<00:00,  1.05it/s]
+Epoch: 1 | Train Loss: 0.566139817237854 | Val Loss: 0.4428203481215018 | Val Padded_cmAP : 0.45425673891902396
+100%|██████████| 1/1 [00:06<00:00,  6.18s/it]
+
+
+
+
+
+
+
+
+
+100%|██████████| 27/27 [00:23<00:00,  1.15it/s]
+  0%|          | 0/27 [00:00<?, ?it/s]
+Epoch: 2 | Train Loss: 0.5491890907287598 | Val Loss: 0.42795089328730546 | Val Padded_cmAP : 0.45430133436658726
+# Loading best model
+# Infering OOF
+torch.Size([128, 264])
+
+  7%|▋         | 2/27 [00:06<01:08,  2.74s/it]
+torch.Size([128, 264])
+
+ 15%|█▍        | 4/27 [00:07<00:28,  1.24s/it]
+
+ 19%|█▊        | 5/27 [00:10<00:40,  1.85s/it]
+torch.Size([128, 264])
+torch.Size([128, 264])
+
+ 30%|██▉       | 8/27 [00:12<00:17,  1.08it/s]
+torch.Size([128, 264])
+torch.Size([128, 264])
+torch.Size([128, 264])
+
+ 44%|████▍     | 12/27 [00:14<00:09,  1.53it/s]
+torch.Size([128, 264])
+torch.Size([128, 264])
+
+ 56%|█████▌    | 15/27 [00:16<00:07,  1.56it/s]
+torch.Size([128, 264])
+torch.Size([128, 264])
+torch.Size([128, 264])
+
+ 70%|███████   | 19/27 [00:18<00:04,  1.73it/s]
+torch.Size([128, 264])
+torch.Size([128, 264])
+torch.Size([128, 264])
+
+ 85%|████████▌ | 23/27 [00:20<00:02,  1.96it/s]
+torch.Size([128, 264])
+torch.Size([128, 264])
+torch.Size([128, 264])
+
+100%|██████████| 27/27 [00:22<00:00,  1.20it/s]
+>>> FOLD 1 Padded_cmAP = 0.480
+# WandB
+/opt/conda/lib/python3.7/site-packages/pandas/core/frame.py:3678: PerformanceWarning: DataFrame is highly fragmented.  This is usually the result of calling `frame.insert` many times, which has poor performance.  Consider joining all columns at once using pd.concat(axis=1) instead.  To get a de-fragmented frame, use `newframe = frame.copy()`
+  self[col] = igetitem(value, i)
+/opt/conda/lib/python3.7/site-packages/pandas/core/indexing.py:1667: SettingWithCopyWarning:
+A value is trying to be set on a copy of a slice from a DataFrame.
+Try using .loc[row_indexer,col_indexer] = value instead
+See the caveats in the documentation: https://pandas.pydata.org/pandas-docs/stable/user_guide/indexing.html#returning-a-view-versus-a-copy
+  self.obj[key] = value
+
+
+
+
+

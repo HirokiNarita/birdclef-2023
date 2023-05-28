@@ -1,0 +1,50 @@
+2023-04-30 10:19:19,451 INFO    MainThread:25277 [internal.py:wandb_internal():93] W&B internal server running at pid: 25277, started at: 2023-04-30 10:19:19.450911
+2023-04-30 10:19:19,453 INFO    WriterThread:25277 [datastore.py:open_for_write():75] open: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip/wandb/run-20230430_101917-2pzkusit/run-2pzkusit.wandb
+2023-04-30 10:19:19,457 DEBUG   SenderThread:25277 [sender.py:send():236] send: header
+2023-04-30 10:19:19,457 DEBUG   SenderThread:25277 [sender.py:send():236] send: run
+2023-04-30 10:19:21,524 INFO    SenderThread:25277 [dir_watcher.py:__init__():216] watching files in: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip/wandb/run-20230430_101917-2pzkusit/files
+2023-04-30 10:19:21,525 INFO    SenderThread:25277 [sender.py:_start_run_threads():818] run started: 2pzkusit with start time 1682849957
+2023-04-30 10:19:21,539 DEBUG   HandlerThread:25277 [handler.py:handle_request():140] handle_request: check_version
+2023-04-30 10:19:21,539 DEBUG   SenderThread:25277 [sender.py:send():236] send: summary
+2023-04-30 10:19:21,539 INFO    SenderThread:25277 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-04-30 10:19:21,540 DEBUG   SenderThread:25277 [sender.py:send_request():250] send_request: check_version
+2023-04-30 10:19:21,672 DEBUG   HandlerThread:25277 [handler.py:handle_request():140] handle_request: run_start
+2023-04-30 10:19:21,683 DEBUG   HandlerThread:25277 [meta.py:__init__():35] meta init
+2023-04-30 10:19:21,683 DEBUG   HandlerThread:25277 [meta.py:__init__():49] meta init done
+2023-04-30 10:19:21,684 DEBUG   HandlerThread:25277 [meta.py:probe():209] probe
+2023-04-30 10:19:21,694 DEBUG   HandlerThread:25277 [git.py:repo():29] git repository is invalid
+2023-04-30 10:19:21,694 DEBUG   HandlerThread:25277 [meta.py:_save_code():87] save code
+2023-04-30 10:19:21,694 WARNING HandlerThread:25277 [meta.py:_save_code():89] unable to save code -- program entry not found
+2023-04-30 10:19:21,694 DEBUG   HandlerThread:25277 [meta.py:_save_pip():53] save pip
+2023-04-30 10:19:21,697 DEBUG   HandlerThread:25277 [meta.py:_save_pip():67] save pip done
+2023-04-30 10:19:21,698 DEBUG   HandlerThread:25277 [meta.py:_save_conda():74] save conda
+2023-04-30 10:19:22,528 INFO    Thread-7  :25277 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip/wandb/run-20230430_101917-2pzkusit/files/requirements.txt
+2023-04-30 10:19:22,528 INFO    Thread-7  :25277 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip/wandb/run-20230430_101917-2pzkusit/files/conda-environment.yaml
+2023-04-30 10:19:22,528 INFO    Thread-7  :25277 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip/wandb/run-20230430_101917-2pzkusit/files/wandb-summary.json
+2023-04-30 10:19:27,527 INFO    Thread-7  :25277 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip/wandb/run-20230430_101917-2pzkusit/files/output.log
+2023-04-30 10:19:35,538 INFO    Thread-7  :25277 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip/wandb/run-20230430_101917-2pzkusit/files/output.log
+2023-04-30 10:20:00,529 WARNING MainThread:25277 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2023-04-30 10:20:00,666 WARNING MainThread:25277 [internal.py:wandb_internal():153] Internal process interrupt: 2
+2023-04-30 10:20:00,666 ERROR   MainThread:25277 [internal.py:wandb_internal():156] Internal process interrupted.
+2023-04-30 10:20:00,691 DEBUG   HandlerThread:25277 [meta.py:_save_conda():84] save conda done
+2023-04-30 10:20:00,692 DEBUG   HandlerThread:25277 [meta.py:probe():247] probe done
+2023-04-30 10:20:00,711 INFO    SenderThread:25277 [sender.py:finish():1114] shutting down sender
+2023-04-30 10:20:00,712 INFO    SenderThread:25277 [dir_watcher.py:finish():353] shutting down directory watcher
+2023-04-30 10:20:01,510 INFO    WriterThread:25277 [datastore.py:close():279] close: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip/wandb/run-20230430_101917-2pzkusit/run-2pzkusit.wandb
+2023-04-30 10:20:01,562 INFO    Thread-7  :25277 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip/wandb/run-20230430_101917-2pzkusit/files/wandb-metadata.json
+2023-04-30 10:20:01,563 INFO    SenderThread:25277 [dir_watcher.py:finish():383] scan: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip/wandb/run-20230430_101917-2pzkusit/files
+2023-04-30 10:20:01,563 INFO    SenderThread:25277 [dir_watcher.py:finish():397] scan save: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip/wandb/run-20230430_101917-2pzkusit/files/output.log output.log
+2023-04-30 10:20:01,563 INFO    SenderThread:25277 [dir_watcher.py:finish():397] scan save: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip/wandb/run-20230430_101917-2pzkusit/files/wandb-metadata.json wandb-metadata.json
+2023-04-30 10:20:01,563 INFO    SenderThread:25277 [dir_watcher.py:finish():397] scan save: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip/wandb/run-20230430_101917-2pzkusit/files/wandb-summary.json wandb-summary.json
+2023-04-30 10:20:01,564 INFO    SenderThread:25277 [dir_watcher.py:finish():397] scan save: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip/wandb/run-20230430_101917-2pzkusit/files/requirements.txt requirements.txt
+2023-04-30 10:20:01,564 INFO    SenderThread:25277 [dir_watcher.py:finish():397] scan save: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip/wandb/run-20230430_101917-2pzkusit/files/conda-environment.yaml conda-environment.yaml
+2023-04-30 10:20:01,564 INFO    SenderThread:25277 [dir_watcher.py:finish():397] scan save: /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip/wandb/run-20230430_101917-2pzkusit/files/config.yaml config.yaml
+2023-04-30 10:20:01,564 INFO    SenderThread:25277 [file_pusher.py:finish():171] shutting down file pusher
+2023-04-30 10:20:01,564 INFO    SenderThread:25277 [file_pusher.py:join():176] waiting for file pusher
+2023-04-30 10:20:01,837 INFO    HandlerThread:25277 [handler.py:finish():806] shutting down handler
+2023-04-30 10:20:02,285 INFO    Thread-13 :25277 [upload_job.py:push():138] Uploaded file /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip/wandb/run-20230430_101917-2pzkusit/files/wandb-summary.json
+2023-04-30 10:20:02,360 INFO    Thread-12 :25277 [upload_job.py:push():138] Uploaded file /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip/wandb/run-20230430_101917-2pzkusit/files/wandb-metadata.json
+2023-04-30 10:20:02,363 INFO    Thread-11 :25277 [upload_job.py:push():138] Uploaded file /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip/wandb/run-20230430_101917-2pzkusit/files/output.log
+2023-04-30 10:20:02,386 INFO    Thread-14 :25277 [upload_job.py:push():138] Uploaded file /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip/wandb/run-20230430_101917-2pzkusit/files/requirements.txt
+2023-04-30 10:20:02,467 INFO    Thread-15 :25277 [upload_job.py:push():138] Uploaded file /kaggle/working/pre-training/exp1_pre_attblock_horizontalflip/wandb/run-20230430_101917-2pzkusit/files/config.yaml
+2023-04-30 10:20:02,506 INFO    MainThread:25277 [internal.py:handle_exit():80] Internal process exited

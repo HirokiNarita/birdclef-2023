@@ -1,0 +1,63 @@
+[continue] | fold=0 | epoch=31 | lr=0.000443 | model_path:  /kaggle/working/multi_label/exp30_2022_1st_like_prob_label_nfnet/fold-0.pth
+<All keys matched successfully>
+#########################
+#### Training
+#### Fold: 1 | Image Size: (128, 1001) | Model: hf_hub:timm/eca_nfnet_l0 | Batch Size: 64 | Scheduler: cos
+#### Num Train: 20,215 | Num Valid: 3,381
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 30%|██▉       | 94/316 [02:09<05:05,  1.38s/it]
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)
+wandb: ERROR Dropped streaming file chunk (see wandb/debug-internal.log)

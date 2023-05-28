@@ -1,0 +1,86 @@
+2023-05-03 04:59:09,123 INFO    MainThread:16341 [internal.py:wandb_internal():93] W&B internal server running at pid: 16341, started at: 2023-05-03 04:59:09.122652
+2023-05-03 04:59:09,125 INFO    WriterThread:16341 [datastore.py:open_for_write():75] open: /kaggle/working/exp9_exp6_softmax_finetuning/wandb/run-20230503_045907-1ftg4lk9/run-1ftg4lk9.wandb
+2023-05-03 04:59:09,127 DEBUG   SenderThread:16341 [sender.py:send():236] send: header
+2023-05-03 04:59:09,127 DEBUG   SenderThread:16341 [sender.py:send():236] send: run
+2023-05-03 04:59:10,508 DEBUG   HandlerThread:16341 [handler.py:handle_request():140] handle_request: check_version
+2023-05-03 04:59:10,509 INFO    SenderThread:16341 [dir_watcher.py:__init__():216] watching files in: /kaggle/working/exp9_exp6_softmax_finetuning/wandb/run-20230503_045907-1ftg4lk9/files
+2023-05-03 04:59:10,509 INFO    SenderThread:16341 [sender.py:_start_run_threads():818] run started: 1ftg4lk9 with start time 1683089947
+2023-05-03 04:59:10,509 DEBUG   SenderThread:16341 [sender.py:send():236] send: summary
+2023-05-03 04:59:10,509 INFO    SenderThread:16341 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-03 04:59:10,510 DEBUG   SenderThread:16341 [sender.py:send_request():250] send_request: check_version
+2023-05-03 04:59:10,589 DEBUG   HandlerThread:16341 [handler.py:handle_request():140] handle_request: run_start
+2023-05-03 04:59:10,599 DEBUG   HandlerThread:16341 [meta.py:__init__():35] meta init
+2023-05-03 04:59:10,599 DEBUG   HandlerThread:16341 [meta.py:__init__():49] meta init done
+2023-05-03 04:59:10,599 DEBUG   HandlerThread:16341 [meta.py:probe():209] probe
+2023-05-03 04:59:10,610 DEBUG   HandlerThread:16341 [git.py:repo():29] git repository is invalid
+2023-05-03 04:59:10,610 DEBUG   HandlerThread:16341 [meta.py:_save_code():87] save code
+2023-05-03 04:59:10,610 WARNING HandlerThread:16341 [meta.py:_save_code():89] unable to save code -- program entry not found
+2023-05-03 04:59:10,610 DEBUG   HandlerThread:16341 [meta.py:_save_pip():53] save pip
+2023-05-03 04:59:10,612 DEBUG   HandlerThread:16341 [meta.py:_save_pip():67] save pip done
+2023-05-03 04:59:10,612 DEBUG   HandlerThread:16341 [meta.py:_save_conda():74] save conda
+2023-05-03 04:59:11,512 INFO    Thread-7  :16341 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp9_exp6_softmax_finetuning/wandb/run-20230503_045907-1ftg4lk9/files/requirements.txt
+2023-05-03 04:59:11,512 INFO    Thread-7  :16341 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp9_exp6_softmax_finetuning/wandb/run-20230503_045907-1ftg4lk9/files/wandb-summary.json
+2023-05-03 04:59:11,512 INFO    Thread-7  :16341 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp9_exp6_softmax_finetuning/wandb/run-20230503_045907-1ftg4lk9/files/conda-environment.yaml
+2023-05-03 04:59:16,515 INFO    Thread-7  :16341 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp9_exp6_softmax_finetuning/wandb/run-20230503_045907-1ftg4lk9/files/output.log
+2023-05-03 04:59:20,517 INFO    Thread-7  :16341 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp9_exp6_softmax_finetuning/wandb/run-20230503_045907-1ftg4lk9/files/output.log
+2023-05-03 04:59:22,518 INFO    Thread-7  :16341 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp9_exp6_softmax_finetuning/wandb/run-20230503_045907-1ftg4lk9/files/output.log
+2023-05-03 04:59:24,519 INFO    Thread-7  :16341 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp9_exp6_softmax_finetuning/wandb/run-20230503_045907-1ftg4lk9/files/output.log
+2023-05-03 04:59:27,520 INFO    Thread-7  :16341 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp9_exp6_softmax_finetuning/wandb/run-20230503_045907-1ftg4lk9/files/output.log
+2023-05-03 04:59:29,521 INFO    Thread-7  :16341 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp9_exp6_softmax_finetuning/wandb/run-20230503_045907-1ftg4lk9/files/output.log
+2023-05-03 04:59:31,522 INFO    Thread-7  :16341 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp9_exp6_softmax_finetuning/wandb/run-20230503_045907-1ftg4lk9/files/output.log
+2023-05-03 04:59:43,325 DEBUG   HandlerThread:16341 [meta.py:_save_conda():84] save conda done
+2023-05-03 04:59:43,325 DEBUG   HandlerThread:16341 [meta.py:probe():247] probe done
+2023-05-03 04:59:43,526 INFO    Thread-7  :16341 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/exp9_exp6_softmax_finetuning/wandb/run-20230503_045907-1ftg4lk9/files/wandb-metadata.json
+2023-05-03 04:59:43,566 DEBUG   HandlerThread:16341 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-03 04:59:43,567 DEBUG   SenderThread:16341 [sender.py:send_request():250] send_request: stop_status
+2023-05-03 04:59:43,570 DEBUG   HandlerThread:16341 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-03 04:59:43,572 DEBUG   HandlerThread:16341 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-03 04:59:43,573 DEBUG   HandlerThread:16341 [handler.py:handle_request():140] handle_request: log_artifact
+2023-05-03 04:59:43,573 DEBUG   HandlerThread:16341 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-03 04:59:43,574 DEBUG   HandlerThread:16341 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-03 04:59:43,575 DEBUG   HandlerThread:16341 [handler.py:handle_request():140] handle_request: log_artifact
+2023-05-03 04:59:43,575 DEBUG   HandlerThread:16341 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-03 04:59:43,576 DEBUG   HandlerThread:16341 [handler.py:handle_request():140] handle_request: pause
+2023-05-03 04:59:43,576 INFO    HandlerThread:16341 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-05-03 04:59:43,671 DEBUG   HandlerThread:16341 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-03 04:59:43,776 DEBUG   SenderThread:16341 [sender.py:send():236] send: telemetry
+2023-05-03 04:59:43,776 DEBUG   SenderThread:16341 [sender.py:send():236] send: history
+2023-05-03 04:59:43,776 DEBUG   SenderThread:16341 [sender.py:send():236] send: summary
+2023-05-03 04:59:43,778 INFO    SenderThread:16341 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-03 04:59:43,779 DEBUG   SenderThread:16341 [sender.py:send():236] send: history
+2023-05-03 04:59:43,779 DEBUG   SenderThread:16341 [sender.py:send():236] send: summary
+2023-05-03 04:59:43,779 INFO    SenderThread:16341 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-03 04:59:43,780 DEBUG   SenderThread:16341 [sender.py:send_request():250] send_request: log_artifact
+2023-05-03 04:59:44,526 INFO    Thread-7  :16341 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp9_exp6_softmax_finetuning/wandb/run-20230503_045907-1ftg4lk9/files/wandb-summary.json
+2023-05-03 04:59:47,517 INFO    Thread-12 :16341 [upload_job.py:push():96] Uploaded file /root/.cache/wandb/artifacts/obj/md5/3a/6c373ac58939fce19013afebe89531
+2023-05-03 04:59:49,305 INFO    SenderThread:16341 [sender.py:send_request_log_artifact():1009] logged artifact birdclef-2023 - {'id': 'QXJ0aWZhY3Q6NDQwMTE2NjE4', 'digest': 'b4be1e3c34dfaa42fa5e2129c1e2908e', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU5OTYxMzE1', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDM5OTc0NTIw', 'versionIndex': 989}}, 'version': 'latest'}
+2023-05-03 04:59:49,305 DEBUG   SenderThread:16341 [sender.py:send():236] send: history
+2023-05-03 04:59:49,306 DEBUG   SenderThread:16341 [sender.py:send():236] send: summary
+2023-05-03 04:59:49,308 INFO    SenderThread:16341 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-03 04:59:49,309 DEBUG   SenderThread:16341 [sender.py:send():236] send: history
+2023-05-03 04:59:49,309 DEBUG   SenderThread:16341 [sender.py:send():236] send: summary
+2023-05-03 04:59:49,309 INFO    SenderThread:16341 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-03 04:59:49,310 DEBUG   SenderThread:16341 [sender.py:send_request():250] send_request: log_artifact
+2023-05-03 04:59:49,528 INFO    Thread-7  :16341 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp9_exp6_softmax_finetuning/wandb/run-20230503_045907-1ftg4lk9/files/wandb-summary.json
+2023-05-03 04:59:52,849 INFO    Thread-14 :16341 [upload_job.py:push():96] Uploaded file /root/.cache/wandb/artifacts/obj/md5/ee/60976c654b056cae417ed894254ee0
+2023-05-03 04:59:53,945 INFO    SenderThread:16341 [sender.py:send_request_log_artifact():1009] logged artifact birdclef-2023 - {'id': 'QXJ0aWZhY3Q6NDQwMTE2Njc5', 'digest': 'd9d573ce9159df242a8d20917df69db7', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjU5OTYxMzE1', 'latestArtifact': {'id': 'QXJ0aWZhY3Q6NDQwMTE2NjE4', 'versionIndex': 990}}, 'version': 'latest'}
+2023-05-03 04:59:53,945 DEBUG   SenderThread:16341 [sender.py:send():236] send: history
+2023-05-03 04:59:53,945 DEBUG   SenderThread:16341 [sender.py:send():236] send: summary
+2023-05-03 04:59:53,948 INFO    SenderThread:16341 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-03 04:59:53,948 DEBUG   SenderThread:16341 [sender.py:send_request():250] send_request: stop_status
+2023-05-03 04:59:54,155 DEBUG   SenderThread:16341 [sender.py:send():236] send: stats
+2023-05-03 04:59:54,156 DEBUG   SenderThread:16341 [sender.py:send():236] send: files
+2023-05-03 04:59:54,156 INFO    SenderThread:16341 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2023-05-03 04:59:54,156 DEBUG   SenderThread:16341 [sender.py:send():236] send: stats
+2023-05-03 04:59:54,530 INFO    Thread-7  :16341 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp9_exp6_softmax_finetuning/wandb/run-20230503_045907-1ftg4lk9/files/wandb-summary.json
+2023-05-03 04:59:54,767 INFO    Thread-15 :16341 [upload_job.py:push():138] Uploaded file /tmp/tmpdagf5yxawandb/1f1o3fi1-wandb-metadata.json
+2023-05-03 04:59:55,605 DEBUG   HandlerThread:16341 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-03 04:59:55,606 DEBUG   SenderThread:16341 [sender.py:send_request():250] send_request: stop_status
+2023-05-03 05:00:10,536 INFO    Thread-7  :16341 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/exp9_exp6_softmax_finetuning/wandb/run-20230503_045907-1ftg4lk9/files/config.yaml
+2023-05-03 05:00:10,812 DEBUG   HandlerThread:16341 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-03 05:00:10,813 DEBUG   SenderThread:16341 [sender.py:send_request():250] send_request: stop_status
+2023-05-03 05:00:26,009 DEBUG   HandlerThread:16341 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-03 05:00:26,009 DEBUG   SenderThread:16341 [sender.py:send_request():250] send_request: stop_status
+2023-05-03 05:00:41,215 DEBUG   HandlerThread:16341 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-03 05:00:41,215 DEBUG   SenderThread:16341 [sender.py:send_request():250] send_request: stop_status
+2023-05-03 05:00:50,104 WARNING MainThread:16341 [internal.py:wandb_internal():153] Internal process interrupt: 1

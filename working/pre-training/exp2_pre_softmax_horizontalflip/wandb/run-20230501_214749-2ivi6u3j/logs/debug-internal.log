@@ -1,0 +1,105 @@
+2023-05-01 21:47:50,674 INFO    MainThread:918 [internal.py:wandb_internal():93] W&B internal server running at pid: 918, started at: 2023-05-01 21:47:50.674285
+2023-05-01 21:47:50,676 INFO    WriterThread:918 [datastore.py:open_for_write():75] open: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230501_214749-2ivi6u3j/run-2ivi6u3j.wandb
+2023-05-01 21:47:50,679 DEBUG   SenderThread:918 [sender.py:send():236] send: header
+2023-05-01 21:47:50,679 DEBUG   SenderThread:918 [sender.py:send():236] send: run
+2023-05-01 21:47:52,896 INFO    SenderThread:918 [dir_watcher.py:__init__():216] watching files in: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230501_214749-2ivi6u3j/files
+2023-05-01 21:47:52,896 INFO    SenderThread:918 [sender.py:_start_run_threads():818] run started: 2ivi6u3j with start time 1682977669
+2023-05-01 21:47:52,912 DEBUG   SenderThread:918 [sender.py:send():236] send: summary
+2023-05-01 21:47:52,913 DEBUG   HandlerThread:918 [handler.py:handle_request():140] handle_request: check_version
+2023-05-01 21:47:52,913 INFO    SenderThread:918 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-01 21:47:52,913 DEBUG   SenderThread:918 [sender.py:send_request():250] send_request: check_version
+2023-05-01 21:47:52,988 DEBUG   HandlerThread:918 [handler.py:handle_request():140] handle_request: run_start
+2023-05-01 21:47:52,997 DEBUG   HandlerThread:918 [meta.py:__init__():35] meta init
+2023-05-01 21:47:52,997 DEBUG   HandlerThread:918 [meta.py:__init__():49] meta init done
+2023-05-01 21:47:52,997 DEBUG   HandlerThread:918 [meta.py:probe():209] probe
+2023-05-01 21:47:53,007 DEBUG   HandlerThread:918 [git.py:repo():29] git repository is invalid
+2023-05-01 21:47:53,007 DEBUG   HandlerThread:918 [meta.py:_save_code():87] save code
+2023-05-01 21:47:53,007 WARNING HandlerThread:918 [meta.py:_save_code():89] unable to save code -- program entry not found
+2023-05-01 21:47:53,007 DEBUG   HandlerThread:918 [meta.py:_save_pip():53] save pip
+2023-05-01 21:47:53,008 DEBUG   HandlerThread:918 [meta.py:_save_pip():67] save pip done
+2023-05-01 21:47:53,008 DEBUG   HandlerThread:918 [meta.py:_save_conda():74] save conda
+2023-05-01 21:47:53,898 INFO    Thread-7  :918 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230501_214749-2ivi6u3j/files/wandb-summary.json
+2023-05-01 21:47:53,899 INFO    Thread-7  :918 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230501_214749-2ivi6u3j/files/requirements.txt
+2023-05-01 21:47:53,899 INFO    Thread-7  :918 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230501_214749-2ivi6u3j/files/conda-environment.yaml
+2023-05-01 21:47:58,898 INFO    Thread-7  :918 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230501_214749-2ivi6u3j/files/output.log
+2023-05-01 21:48:02,900 INFO    Thread-7  :918 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230501_214749-2ivi6u3j/files/output.log
+2023-05-01 21:48:16,905 INFO    Thread-7  :918 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230501_214749-2ivi6u3j/files/output.log
+2023-05-01 21:48:18,906 INFO    Thread-7  :918 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230501_214749-2ivi6u3j/files/output.log
+2023-05-01 21:48:20,907 INFO    Thread-7  :918 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230501_214749-2ivi6u3j/files/output.log
+2023-05-01 21:48:28,097 DEBUG   HandlerThread:918 [meta.py:_save_conda():84] save conda done
+2023-05-01 21:48:28,098 DEBUG   HandlerThread:918 [meta.py:probe():247] probe done
+2023-05-01 21:48:28,381 DEBUG   HandlerThread:918 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-01 21:48:28,381 DEBUG   SenderThread:918 [sender.py:send_request():250] send_request: stop_status
+2023-05-01 21:48:28,385 DEBUG   HandlerThread:918 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-01 21:48:28,387 DEBUG   HandlerThread:918 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-01 21:48:28,387 DEBUG   HandlerThread:918 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-01 21:48:28,388 DEBUG   HandlerThread:918 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-01 21:48:28,388 DEBUG   HandlerThread:918 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-01 21:48:28,389 DEBUG   HandlerThread:918 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-01 21:48:28,390 DEBUG   HandlerThread:918 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-01 21:48:28,390 DEBUG   HandlerThread:918 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-01 21:48:28,391 DEBUG   HandlerThread:918 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-01 21:48:28,603 DEBUG   SenderThread:918 [sender.py:send():236] send: telemetry
+2023-05-01 21:48:28,604 DEBUG   SenderThread:918 [sender.py:send():236] send: history
+2023-05-01 21:48:28,604 DEBUG   SenderThread:918 [sender.py:send():236] send: summary
+2023-05-01 21:48:28,607 INFO    SenderThread:918 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-01 21:48:28,607 DEBUG   SenderThread:918 [sender.py:send():236] send: history
+2023-05-01 21:48:28,608 DEBUG   SenderThread:918 [sender.py:send():236] send: summary
+2023-05-01 21:48:28,608 INFO    SenderThread:918 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-01 21:48:28,608 DEBUG   SenderThread:918 [sender.py:send():236] send: history
+2023-05-01 21:48:28,608 DEBUG   SenderThread:918 [sender.py:send():236] send: summary
+2023-05-01 21:48:28,609 INFO    SenderThread:918 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-01 21:48:28,609 DEBUG   SenderThread:918 [sender.py:send():236] send: history
+2023-05-01 21:48:28,609 DEBUG   SenderThread:918 [sender.py:send():236] send: summary
+2023-05-01 21:48:28,610 INFO    SenderThread:918 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-01 21:48:28,610 DEBUG   SenderThread:918 [sender.py:send():236] send: history
+2023-05-01 21:48:28,610 DEBUG   SenderThread:918 [sender.py:send():236] send: summary
+2023-05-01 21:48:28,611 INFO    SenderThread:918 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-01 21:48:28,611 DEBUG   SenderThread:918 [sender.py:send():236] send: history
+2023-05-01 21:48:28,611 DEBUG   SenderThread:918 [sender.py:send():236] send: summary
+2023-05-01 21:48:28,611 INFO    SenderThread:918 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-01 21:48:28,612 DEBUG   SenderThread:918 [sender.py:send_request():250] send_request: stop_status
+2023-05-01 21:48:28,830 DEBUG   SenderThread:918 [sender.py:send():236] send: history
+2023-05-01 21:48:28,831 DEBUG   SenderThread:918 [sender.py:send():236] send: summary
+2023-05-01 21:48:28,831 INFO    SenderThread:918 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-01 21:48:28,832 DEBUG   SenderThread:918 [sender.py:send():236] send: stats
+2023-05-01 21:48:28,832 DEBUG   SenderThread:918 [sender.py:send():236] send: files
+2023-05-01 21:48:28,832 INFO    SenderThread:918 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2023-05-01 21:48:28,833 DEBUG   SenderThread:918 [sender.py:send():236] send: history
+2023-05-01 21:48:28,833 DEBUG   SenderThread:918 [sender.py:send():236] send: summary
+2023-05-01 21:48:28,833 INFO    SenderThread:918 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-01 21:48:28,910 INFO    Thread-7  :918 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230501_214749-2ivi6u3j/files/wandb-summary.json
+2023-05-01 21:48:28,910 INFO    Thread-7  :918 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230501_214749-2ivi6u3j/files/wandb-metadata.json
+2023-05-01 21:48:29,435 INFO    Thread-11 :918 [upload_job.py:push():138] Uploaded file /tmp/tmp6bi19zztwandb/3gywhbnk-wandb-metadata.json
+2023-05-01 21:48:30,033 DEBUG   HandlerThread:918 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-01 21:48:30,034 DEBUG   SenderThread:918 [sender.py:send():236] send: history
+2023-05-01 21:48:30,034 DEBUG   SenderThread:918 [sender.py:send():236] send: summary
+2023-05-01 21:48:30,035 INFO    SenderThread:918 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-01 21:48:30,844 DEBUG   HandlerThread:918 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-01 21:48:30,845 DEBUG   SenderThread:918 [sender.py:send():236] send: history
+2023-05-01 21:48:30,845 DEBUG   SenderThread:918 [sender.py:send():236] send: summary
+2023-05-01 21:48:30,848 INFO    SenderThread:918 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-01 21:48:30,911 INFO    Thread-7  :918 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230501_214749-2ivi6u3j/files/wandb-summary.json
+2023-05-01 21:48:30,911 INFO    Thread-7  :918 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230501_214749-2ivi6u3j/files/output.log
+2023-05-01 21:48:32,912 INFO    Thread-7  :918 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230501_214749-2ivi6u3j/files/output.log
+2023-05-01 21:48:38,002 DEBUG   HandlerThread:918 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-01 21:48:38,002 DEBUG   SenderThread:918 [sender.py:send_request():250] send_request: stop_status
+2023-05-01 21:48:40,070 WARNING MainThread:918 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2023-05-01 21:48:40,262 WARNING MainThread:918 [internal.py:wandb_internal():153] Internal process interrupt: 2
+2023-05-01 21:48:40,262 ERROR   MainThread:918 [internal.py:wandb_internal():156] Internal process interrupted.
+2023-05-01 21:48:40,419 DEBUG   HandlerThread:918 [handler.py:handle_request():140] handle_request: pause
+2023-05-01 21:48:40,419 INFO    HandlerThread:918 [handler.py:handle_request_pause():695] stopping system metrics thread
+2023-05-01 21:48:40,427 INFO    HandlerThread:918 [handler.py:finish():806] shutting down handler
+2023-05-01 21:48:40,835 INFO    SenderThread:918 [sender.py:finish():1114] shutting down sender
+2023-05-01 21:48:40,835 INFO    SenderThread:918 [dir_watcher.py:finish():353] shutting down directory watcher
+2023-05-01 21:48:40,914 INFO    SenderThread:918 [dir_watcher.py:finish():383] scan: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230501_214749-2ivi6u3j/files
+2023-05-01 21:48:40,914 INFO    SenderThread:918 [dir_watcher.py:finish():397] scan save: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230501_214749-2ivi6u3j/files/output.log output.log
+2023-05-01 21:48:40,914 INFO    SenderThread:918 [dir_watcher.py:finish():397] scan save: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230501_214749-2ivi6u3j/files/wandb-metadata.json wandb-metadata.json
+2023-05-01 21:48:40,914 INFO    SenderThread:918 [dir_watcher.py:finish():397] scan save: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230501_214749-2ivi6u3j/files/wandb-summary.json wandb-summary.json
+2023-05-01 21:48:40,918 INFO    SenderThread:918 [dir_watcher.py:finish():397] scan save: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230501_214749-2ivi6u3j/files/requirements.txt requirements.txt
+2023-05-01 21:48:40,922 INFO    SenderThread:918 [dir_watcher.py:finish():397] scan save: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230501_214749-2ivi6u3j/files/conda-environment.yaml conda-environment.yaml
+2023-05-01 21:48:40,926 INFO    SenderThread:918 [dir_watcher.py:finish():397] scan save: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230501_214749-2ivi6u3j/files/config.yaml config.yaml
+2023-05-01 21:48:40,927 INFO    SenderThread:918 [file_pusher.py:finish():171] shutting down file pusher
+2023-05-01 21:48:40,927 INFO    SenderThread:918 [file_pusher.py:join():176] waiting for file pusher
+2023-05-01 21:48:41,061 INFO    WriterThread:918 [datastore.py:close():279] close: /kaggle/working/pre-training/exp2_pre_softmax_horizontalflip/wandb/run-20230501_214749-2ivi6u3j/run-2ivi6u3j.wandb
+2023-05-01 21:48:41,559 INFO    MainThread:918 [internal.py:handle_exit():80] Internal process exited

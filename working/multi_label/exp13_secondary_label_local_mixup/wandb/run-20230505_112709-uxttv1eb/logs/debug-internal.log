@@ -1,0 +1,50 @@
+2023-05-05 11:27:10,471 INFO    MainThread:4526 [internal.py:wandb_internal():93] W&B internal server running at pid: 4526, started at: 2023-05-05 11:27:10.470627
+2023-05-05 11:27:10,499 INFO    WriterThread:4526 [datastore.py:open_for_write():75] open: /kaggle/working/multi_label/exp13_secondary_label_bce/wandb/run-20230505_112709-uxttv1eb/run-uxttv1eb.wandb
+2023-05-05 11:27:10,500 DEBUG   SenderThread:4526 [sender.py:send():236] send: header
+2023-05-05 11:27:10,501 DEBUG   SenderThread:4526 [sender.py:send():236] send: run
+2023-05-05 11:27:10,954 DEBUG   HandlerThread:4526 [handler.py:handle_request():140] handle_request: check_version
+2023-05-05 11:27:10,954 INFO    SenderThread:4526 [dir_watcher.py:__init__():216] watching files in: /kaggle/working/multi_label/exp13_secondary_label_bce/wandb/run-20230505_112709-uxttv1eb/files
+2023-05-05 11:27:10,955 INFO    SenderThread:4526 [sender.py:_start_run_threads():818] run started: uxttv1eb with start time 1683286029
+2023-05-05 11:27:10,955 DEBUG   SenderThread:4526 [sender.py:send():236] send: summary
+2023-05-05 11:27:10,955 INFO    SenderThread:4526 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-05 11:27:10,955 DEBUG   SenderThread:4526 [sender.py:send_request():250] send_request: check_version
+2023-05-05 11:27:11,036 DEBUG   HandlerThread:4526 [handler.py:handle_request():140] handle_request: run_start
+2023-05-05 11:27:11,047 DEBUG   HandlerThread:4526 [meta.py:__init__():35] meta init
+2023-05-05 11:27:11,047 DEBUG   HandlerThread:4526 [meta.py:__init__():49] meta init done
+2023-05-05 11:27:11,047 DEBUG   HandlerThread:4526 [meta.py:probe():209] probe
+2023-05-05 11:27:11,056 DEBUG   HandlerThread:4526 [git.py:repo():29] git repository is invalid
+2023-05-05 11:27:11,056 DEBUG   HandlerThread:4526 [meta.py:_save_code():87] save code
+2023-05-05 11:27:11,056 WARNING HandlerThread:4526 [meta.py:_save_code():89] unable to save code -- program entry not found
+2023-05-05 11:27:11,056 DEBUG   HandlerThread:4526 [meta.py:_save_pip():53] save pip
+2023-05-05 11:27:11,058 DEBUG   HandlerThread:4526 [meta.py:_save_pip():67] save pip done
+2023-05-05 11:27:11,059 DEBUG   HandlerThread:4526 [meta.py:_save_conda():74] save conda
+2023-05-05 11:27:11,958 INFO    Thread-7  :4526 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/multi_label/exp13_secondary_label_bce/wandb/run-20230505_112709-uxttv1eb/files/requirements.txt
+2023-05-05 11:27:11,959 INFO    Thread-7  :4526 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/multi_label/exp13_secondary_label_bce/wandb/run-20230505_112709-uxttv1eb/files/conda-environment.yaml
+2023-05-05 11:27:11,959 INFO    Thread-7  :4526 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/multi_label/exp13_secondary_label_bce/wandb/run-20230505_112709-uxttv1eb/files/wandb-summary.json
+2023-05-05 11:27:16,960 INFO    Thread-7  :4526 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/multi_label/exp13_secondary_label_bce/wandb/run-20230505_112709-uxttv1eb/files/output.log
+2023-05-05 11:27:23,974 INFO    Thread-7  :4526 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp13_secondary_label_bce/wandb/run-20230505_112709-uxttv1eb/files/output.log
+2023-05-05 11:27:34,449 WARNING MainThread:4526 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2023-05-05 11:27:34,605 WARNING MainThread:4526 [internal.py:wandb_internal():153] Internal process interrupt: 2
+2023-05-05 11:27:34,605 ERROR   MainThread:4526 [internal.py:wandb_internal():156] Internal process interrupted.
+2023-05-05 11:27:34,615 DEBUG   HandlerThread:4526 [meta.py:_save_conda():84] save conda done
+2023-05-05 11:27:34,615 DEBUG   HandlerThread:4526 [meta.py:probe():247] probe done
+2023-05-05 11:27:34,980 INFO    Thread-7  :4526 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/multi_label/exp13_secondary_label_bce/wandb/run-20230505_112709-uxttv1eb/files/wandb-metadata.json
+2023-05-05 11:27:35,015 INFO    HandlerThread:4526 [handler.py:finish():806] shutting down handler
+2023-05-05 11:27:35,037 INFO    SenderThread:4526 [sender.py:finish():1114] shutting down sender
+2023-05-05 11:27:35,038 INFO    SenderThread:4526 [dir_watcher.py:finish():353] shutting down directory watcher
+2023-05-05 11:27:35,523 INFO    WriterThread:4526 [datastore.py:close():279] close: /kaggle/working/multi_label/exp13_secondary_label_bce/wandb/run-20230505_112709-uxttv1eb/run-uxttv1eb.wandb
+2023-05-05 11:27:35,981 INFO    SenderThread:4526 [dir_watcher.py:finish():383] scan: /kaggle/working/multi_label/exp13_secondary_label_bce/wandb/run-20230505_112709-uxttv1eb/files
+2023-05-05 11:27:35,982 INFO    SenderThread:4526 [dir_watcher.py:finish():397] scan save: /kaggle/working/multi_label/exp13_secondary_label_bce/wandb/run-20230505_112709-uxttv1eb/files/output.log output.log
+2023-05-05 11:27:35,982 INFO    SenderThread:4526 [dir_watcher.py:finish():397] scan save: /kaggle/working/multi_label/exp13_secondary_label_bce/wandb/run-20230505_112709-uxttv1eb/files/wandb-metadata.json wandb-metadata.json
+2023-05-05 11:27:35,987 INFO    SenderThread:4526 [dir_watcher.py:finish():397] scan save: /kaggle/working/multi_label/exp13_secondary_label_bce/wandb/run-20230505_112709-uxttv1eb/files/wandb-summary.json wandb-summary.json
+2023-05-05 11:27:35,991 INFO    SenderThread:4526 [dir_watcher.py:finish():397] scan save: /kaggle/working/multi_label/exp13_secondary_label_bce/wandb/run-20230505_112709-uxttv1eb/files/requirements.txt requirements.txt
+2023-05-05 11:27:35,991 INFO    SenderThread:4526 [dir_watcher.py:finish():397] scan save: /kaggle/working/multi_label/exp13_secondary_label_bce/wandb/run-20230505_112709-uxttv1eb/files/conda-environment.yaml conda-environment.yaml
+2023-05-05 11:27:35,995 INFO    SenderThread:4526 [dir_watcher.py:finish():397] scan save: /kaggle/working/multi_label/exp13_secondary_label_bce/wandb/run-20230505_112709-uxttv1eb/files/config.yaml config.yaml
+2023-05-05 11:27:36,000 INFO    SenderThread:4526 [file_pusher.py:finish():171] shutting down file pusher
+2023-05-05 11:27:36,000 INFO    SenderThread:4526 [file_pusher.py:join():176] waiting for file pusher
+2023-05-05 11:27:36,601 INFO    Thread-12 :4526 [upload_job.py:push():138] Uploaded file /kaggle/working/multi_label/exp13_secondary_label_bce/wandb/run-20230505_112709-uxttv1eb/files/wandb-metadata.json
+2023-05-05 11:27:36,623 INFO    Thread-14 :4526 [upload_job.py:push():138] Uploaded file /kaggle/working/multi_label/exp13_secondary_label_bce/wandb/run-20230505_112709-uxttv1eb/files/requirements.txt
+2023-05-05 11:27:36,717 INFO    Thread-11 :4526 [upload_job.py:push():138] Uploaded file /kaggle/working/multi_label/exp13_secondary_label_bce/wandb/run-20230505_112709-uxttv1eb/files/output.log
+2023-05-05 11:27:36,724 INFO    Thread-15 :4526 [upload_job.py:push():138] Uploaded file /kaggle/working/multi_label/exp13_secondary_label_bce/wandb/run-20230505_112709-uxttv1eb/files/config.yaml
+2023-05-05 11:27:36,738 INFO    Thread-13 :4526 [upload_job.py:push():138] Uploaded file /kaggle/working/multi_label/exp13_secondary_label_bce/wandb/run-20230505_112709-uxttv1eb/files/wandb-summary.json
+2023-05-05 11:27:37,235 INFO    MainThread:4526 [internal.py:handle_exit():80] Internal process exited
