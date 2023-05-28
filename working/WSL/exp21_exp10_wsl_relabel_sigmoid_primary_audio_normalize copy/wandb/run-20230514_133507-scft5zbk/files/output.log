@@ -1,0 +1,142 @@
+load pre-trained model :  /kaggle/working/WSL/exp10_softmax_model/fold-0.pth
+_IncompatibleKeys(missing_keys=['bn0.weight', 'bn0.bias', 'bn0.running_mean', 'bn0.running_var', 'fc1.weight', 'fc1.bias', 'att_block.att.weight', 'att_block.att.bias', 'att_block.cla.weight', 'att_block.cla.bias'], unexpected_keys=[])
+#########################
+#### Training
+#### Fold: 1 | Image Size: (224, 313) | Model: tf_efficientnet_b1_ns | Batch Size: 128 | Scheduler: cos
+#### Num Train: 19,627 | Num Valid: 3,381
+
+
+
+
+
+
+
+  6%|▌         | 9/154 [00:26<04:14,  1.75s/it]
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3552, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "/tmp/ipykernel_3438/364853370.py", line 104, in <module>
+    outputs, mix_targets = model(logmel, targets)
+  File "/opt/conda/lib/python3.7/site-packages/torch/nn/modules/module.py", line 1194, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/kaggle/working/WSL/exp21_exp10_wsl_relabel_sigmoid_primary_audio_normalize/pytorch_model.py", line 185, in forward
+    plt.show()
+  File "/opt/conda/lib/python3.7/site-packages/matplotlib/pyplot.py", line 387, in show
+    return _get_backend_mod().show(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/matplotlib_inline/backend_inline.py", line 43, in show
+    metadata=_fetch_figure_metadata(figure_manager.canvas.figure)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/display.py", line 320, in display
+    format_dict, md_dict = format(obj, include=include, exclude=exclude)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/formatters.py", line 180, in format
+    data = formatter(obj)
+  File "/opt/conda/lib/python3.7/site-packages/decorator.py", line 232, in fun
+    return caller(func, *(extras + args), **kw)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/formatters.py", line 224, in catch_format_error
+    r = method(self, *args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/formatters.py", line 341, in __call__
+    return printer(obj)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/pylabtools.py", line 151, in print_figure
+    fig.canvas.print_figure(bytes_io, **kw)
+  File "/opt/conda/lib/python3.7/site-packages/matplotlib/backend_bases.py", line 2325, in print_figure
+    **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/matplotlib/backend_bases.py", line 1648, in wrapper
+    return func(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/matplotlib/_api/deprecation.py", line 415, in wrapper
+    return func(*inner_args, **inner_kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/matplotlib/backends/backend_agg.py", line 540, in print_png
+    FigureCanvasAgg.draw(self)
+  File "/opt/conda/lib/python3.7/site-packages/matplotlib/backends/backend_agg.py", line 436, in draw
+    self.figure.draw(self.renderer)
+  File "/opt/conda/lib/python3.7/site-packages/matplotlib/artist.py", line 74, in draw_wrapper
+    result = draw(artist, renderer, *args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/matplotlib/artist.py", line 51, in draw_wrapper
+    return draw(artist, renderer)
+  File "/opt/conda/lib/python3.7/site-packages/matplotlib/figure.py", line 2846, in draw
+    renderer, self, artists, self.suppressComposite)
+  File "/opt/conda/lib/python3.7/site-packages/matplotlib/image.py", line 132, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/opt/conda/lib/python3.7/site-packages/matplotlib/artist.py", line 51, in draw_wrapper
+    return draw(artist, renderer)
+  File "/opt/conda/lib/python3.7/site-packages/matplotlib/axes/_base.py", line 3092, in draw
+    renderer, self, artists, self.figure.suppressComposite)
+  File "/opt/conda/lib/python3.7/site-packages/matplotlib/image.py", line 132, in _draw_list_compositing_images
+    a.draw(renderer)
+  File "/opt/conda/lib/python3.7/site-packages/matplotlib/artist.py", line 51, in draw_wrapper
+    return draw(artist, renderer)
+  File "/opt/conda/lib/python3.7/site-packages/matplotlib/axis.py", line 1163, in draw
+    tick.draw(renderer)
+  File "/opt/conda/lib/python3.7/site-packages/matplotlib/artist.py", line 51, in draw_wrapper
+    return draw(artist, renderer)
+  File "/opt/conda/lib/python3.7/site-packages/matplotlib/axis.py", line 299, in draw
+    artist.draw(renderer)
+  File "/opt/conda/lib/python3.7/site-packages/matplotlib/artist.py", line 51, in draw_wrapper
+    return draw(artist, renderer)
+  File "/opt/conda/lib/python3.7/site-packages/matplotlib/lines.py", line 728, in draw
+    if not self.get_visible():
+KeyboardInterrupt
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2098, in showtraceback
+    stb = value._render_traceback_()
+AttributeError: 'KeyboardInterrupt' object has no attribute '_render_traceback_'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 1101, in get_records
+    return _fixed_getinnerframes(etb, number_of_lines_of_context, tb_offset)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 248, in wrapped
+    return f(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 281, in _fixed_getinnerframes
+    records = fix_frame_records_filenames(inspect.getinnerframes(etb, context))
+  File "/opt/conda/lib/python3.7/inspect.py", line 1502, in getinnerframes
+    frameinfo = (tb.tb_frame,) + getframeinfo(tb, context)
+  File "/opt/conda/lib/python3.7/inspect.py", line 1460, in getframeinfo
+    filename = getsourcefile(frame) or getfile(frame)
+  File "/opt/conda/lib/python3.7/inspect.py", line 696, in getsourcefile
+    if getattr(getmodule(object, filename), '__loader__', None) is not None:
+  File "/opt/conda/lib/python3.7/inspect.py", line 742, in getmodule
+    os.path.realpath(f)] = module.__name__
+  File "/opt/conda/lib/python3.7/posixpath.py", line 395, in realpath
+    path, ok = _joinrealpath(filename[:0], filename, {})
+  File "/opt/conda/lib/python3.7/posixpath.py", line 429, in _joinrealpath
+    if not islink(newpath):
+  File "/opt/conda/lib/python3.7/posixpath.py", line 171, in islink
+    st = os.lstat(path)
+  6%|▋         | 10/154 [00:27<04:17,  1.79s/it]Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x7f36c65cc0e0>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1466, in __del__
+    self._shutdown_workers()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1430, in _shutdown_workers
+    w.join(timeout=_utils.MP_STATUS_CHECK_INTERVAL)
+  File "/opt/conda/lib/python3.7/multiprocessing/process.py", line 140, in join
+    res = self._popen.wait(timeout)
+  File "/opt/conda/lib/python3.7/multiprocessing/popen_fork.py", line 45, in wait
+    if not wait([self.sentinel], timeout):
+  File "/opt/conda/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+    ready = selector.select(timeout)
+  File "/opt/conda/lib/python3.7/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt:
+  6%|▋         | 10/154 [00:28<06:56,  2.89s/it]
+Process wandb_internal:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/multiprocessing/process.py", line 297, in _bootstrap
+    self.run()
+  File "/opt/conda/lib/python3.7/multiprocessing/process.py", line 99, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/internal/internal.py", line 160, in wandb_internal
+    thread.join()
+  File "/opt/conda/lib/python3.7/threading.py", line 1044, in join
+    self._wait_for_tstate_lock()
+  File "/opt/conda/lib/python3.7/threading.py", line 1060, in _wait_for_tstate_lock
+    elif lock.acquire(block, timeout):
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+  File "/opt/conda/lib/python3.7/multiprocessing/spawn.py", line 105, in spawn_main
+    exitcode = _main(fd)
+  File "/opt/conda/lib/python3.7/multiprocessing/spawn.py", line 118, in _main
+    return self._bootstrap()
+  File "/opt/conda/lib/python3.7/multiprocessing/process.py", line 315, in _bootstrap
+    threading._shutdown()
+  File "/opt/conda/lib/python3.7/threading.py", line 1307, in _shutdown
+    lock.acquire()

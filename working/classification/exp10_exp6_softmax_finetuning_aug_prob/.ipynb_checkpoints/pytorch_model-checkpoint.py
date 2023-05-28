@@ -8,7 +8,7 @@ import timm
 import torchaudio
 from torchaudio.transforms import MelSpectrogram
 from torchaudio.transforms import AmplitudeToDB
-from torchlibrosa.augmentation import DropStripes
+from SpecAugment import DropStripes
 
 import torchvision.transforms as T
 
@@ -37,17 +37,17 @@ class BirdCLEF23Net(nn.Module):
         self.n_mels=n_mels
         self.num_classes=num_classes
         
-        self.torchvision_transforms = T.Compose([
-            T.RandomHorizontalFlip(p=0.5)
-            ])
+        # self.torchvision_transforms = T.Compose([
+        #     T.RandomHorizontalFlip(p=0.5)
+        #     ])
         
         #self.to_melspec_fn = MelSpectrogram(sample_rate=sample_rate, n_fft=n_fft, hop_length=hop_length, n_mels=n_mels)
         #self.to_log_scale_fn = AmplitudeToDB(top_db=top_db)
         
         self.freq_dropper = DropStripes(dim=2, drop_width=int(CFG.freq_mask/2), 
-            stripes_num=2)
+            stripes_num=2, prob_th=CFG.spec_augment_prob)
         self.time_dropper = DropStripes(dim=3, drop_width=int(CFG.time_mask/2), 
-            stripes_num=2)
+            stripes_num=2, prob_th=CFG.spec_augment_prob)
     
     # def wav_to_logmel(self, x):
     #     # spec has shape [channel, n_mels, time], where channel is mono, stereo etc
@@ -56,12 +56,15 @@ class BirdCLEF23Net(nn.Module):
     #     x = self.to_log_scale_fn(x)
     #     return x
     
-    def mixup(self, data, label, alpha=0.5, device='cuda:0'):
-        def _aug(data1, data2, weights):
+    def mixup(self, data, label, alpha=0.5, prob_th=CFG.mixup_prob, device='cuda:0'):
+        def _aug(data1, data2, weights, probs):
             batch_size = len(data1)
             mix_data = []
             for i in range(batch_size):
-                sample = data1[i]*weights[i] + data2[i]*(1 - weights[i])
+                if prob_th >= probs[i]:
+                    sample = data1[i]*weights[i] + data2[i]*(1 - weights[i])
+                else:
+                    sample = data1[i]
                 mix_data.append(sample)
             
             mix_data = torch.stack(mix_data)
@@ -74,8 +77,9 @@ class BirdCLEF23Net(nn.Module):
         x1, x2 = data, data[index]
         y1, y2 = label, label[index]
 
-        x = _aug(x1, x2, weights)
-        y = _aug(y1, y2, weights)
+        probs = np.random.rand(data.shape[0])
+        x = _aug(x1, x2, weights, probs)
+        y = _aug(y1, y2, weights, probs)
 
         return x, y
     
@@ -86,14 +90,16 @@ class BirdCLEF23Net(nn.Module):
         #if self.training == True:
         #    wav = 
         #x = self.wav_to_logmel(wav)
-        #plt.imshow(x[0,0,:,:].to('cpu'))
-        #plt.show()
+        plt.imshow(x[0,0,:,:].to('cpu'))
+        plt.show()
         # log-mel augment
         if self.training == True:
-            x = self.torchvision_transforms(x)
+            #x = self.torchvision_transforms(x)
             x, y = self.mixup(x, targets)
             # spec aug
-            x = self.time_dropper(self.freq_dropper(x))
+            probs = np.random.rand(x.shape[0])
+            x = self.freq_dropper(x, probs)
+            x = self.time_dropper(x, probs)
         # plt.imshow(x[0,0,:,:].to('cpu'))
         # plt.show()
         # feature extractor

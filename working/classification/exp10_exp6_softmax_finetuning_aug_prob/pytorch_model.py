@@ -90,8 +90,8 @@ class BirdCLEF23Net(nn.Module):
         #if self.training == True:
         #    wav = 
         #x = self.wav_to_logmel(wav)
-        # plt.imshow(x[0,0,:,:].to('cpu'))
-        # plt.show()
+        plt.imshow(x[0,0,:,:].to('cpu'))
+        plt.show()
         # log-mel augment
         if self.training == True:
             #x = self.torchvision_transforms(x)

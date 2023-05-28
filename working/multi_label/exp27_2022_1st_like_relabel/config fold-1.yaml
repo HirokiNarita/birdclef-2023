@@ -1,0 +1,3446 @@
+BACKNOISE_BASE_PATH: /kaggle/input/birdclef-2023-dataset/birdclef2021-background-noise_wav
+BASE_DIR2: /kaggle/input/birdclef-2023-dataset
+BASE_PATH: /kaggle/input/birdclef-2023
+BASE_PATH_20: /kaggle/input/birdclef-2023-dataset/birdsong-recognition
+BASE_PATH_21: /kaggle/input/birdclef-2023-dataset/birdclef-2021
+BASE_PATH_22: /kaggle/input/birdclef-2023-dataset/birdclef-2022
+BASE_PATH_xam: /kaggle/input/birdclef-2023-dataset/xeno-canto-bird-recordings-extended-a-m
+BASE_PATH_xnz: /kaggle/input/birdclef-2023-dataset/xeno-canto-bird-recordings-extended-n-z
+_wandb_kernel: hirokin1999
+audio_augment_prob: 0.5
+audio_len: 320000
+augment: true
+batch_size: 64
+class_labels:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
+- 13
+- 14
+- 15
+- 16
+- 17
+- 18
+- 19
+- 20
+- 21
+- 22
+- 23
+- 24
+- 25
+- 26
+- 27
+- 28
+- 29
+- 30
+- 31
+- 32
+- 33
+- 34
+- 35
+- 36
+- 37
+- 38
+- 39
+- 40
+- 41
+- 42
+- 43
+- 44
+- 45
+- 46
+- 47
+- 48
+- 49
+- 50
+- 51
+- 52
+- 53
+- 54
+- 55
+- 56
+- 57
+- 58
+- 59
+- 60
+- 61
+- 62
+- 63
+- 64
+- 65
+- 66
+- 67
+- 68
+- 69
+- 70
+- 71
+- 72
+- 73
+- 74
+- 75
+- 76
+- 77
+- 78
+- 79
+- 80
+- 81
+- 82
+- 83
+- 84
+- 85
+- 86
+- 87
+- 88
+- 89
+- 90
+- 91
+- 92
+- 93
+- 94
+- 95
+- 96
+- 97
+- 98
+- 99
+- 100
+- 101
+- 102
+- 103
+- 104
+- 105
+- 106
+- 107
+- 108
+- 109
+- 110
+- 111
+- 112
+- 113
+- 114
+- 115
+- 116
+- 117
+- 118
+- 119
+- 120
+- 121
+- 122
+- 123
+- 124
+- 125
+- 126
+- 127
+- 128
+- 129
+- 130
+- 131
+- 132
+- 133
+- 134
+- 135
+- 136
+- 137
+- 138
+- 139
+- 140
+- 141
+- 142
+- 143
+- 144
+- 145
+- 146
+- 147
+- 148
+- 149
+- 150
+- 151
+- 152
+- 153
+- 154
+- 155
+- 156
+- 157
+- 158
+- 159
+- 160
+- 161
+- 162
+- 163
+- 164
+- 165
+- 166
+- 167
+- 168
+- 169
+- 170
+- 171
+- 172
+- 173
+- 174
+- 175
+- 176
+- 177
+- 178
+- 179
+- 180
+- 181
+- 182
+- 183
+- 184
+- 185
+- 186
+- 187
+- 188
+- 189
+- 190
+- 191
+- 192
+- 193
+- 194
+- 195
+- 196
+- 197
+- 198
+- 199
+- 200
+- 201
+- 202
+- 203
+- 204
+- 205
+- 206
+- 207
+- 208
+- 209
+- 210
+- 211
+- 212
+- 213
+- 214
+- 215
+- 216
+- 217
+- 218
+- 219
+- 220
+- 221
+- 222
+- 223
+- 224
+- 225
+- 226
+- 227
+- 228
+- 229
+- 230
+- 231
+- 232
+- 233
+- 234
+- 235
+- 236
+- 237
+- 238
+- 239
+- 240
+- 241
+- 242
+- 243
+- 244
+- 245
+- 246
+- 247
+- 248
+- 249
+- 250
+- 251
+- 252
+- 253
+- 254
+- 255
+- 256
+- 257
+- 258
+- 259
+- 260
+- 261
+- 262
+- 263
+class_labels_pre:
+- 0
+- 1
+- 2
+- 3
+- 4
+- 5
+- 6
+- 7
+- 8
+- 9
+- 10
+- 11
+- 12
+- 13
+- 14
+- 15
+- 16
+- 17
+- 18
+- 19
+- 20
+- 21
+- 22
+- 23
+- 24
+- 25
+- 26
+- 27
+- 28
+- 29
+- 30
+- 31
+- 32
+- 33
+- 34
+- 35
+- 36
+- 37
+- 38
+- 39
+- 40
+- 41
+- 42
+- 43
+- 44
+- 45
+- 46
+- 47
+- 48
+- 49
+- 50
+- 51
+- 52
+- 53
+- 54
+- 55
+- 56
+- 57
+- 58
+- 59
+- 60
+- 61
+- 62
+- 63
+- 64
+- 65
+- 66
+- 67
+- 68
+- 69
+- 70
+- 71
+- 72
+- 73
+- 74
+- 75
+- 76
+- 77
+- 78
+- 79
+- 80
+- 81
+- 82
+- 83
+- 84
+- 85
+- 86
+- 87
+- 88
+- 89
+- 90
+- 91
+- 92
+- 93
+- 94
+- 95
+- 96
+- 97
+- 98
+- 99
+- 100
+- 101
+- 102
+- 103
+- 104
+- 105
+- 106
+- 107
+- 108
+- 109
+- 110
+- 111
+- 112
+- 113
+- 114
+- 115
+- 116
+- 117
+- 118
+- 119
+- 120
+- 121
+- 122
+- 123
+- 124
+- 125
+- 126
+- 127
+- 128
+- 129
+- 130
+- 131
+- 132
+- 133
+- 134
+- 135
+- 136
+- 137
+- 138
+- 139
+- 140
+- 141
+- 142
+- 143
+- 144
+- 145
+- 146
+- 147
+- 148
+- 149
+- 150
+- 151
+- 152
+- 153
+- 154
+- 155
+- 156
+- 157
+- 158
+- 159
+- 160
+- 161
+- 162
+- 163
+- 164
+- 165
+- 166
+- 167
+- 168
+- 169
+- 170
+- 171
+- 172
+- 173
+- 174
+- 175
+- 176
+- 177
+- 178
+- 179
+- 180
+- 181
+- 182
+- 183
+- 184
+- 185
+- 186
+- 187
+- 188
+- 189
+- 190
+- 191
+- 192
+- 193
+- 194
+- 195
+- 196
+- 197
+- 198
+- 199
+- 200
+- 201
+- 202
+- 203
+- 204
+- 205
+- 206
+- 207
+- 208
+- 209
+- 210
+- 211
+- 212
+- 213
+- 214
+- 215
+- 216
+- 217
+- 218
+- 219
+- 220
+- 221
+- 222
+- 223
+- 224
+- 225
+- 226
+- 227
+- 228
+- 229
+- 230
+- 231
+- 232
+- 233
+- 234
+- 235
+- 236
+- 237
+- 238
+- 239
+- 240
+- 241
+- 242
+- 243
+- 244
+- 245
+- 246
+- 247
+- 248
+- 249
+- 250
+- 251
+- 252
+- 253
+- 254
+- 255
+- 256
+- 257
+- 258
+- 259
+- 260
+- 261
+- 262
+- 263
+- 264
+- 265
+- 266
+- 267
+- 268
+- 269
+- 270
+- 271
+- 272
+- 273
+- 274
+- 275
+- 276
+- 277
+- 278
+- 279
+- 280
+- 281
+- 282
+- 283
+- 284
+- 285
+- 286
+- 287
+- 288
+- 289
+- 290
+- 291
+- 292
+- 293
+- 294
+- 295
+- 296
+- 297
+- 298
+- 299
+- 300
+- 301
+- 302
+- 303
+- 304
+- 305
+- 306
+- 307
+- 308
+- 309
+- 310
+- 311
+- 312
+- 313
+- 314
+- 315
+- 316
+- 317
+- 318
+- 319
+- 320
+- 321
+- 322
+- 323
+- 324
+- 325
+- 326
+- 327
+- 328
+- 329
+- 330
+- 331
+- 332
+- 333
+- 334
+- 335
+- 336
+- 337
+- 338
+- 339
+- 340
+- 341
+- 342
+- 343
+- 344
+- 345
+- 346
+- 347
+- 348
+- 349
+- 350
+- 351
+- 352
+- 353
+- 354
+- 355
+- 356
+- 357
+- 358
+- 359
+- 360
+- 361
+- 362
+- 363
+- 364
+- 365
+- 366
+- 367
+- 368
+- 369
+- 370
+- 371
+- 372
+- 373
+- 374
+- 375
+- 376
+- 377
+- 378
+- 379
+- 380
+- 381
+- 382
+- 383
+- 384
+- 385
+- 386
+- 387
+- 388
+- 389
+- 390
+- 391
+- 392
+- 393
+- 394
+- 395
+- 396
+- 397
+- 398
+- 399
+- 400
+- 401
+- 402
+- 403
+- 404
+- 405
+- 406
+- 407
+- 408
+- 409
+- 410
+- 411
+- 412
+- 413
+- 414
+- 415
+- 416
+- 417
+- 418
+- 419
+- 420
+- 421
+- 422
+- 423
+- 424
+- 425
+- 426
+- 427
+- 428
+- 429
+- 430
+- 431
+- 432
+- 433
+- 434
+- 435
+- 436
+- 437
+- 438
+- 439
+- 440
+- 441
+- 442
+- 443
+- 444
+- 445
+- 446
+- 447
+- 448
+- 449
+- 450
+- 451
+- 452
+- 453
+- 454
+- 455
+- 456
+- 457
+- 458
+- 459
+- 460
+- 461
+- 462
+- 463
+- 464
+- 465
+- 466
+- 467
+- 468
+- 469
+- 470
+- 471
+- 472
+- 473
+- 474
+- 475
+- 476
+- 477
+- 478
+- 479
+- 480
+- 481
+- 482
+- 483
+- 484
+- 485
+- 486
+- 487
+- 488
+- 489
+- 490
+- 491
+- 492
+- 493
+- 494
+- 495
+- 496
+- 497
+- 498
+- 499
+- 500
+- 501
+- 502
+- 503
+- 504
+- 505
+- 506
+- 507
+- 508
+- 509
+- 510
+- 511
+- 512
+- 513
+- 514
+- 515
+- 516
+- 517
+- 518
+- 519
+- 520
+- 521
+- 522
+- 523
+- 524
+- 525
+- 526
+- 527
+- 528
+- 529
+- 530
+- 531
+- 532
+- 533
+- 534
+- 535
+- 536
+- 537
+- 538
+- 539
+- 540
+- 541
+- 542
+- 543
+- 544
+- 545
+- 546
+- 547
+- 548
+- 549
+- 550
+- 551
+- 552
+- 553
+- 554
+- 555
+- 556
+- 557
+- 558
+- 559
+- 560
+- 561
+- 562
+- 563
+- 564
+- 565
+- 566
+- 567
+- 568
+- 569
+- 570
+- 571
+- 572
+- 573
+- 574
+class_names:
+- abethr1
+- abhori1
+- abythr1
+- afbfly1
+- afdfly1
+- afecuc1
+- affeag1
+- afgfly1
+- afghor1
+- afmdov1
+- afpfly1
+- afpkin1
+- afpwag1
+- afrgos1
+- afrgrp1
+- afrjac1
+- afrthr1
+- amesun2
+- augbuz1
+- bagwea1
+- barswa
+- bawhor2
+- bawman1
+- bcbeat1
+- beasun2
+- bkctch1
+- bkfruw1
+- blacra1
+- blacuc1
+- blakit1
+- blaplo1
+- blbpuf2
+- blcapa2
+- blfbus1
+- blhgon1
+- blhher1
+- blksaw1
+- blnmou1
+- blnwea1
+- bltapa1
+- bltbar1
+- bltori1
+- blwlap1
+- brcale1
+- brcsta1
+- brctch1
+- brcwea1
+- brican1
+- brobab1
+- broman1
+- brosun1
+- brrwhe3
+- brtcha1
+- brubru1
+- brwwar1
+- bswdov1
+- btweye2
+- bubwar2
+- butapa1
+- cabgre1
+- carcha1
+- carwoo1
+- categr
+- ccbeat1
+- chespa1
+- chewea1
+- chibat1
+- chtapa3
+- chucis1
+- cibwar1
+- cohmar1
+- colsun2
+- combul2
+- combuz1
+- comsan
+- crefra2
+- crheag1
+- crohor1
+- darbar1
+- darter3
+- didcuc1
+- dotbar1
+- dutdov1
+- easmog1
+- eaywag1
+- edcsun3
+- egygoo
+- equaka1
+- eswdov1
+- eubeat1
+- fatrav1
+- fatwid1
+- fislov1
+- fotdro5
+- gabgos2
+- gargan
+- gbesta1
+- gnbcam2
+- gnhsun1
+- gobbun1
+- gobsta5
+- gobwea1
+- golher1
+- grbcam1
+- grccra1
+- grecor
+- greegr
+- grewoo2
+- grwpyt1
+- gryapa1
+- grywrw1
+- gybfis1
+- gycwar3
+- gyhbus1
+- gyhkin1
+- gyhneg1
+- gyhspa1
+- gytbar1
+- hadibi1
+- hamerk1
+- hartur1
+- helgui
+- hipbab1
+- hoopoe
+- huncis1
+- hunsun2
+- joygre1
+- kerspa2
+- klacuc1
+- kvbsun1
+- laudov1
+- lawgol
+- lesmaw1
+- lessts1
+- libeat1
+- litegr
+- litswi1
+- litwea1
+- loceag1
+- lotcor1
+- lotlap1
+- luebus1
+- mabeat1
+- macshr1
+- malkin1
+- marsto1
+- marsun2
+- mcptit1
+- meypar1
+- moccha1
+- mouwag1
+- ndcsun2
+- nobfly1
+- norbro1
+- norcro1
+- norfis1
+- norpuf1
+- nubwoo1
+- pabspa1
+- palfly2
+- palpri1
+- piecro1
+- piekin1
+- pitwhy
+- purgre2
+- pygbat1
+- quailf1
+- ratcis1
+- raybar1
+- rbsrob1
+- rebfir2
+- rebhor1
+- reboxp1
+- reccor
+- reccuc1
+- reedov1
+- refbar2
+- refcro1
+- reftin1
+- refwar2
+- rehblu1
+- rehwea1
+- reisee2
+- rerswa1
+- rewsta1
+- rindov
+- rocmar2
+- rostur1
+- ruegls1
+- rufcha2
+- sacibi2
+- sccsun2
+- scrcha1
+- scthon1
+- shesta1
+- sichor1
+- sincis1
+- slbgre1
+- slcbou1
+- sltnig1
+- sobfly1
+- somgre1
+- somtit4
+- soucit1
+- soufis1
+- spemou2
+- spepig1
+- spewea1
+- spfbar1
+- spfwea1
+- spmthr1
+- spwlap1
+- squher1
+- strher
+- strsee1
+- stusta1
+- subbus1
+- supsta1
+- tacsun1
+- tafpri1
+- tamdov1
+- thrnig1
+- trobou1
+- varsun2
+- vibsta2
+- vilwea1
+- vimwea1
+- walsta1
+- wbgbir1
+- wbrcha2
+- wbswea1
+- wfbeat1
+- whbcan1
+- whbcou1
+- whbcro2
+- whbtit5
+- whbwea1
+- whbwhe3
+- whcpri2
+- whctur2
+- wheslf1
+- whhsaw1
+- whihel1
+- whrshr1
+- witswa1
+- wlwwar
+- wookin1
+- woosan
+- wtbeat1
+- yebapa1
+- yebbar1
+- yebduc1
+- yebere1
+- yebgre1
+- yebsto1
+- yeccan1
+- yefcan
+- yelbis1
+- yenspu1
+- yertin1
+- yesbar1
+- yespet1
+- yetgre1
+- yewgre1
+class_names_pre:
+- acafly
+- acowoo
+- afrsil1
+- akekee
+- akepa1
+- akiapo
+- akikik
+- aldfly
+- ameavo
+- amebit
+- amecro
+- amegfi
+- amekes
+- amepip
+- amered
+- amerob
+- amewig
+- amewoo
+- amtspa
+- andsol1
+- aniani
+- annhum
+- apapan
+- arcter
+- astfly
+- azaspi1
+- babwar
+- baisan
+- baleag
+- balori
+- banana
+- banswa
+- banwre1
+- barant1
+- barpet
+- barswa
+- batpig1
+- bawswa1
+- bawwar
+- baywre1
+- bbwduc
+- bcnher
+- belkin1
+- belspa2
+- belvir
+- bewwre
+- bkbcuc
+- bkbmag1
+- bkbplo
+- bkbwar
+- bkcchi
+- bkchum
+- bkhgro
+- bkmtou1
+- bknsti
+- bkpwar
+- bktspa
+- bkwpet
+- blbgra1
+- blbthr1
+- blcjay1
+- blctan1
+- blhpar1
+- blkfra
+- blknod
+- blkpho
+- blsspa1
+- blugrb1
+- blujay
+- bncfly
+- bnhcow
+- bobfly1
+- boboli
+- bongul
+- botgra
+- brant
+- brbmot1
+- brbsol1
+- brcvir1
+- brdowl
+- brebla
+- brespa
+- brnboo
+- brncre
+- brnjay
+- brnnod
+- brnowl
+- brnthr
+- brratt1
+- brtcur
+- brthum
+- brwhaw
+- brwpar1
+- btbwar
+- btnwar
+- btywar
+- bubsan
+- bucmot2
+- buffle
+- buggna
+- bugtan
+- buhvir
+- bulori
+- bulpet
+- burpar
+- burwar1
+- bushti
+- butsal1
+- buwtea
+- buwwar
+- cacgoo1
+- cacwre
+- calgul
+- calqua
+- caltow
+- camwar
+- cangoo
+- canvas
+- canwar
+- canwre
+- carchi
+- carwre
+- casfin
+- caskin
+- caster1
+- casvir
+- categr
+- ccbfin
+- cedwax
+- chbant1
+- chbchi
+- chbsan
+- chbwre1
+- chcant2
+- chemun
+- chispa
+- chiswi
+- chswar
+- chukar
+- cinfly2
+- cintea
+- clanut
+- clcrob
+- cliswa
+- cobtan1
+- cocwoo1
+- cogdov
+- colcha1
+- coltro1
+- comgal1
+- comgol
+- comgra
+- comloo
+- commer
+- commyn
+- comnig
+- compau
+- compea
+- compot1
+- comrav
+- comred
+- comsan
+- comter
+- comwax
+- comyel
+- coohaw
+- coopet
+- coshum
+- cotfly1
+- cowscj1
+- cregua1
+- crehon
+- creoro1
+- crfpar
+- cubthr
+- daejun
+- doccor
+- dowwoo
+- ducfly
+- dunlin
+- dusfly
+- eargre
+- easblu
+- easkin
+- easmea
+- easpho
+- eastow
+- eawpew
+- elepai
+- eletro
+- ercfra
+- eucdov
+- eursta
+- eurwig
+- evegro
+- fepowl
+- fiespa
+- fiscro
+- flrtan1
+- foxspa
+- fragul
+- gadwal
+- gamqua
+- gartro1
+- gbbgul
+- gbwwre1
+- gcrfin
+- gcrwar
+- gilwoo
+- glwgul
+- gnttow
+- gnwtea
+- gocfly1
+- gockin
+- gocspa
+- goftyr1
+- gohque1
+- goleag
+- golphe
+- goowoo1
+- grasal1
+- grbani
+- grbher3
+- grcfly
+- greegr
+- grefri
+- grekis
+- grepew
+- greroa
+- gresca
+- grethr1
+- gretin1
+- greyel
+- grhcha1
+- grhowl
+- grnher
+- grnjay
+- grtgra
+- grycat
+- gryfly
+- gryfra
+- gryhaw2
+- gwfgoo
+- haiwoo
+- hamfly
+- hawama
+- hawcoo
+- hawcre
+- hawgoo
+- hawhaw
+- hawpet1
+- heptan
+- hergul
+- herthr
+- herwar
+- higmot1
+- hofwoo1
+- hoomer
+- hoowar
+- horgre
+- horlar
+- houfin
+- houspa
+- houwre
+- hudgod
+- hutvir
+- iiwi
+- incdov
+- incter1
+- indbun
+- jabwar
+- japqua
+- juntit1
+- kalphe
+- kauama
+- kebtou1
+- killde
+- labwoo
+- larspa
+- laufal1
+- laugul
+- layalb
+- lazbun
+- lcspet
+- leabit
+- leafly
+- leasan
+- leater1
+- lecthr
+- lesgol
+- lesgre1
+- lesnig
+- lessca
+- lesvio1
+- lesyel
+- lewwoo
+- linspa
+- linwoo1
+- littin1
+- lobcur
+- lobdow
+- lobgna5
+- logshr
+- lotduc
+- lotjae
+- lotman1
+- louwat
+- lucwar
+- macwar
+- madpet
+- magpet1
+- magwar
+- mallar3
+- marwre
+- masboo
+- mastro1
+- mauala
+- maupar
+- meapar
+- melbla1
+- merlin
+- mitpar
+- monoro1
+- moublu
+- mouchi
+- moudov
+- mouela1
+- mouqua
+- mouwar
+- mutswa
+- naswar
+- norcar
+- norfli
+- norhar2
+- normoc
+- norpar
+- norpin
+- norsho
+- norwat
+- nrwswa
+- nutman
+- nutwoo
+- oahama
+- oaktit
+- obnthr1
+- ocbfly1
+- oliwoo1
+- olsfly
+- omao
+- orbeup1
+- orbspa1
+- orcpar
+- orcwar
+- orfpar
+- osprey
+- ovenbi1
+- pabspi1
+- pagplo
+- palila
+- paltan1
+- palwar
+- parjae
+- pasfly
+- pavpig2
+- pecsan
+- peflov
+- perfal
+- phaino
+- phivir
+- pibgre
+- pilwoo
+- pingro
+- pinjay
+- pinsis
+- pinwar
+- pirfly1
+- plawre1
+- plaxen1
+- plsvir
+- plupig2
+- pomjae
+- prawar
+- prowar
+- puaioh
+- purfin
+- purgal2
+- putfru1
+- pygnut
+- rawwre1
+- rcatan1
+- rebmer
+- rebnut
+- rebsap
+- rebwoo
+- reccar
+- redava
+- redcro
+- redhea
+- redjun
+- redpha1
+- reevir1
+- refboo
+- rehbar1
+- relpar
+- rempar
+- renpha
+- reshaw
+- rethaw
+- rettro
+- rewbla
+- ribgul
+- rinduc
+- rinkin1
+- rinphe
+- roahaw
+- robgro
+- rocpig
+- rocwre
+- rorpar
+- rotbec
+- royter1
+- rthhum
+- rtlhum
+- ruboro1
+- rubpep1
+- rubrob
+- rubwre1
+- ruckin
+- rucspa1
+- rucwar
+- rucwar1
+- rudduc
+- rudpig
+- rudtur
+- ruff
+- rufgro
+- rufhum
+- rugdov
+- rumfly1
+- runwre1
+- rusbla
+- rutjac1
+- saffin
+- sagspa1
+- sagthr
+- sancra
+- sander
+- savspa
+- saypho
+- scamac1
+- scatan
+- scbwre1
+- scoori
+- scptyr1
+- scrtan1
+- semplo
+- semsan
+- sheowl
+- shicow
+- shshaw
+- shtsan
+- sibtan2
+- sinwre1
+- skylar
+- sltred
+- smbani
+- snobun
+- snogoo
+- sobtyr1
+- socfly1
+- solsan
+- sonspa
+- sooshe
+- sooter1
+- sopsku1
+- sora
+- soulap1
+- spodov
+- sposan
+- spotow
+- spvear1
+- squcuc1
+- stbori
+- stejay
+- sthant1
+- sthwoo1
+- strcuc1
+- strfly1
+- strsal1
+- stvhum2
+- subfly
+- sumtan
+- swahaw
+- swaspa
+- swathr
+- tenwar
+- thbeup1
+- thbkin
+- thswar1
+- towsol
+- treswa
+- trogna1
+- trokin
+- tromoc
+- tropar
+- tropew1
+- truswa
+- tuftit
+- tunswa
+- veery
+- verdin
+- vesspa
+- vigswa
+- wantat1
+- warvir
+- warwhe1
+- wbwwre1
+- webwoo1
+- wegspa1
+- wesant1
+- wesblu
+- wesgre
+- weskin
+- wesmea
+- wessan
+- westan
+- wetshe
+- wewpew
+- whbman1
+- whbnut
+- whcpar
+- whcsee1
+- whcspa
+- whevir
+- whfibi
+- whfpar1
+- whimbr
+- whiter
+- whiwre1
+- whtdov
+- whtspa
+- whtswi
+- whttro
+- whwbec1
+- whwdov
+- wilfly
+- willet1
+- wilsni1
+- wiltur
+- winwre3
+- wlswar
+- wooduc
+- wooscj2
+- woothr
+- wrenti
+- y00475
+- yebcar
+- yebcha
+- yebela1
+- yebfly
+- yebori1
+- yebsap
+- yebsee1
+- yefcan
+- yefgra1
+- yegvir
+- yehbla
+- yehcar1
+- yelgro
+- yelwar
+- yeofly1
+- yerwar
+- yeteup1
+- yetvir
+- zebdov
+comment: add union(20,21,22,xeno)|loss=focalloss|fine-tuning(exp-10)|2022_1st_like|2022_3rd_like_label
+competition: birdclef-2023
+cutmix_alpha: 0.5
+cutmix_prob: 0.0
+cv_filter: true
+debug: false
+device: cuda:0
+drop_remainder: true
+duration: 10
+epochs: 50
+exp_name: baseline
+fmax: 14000
+fmin: 50
+fold: 1
+freq_mask: 10
+gn_prob: 0.5
+hop_length: 320
+img_size:
+- 128
+- 1001
+in_chans: 1
+inference_model_path: input/fold-0.pth
+label2name:
+  0: abethr1
+  1: abhori1
+  2: abythr1
+  3: afbfly1
+  4: afdfly1
+  5: afecuc1
+  6: affeag1
+  7: afgfly1
+  8: afghor1
+  9: afmdov1
+  10: afpfly1
+  11: afpkin1
+  12: afpwag1
+  13: afrgos1
+  14: afrgrp1
+  15: afrjac1
+  16: afrthr1
+  17: amesun2
+  18: augbuz1
+  19: bagwea1
+  20: barswa
+  21: bawhor2
+  22: bawman1
+  23: bcbeat1
+  24: beasun2
+  25: bkctch1
+  26: bkfruw1
+  27: blacra1
+  28: blacuc1
+  29: blakit1
+  30: blaplo1
+  31: blbpuf2
+  32: blcapa2
+  33: blfbus1
+  34: blhgon1
+  35: blhher1
+  36: blksaw1
+  37: blnmou1
+  38: blnwea1
+  39: bltapa1
+  40: bltbar1
+  41: bltori1
+  42: blwlap1
+  43: brcale1
+  44: brcsta1
+  45: brctch1
+  46: brcwea1
+  47: brican1
+  48: brobab1
+  49: broman1
+  50: brosun1
+  51: brrwhe3
+  52: brtcha1
+  53: brubru1
+  54: brwwar1
+  55: bswdov1
+  56: btweye2
+  57: bubwar2
+  58: butapa1
+  59: cabgre1
+  60: carcha1
+  61: carwoo1
+  62: categr
+  63: ccbeat1
+  64: chespa1
+  65: chewea1
+  66: chibat1
+  67: chtapa3
+  68: chucis1
+  69: cibwar1
+  70: cohmar1
+  71: colsun2
+  72: combul2
+  73: combuz1
+  74: comsan
+  75: crefra2
+  76: crheag1
+  77: crohor1
+  78: darbar1
+  79: darter3
+  80: didcuc1
+  81: dotbar1
+  82: dutdov1
+  83: easmog1
+  84: eaywag1
+  85: edcsun3
+  86: egygoo
+  87: equaka1
+  88: eswdov1
+  89: eubeat1
+  90: fatrav1
+  91: fatwid1
+  92: fislov1
+  93: fotdro5
+  94: gabgos2
+  95: gargan
+  96: gbesta1
+  97: gnbcam2
+  98: gnhsun1
+  99: gobbun1
+  100: gobsta5
+  101: gobwea1
+  102: golher1
+  103: grbcam1
+  104: grccra1
+  105: grecor
+  106: greegr
+  107: grewoo2
+  108: grwpyt1
+  109: gryapa1
+  110: grywrw1
+  111: gybfis1
+  112: gycwar3
+  113: gyhbus1
+  114: gyhkin1
+  115: gyhneg1
+  116: gyhspa1
+  117: gytbar1
+  118: hadibi1
+  119: hamerk1
+  120: hartur1
+  121: helgui
+  122: hipbab1
+  123: hoopoe
+  124: huncis1
+  125: hunsun2
+  126: joygre1
+  127: kerspa2
+  128: klacuc1
+  129: kvbsun1
+  130: laudov1
+  131: lawgol
+  132: lesmaw1
+  133: lessts1
+  134: libeat1
+  135: litegr
+  136: litswi1
+  137: litwea1
+  138: loceag1
+  139: lotcor1
+  140: lotlap1
+  141: luebus1
+  142: mabeat1
+  143: macshr1
+  144: malkin1
+  145: marsto1
+  146: marsun2
+  147: mcptit1
+  148: meypar1
+  149: moccha1
+  150: mouwag1
+  151: ndcsun2
+  152: nobfly1
+  153: norbro1
+  154: norcro1
+  155: norfis1
+  156: norpuf1
+  157: nubwoo1
+  158: pabspa1
+  159: palfly2
+  160: palpri1
+  161: piecro1
+  162: piekin1
+  163: pitwhy
+  164: purgre2
+  165: pygbat1
+  166: quailf1
+  167: ratcis1
+  168: raybar1
+  169: rbsrob1
+  170: rebfir2
+  171: rebhor1
+  172: reboxp1
+  173: reccor
+  174: reccuc1
+  175: reedov1
+  176: refbar2
+  177: refcro1
+  178: reftin1
+  179: refwar2
+  180: rehblu1
+  181: rehwea1
+  182: reisee2
+  183: rerswa1
+  184: rewsta1
+  185: rindov
+  186: rocmar2
+  187: rostur1
+  188: ruegls1
+  189: rufcha2
+  190: sacibi2
+  191: sccsun2
+  192: scrcha1
+  193: scthon1
+  194: shesta1
+  195: sichor1
+  196: sincis1
+  197: slbgre1
+  198: slcbou1
+  199: sltnig1
+  200: sobfly1
+  201: somgre1
+  202: somtit4
+  203: soucit1
+  204: soufis1
+  205: spemou2
+  206: spepig1
+  207: spewea1
+  208: spfbar1
+  209: spfwea1
+  210: spmthr1
+  211: spwlap1
+  212: squher1
+  213: strher
+  214: strsee1
+  215: stusta1
+  216: subbus1
+  217: supsta1
+  218: tacsun1
+  219: tafpri1
+  220: tamdov1
+  221: thrnig1
+  222: trobou1
+  223: varsun2
+  224: vibsta2
+  225: vilwea1
+  226: vimwea1
+  227: walsta1
+  228: wbgbir1
+  229: wbrcha2
+  230: wbswea1
+  231: wfbeat1
+  232: whbcan1
+  233: whbcou1
+  234: whbcro2
+  235: whbtit5
+  236: whbwea1
+  237: whbwhe3
+  238: whcpri2
+  239: whctur2
+  240: wheslf1
+  241: whhsaw1
+  242: whihel1
+  243: whrshr1
+  244: witswa1
+  245: wlwwar
+  246: wookin1
+  247: woosan
+  248: wtbeat1
+  249: yebapa1
+  250: yebbar1
+  251: yebduc1
+  252: yebere1
+  253: yebgre1
+  254: yebsto1
+  255: yeccan1
+  256: yefcan
+  257: yelbis1
+  258: yenspu1
+  259: yertin1
+  260: yesbar1
+  261: yespet1
+  262: yetgre1
+  263: yewgre1
+label2name_pre:
+  0: acafly
+  1: acowoo
+  2: afrsil1
+  3: akekee
+  4: akepa1
+  5: akiapo
+  6: akikik
+  7: aldfly
+  8: ameavo
+  9: amebit
+  10: amecro
+  11: amegfi
+  12: amekes
+  13: amepip
+  14: amered
+  15: amerob
+  16: amewig
+  17: amewoo
+  18: amtspa
+  19: andsol1
+  20: aniani
+  21: annhum
+  22: apapan
+  23: arcter
+  24: astfly
+  25: azaspi1
+  26: babwar
+  27: baisan
+  28: baleag
+  29: balori
+  30: banana
+  31: banswa
+  32: banwre1
+  33: barant1
+  34: barpet
+  35: barswa
+  36: batpig1
+  37: bawswa1
+  38: bawwar
+  39: baywre1
+  40: bbwduc
+  41: bcnher
+  42: belkin1
+  43: belspa2
+  44: belvir
+  45: bewwre
+  46: bkbcuc
+  47: bkbmag1
+  48: bkbplo
+  49: bkbwar
+  50: bkcchi
+  51: bkchum
+  52: bkhgro
+  53: bkmtou1
+  54: bknsti
+  55: bkpwar
+  56: bktspa
+  57: bkwpet
+  58: blbgra1
+  59: blbthr1
+  60: blcjay1
+  61: blctan1
+  62: blhpar1
+  63: blkfra
+  64: blknod
+  65: blkpho
+  66: blsspa1
+  67: blugrb1
+  68: blujay
+  69: bncfly
+  70: bnhcow
+  71: bobfly1
+  72: boboli
+  73: bongul
+  74: botgra
+  75: brant
+  76: brbmot1
+  77: brbsol1
+  78: brcvir1
+  79: brdowl
+  80: brebla
+  81: brespa
+  82: brnboo
+  83: brncre
+  84: brnjay
+  85: brnnod
+  86: brnowl
+  87: brnthr
+  88: brratt1
+  89: brtcur
+  90: brthum
+  91: brwhaw
+  92: brwpar1
+  93: btbwar
+  94: btnwar
+  95: btywar
+  96: bubsan
+  97: bucmot2
+  98: buffle
+  99: buggna
+  100: bugtan
+  101: buhvir
+  102: bulori
+  103: bulpet
+  104: burpar
+  105: burwar1
+  106: bushti
+  107: butsal1
+  108: buwtea
+  109: buwwar
+  110: cacgoo1
+  111: cacwre
+  112: calgul
+  113: calqua
+  114: caltow
+  115: camwar
+  116: cangoo
+  117: canvas
+  118: canwar
+  119: canwre
+  120: carchi
+  121: carwre
+  122: casfin
+  123: caskin
+  124: caster1
+  125: casvir
+  126: categr
+  127: ccbfin
+  128: cedwax
+  129: chbant1
+  130: chbchi
+  131: chbsan
+  132: chbwre1
+  133: chcant2
+  134: chemun
+  135: chispa
+  136: chiswi
+  137: chswar
+  138: chukar
+  139: cinfly2
+  140: cintea
+  141: clanut
+  142: clcrob
+  143: cliswa
+  144: cobtan1
+  145: cocwoo1
+  146: cogdov
+  147: colcha1
+  148: coltro1
+  149: comgal1
+  150: comgol
+  151: comgra
+  152: comloo
+  153: commer
+  154: commyn
+  155: comnig
+  156: compau
+  157: compea
+  158: compot1
+  159: comrav
+  160: comred
+  161: comsan
+  162: comter
+  163: comwax
+  164: comyel
+  165: coohaw
+  166: coopet
+  167: coshum
+  168: cotfly1
+  169: cowscj1
+  170: cregua1
+  171: crehon
+  172: creoro1
+  173: crfpar
+  174: cubthr
+  175: daejun
+  176: doccor
+  177: dowwoo
+  178: ducfly
+  179: dunlin
+  180: dusfly
+  181: eargre
+  182: easblu
+  183: easkin
+  184: easmea
+  185: easpho
+  186: eastow
+  187: eawpew
+  188: elepai
+  189: eletro
+  190: ercfra
+  191: eucdov
+  192: eursta
+  193: eurwig
+  194: evegro
+  195: fepowl
+  196: fiespa
+  197: fiscro
+  198: flrtan1
+  199: foxspa
+  200: fragul
+  201: gadwal
+  202: gamqua
+  203: gartro1
+  204: gbbgul
+  205: gbwwre1
+  206: gcrfin
+  207: gcrwar
+  208: gilwoo
+  209: glwgul
+  210: gnttow
+  211: gnwtea
+  212: gocfly1
+  213: gockin
+  214: gocspa
+  215: goftyr1
+  216: gohque1
+  217: goleag
+  218: golphe
+  219: goowoo1
+  220: grasal1
+  221: grbani
+  222: grbher3
+  223: grcfly
+  224: greegr
+  225: grefri
+  226: grekis
+  227: grepew
+  228: greroa
+  229: gresca
+  230: grethr1
+  231: gretin1
+  232: greyel
+  233: grhcha1
+  234: grhowl
+  235: grnher
+  236: grnjay
+  237: grtgra
+  238: grycat
+  239: gryfly
+  240: gryfra
+  241: gryhaw2
+  242: gwfgoo
+  243: haiwoo
+  244: hamfly
+  245: hawama
+  246: hawcoo
+  247: hawcre
+  248: hawgoo
+  249: hawhaw
+  250: hawpet1
+  251: heptan
+  252: hergul
+  253: herthr
+  254: herwar
+  255: higmot1
+  256: hofwoo1
+  257: hoomer
+  258: hoowar
+  259: horgre
+  260: horlar
+  261: houfin
+  262: houspa
+  263: houwre
+  264: hudgod
+  265: hutvir
+  266: iiwi
+  267: incdov
+  268: incter1
+  269: indbun
+  270: jabwar
+  271: japqua
+  272: juntit1
+  273: kalphe
+  274: kauama
+  275: kebtou1
+  276: killde
+  277: labwoo
+  278: larspa
+  279: laufal1
+  280: laugul
+  281: layalb
+  282: lazbun
+  283: lcspet
+  284: leabit
+  285: leafly
+  286: leasan
+  287: leater1
+  288: lecthr
+  289: lesgol
+  290: lesgre1
+  291: lesnig
+  292: lessca
+  293: lesvio1
+  294: lesyel
+  295: lewwoo
+  296: linspa
+  297: linwoo1
+  298: littin1
+  299: lobcur
+  300: lobdow
+  301: lobgna5
+  302: logshr
+  303: lotduc
+  304: lotjae
+  305: lotman1
+  306: louwat
+  307: lucwar
+  308: macwar
+  309: madpet
+  310: magpet1
+  311: magwar
+  312: mallar3
+  313: marwre
+  314: masboo
+  315: mastro1
+  316: mauala
+  317: maupar
+  318: meapar
+  319: melbla1
+  320: merlin
+  321: mitpar
+  322: monoro1
+  323: moublu
+  324: mouchi
+  325: moudov
+  326: mouela1
+  327: mouqua
+  328: mouwar
+  329: mutswa
+  330: naswar
+  331: norcar
+  332: norfli
+  333: norhar2
+  334: normoc
+  335: norpar
+  336: norpin
+  337: norsho
+  338: norwat
+  339: nrwswa
+  340: nutman
+  341: nutwoo
+  342: oahama
+  343: oaktit
+  344: obnthr1
+  345: ocbfly1
+  346: oliwoo1
+  347: olsfly
+  348: omao
+  349: orbeup1
+  350: orbspa1
+  351: orcpar
+  352: orcwar
+  353: orfpar
+  354: osprey
+  355: ovenbi1
+  356: pabspi1
+  357: pagplo
+  358: palila
+  359: paltan1
+  360: palwar
+  361: parjae
+  362: pasfly
+  363: pavpig2
+  364: pecsan
+  365: peflov
+  366: perfal
+  367: phaino
+  368: phivir
+  369: pibgre
+  370: pilwoo
+  371: pingro
+  372: pinjay
+  373: pinsis
+  374: pinwar
+  375: pirfly1
+  376: plawre1
+  377: plaxen1
+  378: plsvir
+  379: plupig2
+  380: pomjae
+  381: prawar
+  382: prowar
+  383: puaioh
+  384: purfin
+  385: purgal2
+  386: putfru1
+  387: pygnut
+  388: rawwre1
+  389: rcatan1
+  390: rebmer
+  391: rebnut
+  392: rebsap
+  393: rebwoo
+  394: reccar
+  395: redava
+  396: redcro
+  397: redhea
+  398: redjun
+  399: redpha1
+  400: reevir1
+  401: refboo
+  402: rehbar1
+  403: relpar
+  404: rempar
+  405: renpha
+  406: reshaw
+  407: rethaw
+  408: rettro
+  409: rewbla
+  410: ribgul
+  411: rinduc
+  412: rinkin1
+  413: rinphe
+  414: roahaw
+  415: robgro
+  416: rocpig
+  417: rocwre
+  418: rorpar
+  419: rotbec
+  420: royter1
+  421: rthhum
+  422: rtlhum
+  423: ruboro1
+  424: rubpep1
+  425: rubrob
+  426: rubwre1
+  427: ruckin
+  428: rucspa1
+  429: rucwar
+  430: rucwar1
+  431: rudduc
+  432: rudpig
+  433: rudtur
+  434: ruff
+  435: rufgro
+  436: rufhum
+  437: rugdov
+  438: rumfly1
+  439: runwre1
+  440: rusbla
+  441: rutjac1
+  442: saffin
+  443: sagspa1
+  444: sagthr
+  445: sancra
+  446: sander
+  447: savspa
+  448: saypho
+  449: scamac1
+  450: scatan
+  451: scbwre1
+  452: scoori
+  453: scptyr1
+  454: scrtan1
+  455: semplo
+  456: semsan
+  457: sheowl
+  458: shicow
+  459: shshaw
+  460: shtsan
+  461: sibtan2
+  462: sinwre1
+  463: skylar
+  464: sltred
+  465: smbani
+  466: snobun
+  467: snogoo
+  468: sobtyr1
+  469: socfly1
+  470: solsan
+  471: sonspa
+  472: sooshe
+  473: sooter1
+  474: sopsku1
+  475: sora
+  476: soulap1
+  477: spodov
+  478: sposan
+  479: spotow
+  480: spvear1
+  481: squcuc1
+  482: stbori
+  483: stejay
+  484: sthant1
+  485: sthwoo1
+  486: strcuc1
+  487: strfly1
+  488: strsal1
+  489: stvhum2
+  490: subfly
+  491: sumtan
+  492: swahaw
+  493: swaspa
+  494: swathr
+  495: tenwar
+  496: thbeup1
+  497: thbkin
+  498: thswar1
+  499: towsol
+  500: treswa
+  501: trogna1
+  502: trokin
+  503: tromoc
+  504: tropar
+  505: tropew1
+  506: truswa
+  507: tuftit
+  508: tunswa
+  509: veery
+  510: verdin
+  511: vesspa
+  512: vigswa
+  513: wantat1
+  514: warvir
+  515: warwhe1
+  516: wbwwre1
+  517: webwoo1
+  518: wegspa1
+  519: wesant1
+  520: wesblu
+  521: wesgre
+  522: weskin
+  523: wesmea
+  524: wessan
+  525: westan
+  526: wetshe
+  527: wewpew
+  528: whbman1
+  529: whbnut
+  530: whcpar
+  531: whcsee1
+  532: whcspa
+  533: whevir
+  534: whfibi
+  535: whfpar1
+  536: whimbr
+  537: whiter
+  538: whiwre1
+  539: whtdov
+  540: whtspa
+  541: whtswi
+  542: whttro
+  543: whwbec1
+  544: whwdov
+  545: wilfly
+  546: willet1
+  547: wilsni1
+  548: wiltur
+  549: winwre3
+  550: wlswar
+  551: wooduc
+  552: wooscj2
+  553: woothr
+  554: wrenti
+  555: y00475
+  556: yebcar
+  557: yebcha
+  558: yebela1
+  559: yebfly
+  560: yebori1
+  561: yebsap
+  562: yebsee1
+  563: yefcan
+  564: yefgra1
+  565: yegvir
+  566: yehbla
+  567: yehcar1
+  568: yelgro
+  569: yelwar
+  570: yeofly1
+  571: yerwar
+  572: yeteup1
+  573: yetvir
+  574: zebdov
+label_smoothing: 0.05
+loss: CCE
+lr: 0.001
+lr_min: 1.0e-05
+mask_prob: 0.5
+mixup_alpha: 0.5
+mixup_prob: 0.65
+model_name: tf_efficientnet_b1_ns
+monitor: auc
+n_fft: 2028
+n_mels: 128
+name2label:
+  abethr1: 0
+  abhori1: 1
+  abythr1: 2
+  afbfly1: 3
+  afdfly1: 4
+  afecuc1: 5
+  affeag1: 6
+  afgfly1: 7
+  afghor1: 8
+  afmdov1: 9
+  afpfly1: 10
+  afpkin1: 11
+  afpwag1: 12
+  afrgos1: 13
+  afrgrp1: 14
+  afrjac1: 15
+  afrthr1: 16
+  amesun2: 17
+  augbuz1: 18
+  bagwea1: 19
+  barswa: 20
+  bawhor2: 21
+  bawman1: 22
+  bcbeat1: 23
+  beasun2: 24
+  bkctch1: 25
+  bkfruw1: 26
+  blacra1: 27
+  blacuc1: 28
+  blakit1: 29
+  blaplo1: 30
+  blbpuf2: 31
+  blcapa2: 32
+  blfbus1: 33
+  blhgon1: 34
+  blhher1: 35
+  blksaw1: 36
+  blnmou1: 37
+  blnwea1: 38
+  bltapa1: 39
+  bltbar1: 40
+  bltori1: 41
+  blwlap1: 42
+  brcale1: 43
+  brcsta1: 44
+  brctch1: 45
+  brcwea1: 46
+  brican1: 47
+  brobab1: 48
+  broman1: 49
+  brosun1: 50
+  brrwhe3: 51
+  brtcha1: 52
+  brubru1: 53
+  brwwar1: 54
+  bswdov1: 55
+  btweye2: 56
+  bubwar2: 57
+  butapa1: 58
+  cabgre1: 59
+  carcha1: 60
+  carwoo1: 61
+  categr: 62
+  ccbeat1: 63
+  chespa1: 64
+  chewea1: 65
+  chibat1: 66
+  chtapa3: 67
+  chucis1: 68
+  cibwar1: 69
+  cohmar1: 70
+  colsun2: 71
+  combul2: 72
+  combuz1: 73
+  comsan: 74
+  crefra2: 75
+  crheag1: 76
+  crohor1: 77
+  darbar1: 78
+  darter3: 79
+  didcuc1: 80
+  dotbar1: 81
+  dutdov1: 82
+  easmog1: 83
+  eaywag1: 84
+  edcsun3: 85
+  egygoo: 86
+  equaka1: 87
+  eswdov1: 88
+  eubeat1: 89
+  fatrav1: 90
+  fatwid1: 91
+  fislov1: 92
+  fotdro5: 93
+  gabgos2: 94
+  gargan: 95
+  gbesta1: 96
+  gnbcam2: 97
+  gnhsun1: 98
+  gobbun1: 99
+  gobsta5: 100
+  gobwea1: 101
+  golher1: 102
+  grbcam1: 103
+  grccra1: 104
+  grecor: 105
+  greegr: 106
+  grewoo2: 107
+  grwpyt1: 108
+  gryapa1: 109
+  grywrw1: 110
+  gybfis1: 111
+  gycwar3: 112
+  gyhbus1: 113
+  gyhkin1: 114
+  gyhneg1: 115
+  gyhspa1: 116
+  gytbar1: 117
+  hadibi1: 118
+  hamerk1: 119
+  hartur1: 120
+  helgui: 121
+  hipbab1: 122
+  hoopoe: 123
+  huncis1: 124
+  hunsun2: 125
+  joygre1: 126
+  kerspa2: 127
+  klacuc1: 128
+  kvbsun1: 129
+  laudov1: 130
+  lawgol: 131
+  lesmaw1: 132
+  lessts1: 133
+  libeat1: 134
+  litegr: 135
+  litswi1: 136
+  litwea1: 137
+  loceag1: 138
+  lotcor1: 139
+  lotlap1: 140
+  luebus1: 141
+  mabeat1: 142
+  macshr1: 143
+  malkin1: 144
+  marsto1: 145
+  marsun2: 146
+  mcptit1: 147
+  meypar1: 148
+  moccha1: 149
+  mouwag1: 150
+  ndcsun2: 151
+  nobfly1: 152
+  norbro1: 153
+  norcro1: 154
+  norfis1: 155
+  norpuf1: 156
+  nubwoo1: 157
+  pabspa1: 158
+  palfly2: 159
+  palpri1: 160
+  piecro1: 161
+  piekin1: 162
+  pitwhy: 163
+  purgre2: 164
+  pygbat1: 165
+  quailf1: 166
+  ratcis1: 167
+  raybar1: 168
+  rbsrob1: 169
+  rebfir2: 170
+  rebhor1: 171
+  reboxp1: 172
+  reccor: 173
+  reccuc1: 174
+  reedov1: 175
+  refbar2: 176
+  refcro1: 177
+  reftin1: 178
+  refwar2: 179
+  rehblu1: 180
+  rehwea1: 181
+  reisee2: 182
+  rerswa1: 183
+  rewsta1: 184
+  rindov: 185
+  rocmar2: 186
+  rostur1: 187
+  ruegls1: 188
+  rufcha2: 189
+  sacibi2: 190
+  sccsun2: 191
+  scrcha1: 192
+  scthon1: 193
+  shesta1: 194
+  sichor1: 195
+  sincis1: 196
+  slbgre1: 197
+  slcbou1: 198
+  sltnig1: 199
+  sobfly1: 200
+  somgre1: 201
+  somtit4: 202
+  soucit1: 203
+  soufis1: 204
+  spemou2: 205
+  spepig1: 206
+  spewea1: 207
+  spfbar1: 208
+  spfwea1: 209
+  spmthr1: 210
+  spwlap1: 211
+  squher1: 212
+  strher: 213
+  strsee1: 214
+  stusta1: 215
+  subbus1: 216
+  supsta1: 217
+  tacsun1: 218
+  tafpri1: 219
+  tamdov1: 220
+  thrnig1: 221
+  trobou1: 222
+  varsun2: 223
+  vibsta2: 224
+  vilwea1: 225
+  vimwea1: 226
+  walsta1: 227
+  wbgbir1: 228
+  wbrcha2: 229
+  wbswea1: 230
+  wfbeat1: 231
+  whbcan1: 232
+  whbcou1: 233
+  whbcro2: 234
+  whbtit5: 235
+  whbwea1: 236
+  whbwhe3: 237
+  whcpri2: 238
+  whctur2: 239
+  wheslf1: 240
+  whhsaw1: 241
+  whihel1: 242
+  whrshr1: 243
+  witswa1: 244
+  wlwwar: 245
+  wookin1: 246
+  woosan: 247
+  wtbeat1: 248
+  yebapa1: 249
+  yebbar1: 250
+  yebduc1: 251
+  yebere1: 252
+  yebgre1: 253
+  yebsto1: 254
+  yeccan1: 255
+  yefcan: 256
+  yelbis1: 257
+  yenspu1: 258
+  yertin1: 259
+  yesbar1: 260
+  yespet1: 261
+  yetgre1: 262
+  yewgre1: 263
+name2label_pre:
+  acafly: 0
+  acowoo: 1
+  afrsil1: 2
+  akekee: 3
+  akepa1: 4
+  akiapo: 5
+  akikik: 6
+  aldfly: 7
+  ameavo: 8
+  amebit: 9
+  amecro: 10
+  amegfi: 11
+  amekes: 12
+  amepip: 13
+  amered: 14
+  amerob: 15
+  amewig: 16
+  amewoo: 17
+  amtspa: 18
+  andsol1: 19
+  aniani: 20
+  annhum: 21
+  apapan: 22
+  arcter: 23
+  astfly: 24
+  azaspi1: 25
+  babwar: 26
+  baisan: 27
+  baleag: 28
+  balori: 29
+  banana: 30
+  banswa: 31
+  banwre1: 32
+  barant1: 33
+  barpet: 34
+  barswa: 35
+  batpig1: 36
+  bawswa1: 37
+  bawwar: 38
+  baywre1: 39
+  bbwduc: 40
+  bcnher: 41
+  belkin1: 42
+  belspa2: 43
+  belvir: 44
+  bewwre: 45
+  bkbcuc: 46
+  bkbmag1: 47
+  bkbplo: 48
+  bkbwar: 49
+  bkcchi: 50
+  bkchum: 51
+  bkhgro: 52
+  bkmtou1: 53
+  bknsti: 54
+  bkpwar: 55
+  bktspa: 56
+  bkwpet: 57
+  blbgra1: 58
+  blbthr1: 59
+  blcjay1: 60
+  blctan1: 61
+  blhpar1: 62
+  blkfra: 63
+  blknod: 64
+  blkpho: 65
+  blsspa1: 66
+  blugrb1: 67
+  blujay: 68
+  bncfly: 69
+  bnhcow: 70
+  bobfly1: 71
+  boboli: 72
+  bongul: 73
+  botgra: 74
+  brant: 75
+  brbmot1: 76
+  brbsol1: 77
+  brcvir1: 78
+  brdowl: 79
+  brebla: 80
+  brespa: 81
+  brnboo: 82
+  brncre: 83
+  brnjay: 84
+  brnnod: 85
+  brnowl: 86
+  brnthr: 87
+  brratt1: 88
+  brtcur: 89
+  brthum: 90
+  brwhaw: 91
+  brwpar1: 92
+  btbwar: 93
+  btnwar: 94
+  btywar: 95
+  bubsan: 96
+  bucmot2: 97
+  buffle: 98
+  buggna: 99
+  bugtan: 100
+  buhvir: 101
+  bulori: 102
+  bulpet: 103
+  burpar: 104
+  burwar1: 105
+  bushti: 106
+  butsal1: 107
+  buwtea: 108
+  buwwar: 109
+  cacgoo1: 110
+  cacwre: 111
+  calgul: 112
+  calqua: 113
+  caltow: 114
+  camwar: 115
+  cangoo: 116
+  canvas: 117
+  canwar: 118
+  canwre: 119
+  carchi: 120
+  carwre: 121
+  casfin: 122
+  caskin: 123
+  caster1: 124
+  casvir: 125
+  categr: 126
+  ccbfin: 127
+  cedwax: 128
+  chbant1: 129
+  chbchi: 130
+  chbsan: 131
+  chbwre1: 132
+  chcant2: 133
+  chemun: 134
+  chispa: 135
+  chiswi: 136
+  chswar: 137
+  chukar: 138
+  cinfly2: 139
+  cintea: 140
+  clanut: 141
+  clcrob: 142
+  cliswa: 143
+  cobtan1: 144
+  cocwoo1: 145
+  cogdov: 146
+  colcha1: 147
+  coltro1: 148
+  comgal1: 149
+  comgol: 150
+  comgra: 151
+  comloo: 152
+  commer: 153
+  commyn: 154
+  comnig: 155
+  compau: 156
+  compea: 157
+  compot1: 158
+  comrav: 159
+  comred: 160
+  comsan: 161
+  comter: 162
+  comwax: 163
+  comyel: 164
+  coohaw: 165
+  coopet: 166
+  coshum: 167
+  cotfly1: 168
+  cowscj1: 169
+  cregua1: 170
+  crehon: 171
+  creoro1: 172
+  crfpar: 173
+  cubthr: 174
+  daejun: 175
+  doccor: 176
+  dowwoo: 177
+  ducfly: 178
+  dunlin: 179
+  dusfly: 180
+  eargre: 181
+  easblu: 182
+  easkin: 183
+  easmea: 184
+  easpho: 185
+  eastow: 186
+  eawpew: 187
+  elepai: 188
+  eletro: 189
+  ercfra: 190
+  eucdov: 191
+  eursta: 192
+  eurwig: 193
+  evegro: 194
+  fepowl: 195
+  fiespa: 196
+  fiscro: 197
+  flrtan1: 198
+  foxspa: 199
+  fragul: 200
+  gadwal: 201
+  gamqua: 202
+  gartro1: 203
+  gbbgul: 204
+  gbwwre1: 205
+  gcrfin: 206
+  gcrwar: 207
+  gilwoo: 208
+  glwgul: 209
+  gnttow: 210
+  gnwtea: 211
+  gocfly1: 212
+  gockin: 213
+  gocspa: 214
+  goftyr1: 215
+  gohque1: 216
+  goleag: 217
+  golphe: 218
+  goowoo1: 219
+  grasal1: 220
+  grbani: 221
+  grbher3: 222
+  grcfly: 223
+  greegr: 224
+  grefri: 225
+  grekis: 226
+  grepew: 227
+  greroa: 228
+  gresca: 229
+  grethr1: 230
+  gretin1: 231
+  greyel: 232
+  grhcha1: 233
+  grhowl: 234
+  grnher: 235
+  grnjay: 236
+  grtgra: 237
+  grycat: 238
+  gryfly: 239
+  gryfra: 240
+  gryhaw2: 241
+  gwfgoo: 242
+  haiwoo: 243
+  hamfly: 244
+  hawama: 245
+  hawcoo: 246
+  hawcre: 247
+  hawgoo: 248
+  hawhaw: 249
+  hawpet1: 250
+  heptan: 251
+  hergul: 252
+  herthr: 253
+  herwar: 254
+  higmot1: 255
+  hofwoo1: 256
+  hoomer: 257
+  hoowar: 258
+  horgre: 259
+  horlar: 260
+  houfin: 261
+  houspa: 262
+  houwre: 263
+  hudgod: 264
+  hutvir: 265
+  iiwi: 266
+  incdov: 267
+  incter1: 268
+  indbun: 269
+  jabwar: 270
+  japqua: 271
+  juntit1: 272
+  kalphe: 273
+  kauama: 274
+  kebtou1: 275
+  killde: 276
+  labwoo: 277
+  larspa: 278
+  laufal1: 279
+  laugul: 280
+  layalb: 281
+  lazbun: 282
+  lcspet: 283
+  leabit: 284
+  leafly: 285
+  leasan: 286
+  leater1: 287
+  lecthr: 288
+  lesgol: 289
+  lesgre1: 290
+  lesnig: 291
+  lessca: 292
+  lesvio1: 293
+  lesyel: 294
+  lewwoo: 295
+  linspa: 296
+  linwoo1: 297
+  littin1: 298
+  lobcur: 299
+  lobdow: 300
+  lobgna5: 301
+  logshr: 302
+  lotduc: 303
+  lotjae: 304
+  lotman1: 305
+  louwat: 306
+  lucwar: 307
+  macwar: 308
+  madpet: 309
+  magpet1: 310
+  magwar: 311
+  mallar3: 312
+  marwre: 313
+  masboo: 314
+  mastro1: 315
+  mauala: 316
+  maupar: 317
+  meapar: 318
+  melbla1: 319
+  merlin: 320
+  mitpar: 321
+  monoro1: 322
+  moublu: 323
+  mouchi: 324
+  moudov: 325
+  mouela1: 326
+  mouqua: 327
+  mouwar: 328
+  mutswa: 329
+  naswar: 330
+  norcar: 331
+  norfli: 332
+  norhar2: 333
+  normoc: 334
+  norpar: 335
+  norpin: 336
+  norsho: 337
+  norwat: 338
+  nrwswa: 339
+  nutman: 340
+  nutwoo: 341
+  oahama: 342
+  oaktit: 343
+  obnthr1: 344
+  ocbfly1: 345
+  oliwoo1: 346
+  olsfly: 347
+  omao: 348
+  orbeup1: 349
+  orbspa1: 350
+  orcpar: 351
+  orcwar: 352
+  orfpar: 353
+  osprey: 354
+  ovenbi1: 355
+  pabspi1: 356
+  pagplo: 357
+  palila: 358
+  paltan1: 359
+  palwar: 360
+  parjae: 361
+  pasfly: 362
+  pavpig2: 363
+  pecsan: 364
+  peflov: 365
+  perfal: 366
+  phaino: 367
+  phivir: 368
+  pibgre: 369
+  pilwoo: 370
+  pingro: 371
+  pinjay: 372
+  pinsis: 373
+  pinwar: 374
+  pirfly1: 375
+  plawre1: 376
+  plaxen1: 377
+  plsvir: 378
+  plupig2: 379
+  pomjae: 380
+  prawar: 381
+  prowar: 382
+  puaioh: 383
+  purfin: 384
+  purgal2: 385
+  putfru1: 386
+  pygnut: 387
+  rawwre1: 388
+  rcatan1: 389
+  rebmer: 390
+  rebnut: 391
+  rebsap: 392
+  rebwoo: 393
+  reccar: 394
+  redava: 395
+  redcro: 396
+  redhea: 397
+  redjun: 398
+  redpha1: 399
+  reevir1: 400
+  refboo: 401
+  rehbar1: 402
+  relpar: 403
+  rempar: 404
+  renpha: 405
+  reshaw: 406
+  rethaw: 407
+  rettro: 408
+  rewbla: 409
+  ribgul: 410
+  rinduc: 411
+  rinkin1: 412
+  rinphe: 413
+  roahaw: 414
+  robgro: 415
+  rocpig: 416
+  rocwre: 417
+  rorpar: 418
+  rotbec: 419
+  royter1: 420
+  rthhum: 421
+  rtlhum: 422
+  ruboro1: 423
+  rubpep1: 424
+  rubrob: 425
+  rubwre1: 426
+  ruckin: 427
+  rucspa1: 428
+  rucwar: 429
+  rucwar1: 430
+  rudduc: 431
+  rudpig: 432
+  rudtur: 433
+  ruff: 434
+  rufgro: 435
+  rufhum: 436
+  rugdov: 437
+  rumfly1: 438
+  runwre1: 439
+  rusbla: 440
+  rutjac1: 441
+  saffin: 442
+  sagspa1: 443
+  sagthr: 444
+  sancra: 445
+  sander: 446
+  savspa: 447
+  saypho: 448
+  scamac1: 449
+  scatan: 450
+  scbwre1: 451
+  scoori: 452
+  scptyr1: 453
+  scrtan1: 454
+  semplo: 455
+  semsan: 456
+  sheowl: 457
+  shicow: 458
+  shshaw: 459
+  shtsan: 460
+  sibtan2: 461
+  sinwre1: 462
+  skylar: 463
+  sltred: 464
+  smbani: 465
+  snobun: 466
+  snogoo: 467
+  sobtyr1: 468
+  socfly1: 469
+  solsan: 470
+  sonspa: 471
+  sooshe: 472
+  sooter1: 473
+  sopsku1: 474
+  sora: 475
+  soulap1: 476
+  spodov: 477
+  sposan: 478
+  spotow: 479
+  spvear1: 480
+  squcuc1: 481
+  stbori: 482
+  stejay: 483
+  sthant1: 484
+  sthwoo1: 485
+  strcuc1: 486
+  strfly1: 487
+  strsal1: 488
+  stvhum2: 489
+  subfly: 490
+  sumtan: 491
+  swahaw: 492
+  swaspa: 493
+  swathr: 494
+  tenwar: 495
+  thbeup1: 496
+  thbkin: 497
+  thswar1: 498
+  towsol: 499
+  treswa: 500
+  trogna1: 501
+  trokin: 502
+  tromoc: 503
+  tropar: 504
+  tropew1: 505
+  truswa: 506
+  tuftit: 507
+  tunswa: 508
+  veery: 509
+  verdin: 510
+  vesspa: 511
+  vigswa: 512
+  wantat1: 513
+  warvir: 514
+  warwhe1: 515
+  wbwwre1: 516
+  webwoo1: 517
+  wegspa1: 518
+  wesant1: 519
+  wesblu: 520
+  wesgre: 521
+  weskin: 522
+  wesmea: 523
+  wessan: 524
+  westan: 525
+  wetshe: 526
+  wewpew: 527
+  whbman1: 528
+  whbnut: 529
+  whcpar: 530
+  whcsee1: 531
+  whcspa: 532
+  whevir: 533
+  whfibi: 534
+  whfpar1: 535
+  whimbr: 536
+  whiter: 537
+  whiwre1: 538
+  whtdov: 539
+  whtspa: 540
+  whtswi: 541
+  whttro: 542
+  whwbec1: 543
+  whwdov: 544
+  wilfly: 545
+  willet1: 546
+  wilsni1: 547
+  wiltur: 548
+  winwre3: 549
+  wlswar: 550
+  wooduc: 551
+  wooscj2: 552
+  woothr: 553
+  wrenti: 554
+  y00475: 555
+  yebcar: 556
+  yebcha: 557
+  yebela1: 558
+  yebfly: 559
+  yebori1: 560
+  yebsap: 561
+  yebsee1: 562
+  yefcan: 563
+  yefgra1: 564
+  yegvir: 565
+  yehbla: 566
+  yehcar1: 567
+  yelgro: 568
+  yelwar: 569
+  yeofly1: 570
+  yerwar: 571
+  yeteup1: 572
+  yetvir: 573
+  zebdov: 574
+normalize: true
+notebook_link: https://www.kaggle.com/awsaf49/birdclef23-effnet-fsr-cutmixup-train/edit
+num_classes: 264
+num_classes_pre: 575
+num_fold: 5
+optimizer: AdamW
+pretrain: true
+pretrained_model_path: /kaggle/working/WSL/exp10_softmax_model
+random_crop: false
+sample_rate: 32000
+scheduler: cos
+seed: 42
+selected_folds:
+- 0
+- 1
+- 2
+- 3
+- 4
+spec_augment_prob: 0.8
+tab_cols:
+- filename
+target_col:
+- target
+test_bs: 2
+test_duration: 5
+time_mask: 20
+timeshift_prob: 0.0
+top_db: null
+training_plot: true
+tta: 1
+upsample_thr: 50
+valid_bs: 128
+verbose: 0
+wandb: true
+warmup_lr_init: 5.0e-05
+warmup_t: 5

@@ -1,0 +1,46 @@
+#########################
+#### Training
+#### Fold: 1 | Image Size: (224, 313) | Model: tf_efficientnet_b1_ns | Batch Size: 128 | Scheduler: cos
+#### Num Train: 19,627 | Num Valid: 3,381
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 26%|██▌       | 40/154 [00:46<01:40,  1.13it/s]Exception ignored in: <function _MultiProcessingDataLoaderIter.__del__ at 0x7f23ff7bbb00>
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1465, in __del__
+    def __del__(self):
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/_utils/signal_handling.py", line 66, in handler
+    _error_if_any_worker_fails()
+RuntimeError: DataLoader worker (pid 22652) exited unexpectedly with exit code 1. Details are lost due to multiprocessing. Rerunning with num_workers=0 may give better error trace.
+ 26%|██▌       | 40/154 [00:47<02:14,  1.18s/it]
+Exception in thread NetStatThr:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/threading.py", line 926, in _bootstrap_inner
+    self.run()
+  File "/opt/conda/lib/python3.7/threading.py", line 870, in run
+    self._target(*self._args, **self._kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/wandb_run.py", line 152, in check_network_status
+    status_response = self._interface.communicate_network_status()
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface.py", line 138, in communicate_network_status
+    resp = self._communicate_network_status(status)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 405, in _communicate_network_status
+    resp = self._communicate(req, local=True)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/opt/conda/lib/python3.7/site-packages/wandb/sdk/interface/interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")

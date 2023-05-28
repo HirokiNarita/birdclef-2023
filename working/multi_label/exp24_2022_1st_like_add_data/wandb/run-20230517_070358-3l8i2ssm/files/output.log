@@ -1,0 +1,30 @@
+
+  0%|          | 0/307 [00:00<?, ?it/s]
+load pre-trained model :  /kaggle/working/multi_label/exp22_primary_label_2022_1st_like/fold-0.pth
+<All keys matched successfully>
+#########################
+#### Training
+#### Fold: 1 | Image Size: (128, 1001) | Model: tf_efficientnet_b1_ns | Batch Size: 64 | Scheduler: cos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  9%|▉         | 29/307 [00:34<05:30,  1.19s/it]
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+/opt/conda/lib/python3.7/site-packages/ipykernel_launcher.py:2: FutureWarning: The default value of regex will change from True to False in a future version.
+/opt/conda/lib/python3.7/site-packages/sklearn/model_selection/_split.py:680: UserWarning: The least populated class in y has only 1 members, which is less than n_splits=5.
+  UserWarning,
+cuda:0
+Debug : False
+local mode
+2023-05-17 16:04:44

@@ -1,0 +1,167 @@
+
+  0%|          | 0/154 [00:00<?, ?it/s]
+load pre-trained model :  /kaggle/working/WSL/exp10_softmax_model/fold-0.pth
+_IncompatibleKeys(missing_keys=['bn0.weight', 'bn0.bias', 'bn0.running_mean', 'bn0.running_var', 'fc1.weight', 'fc1.bias', 'att_block.att.weight', 'att_block.att.bias', 'att_block.cla.weight', 'att_block.cla.bias'], unexpected_keys=[])
+#########################
+#### Training
+#### Fold: 1 | Image Size: (224, 313) | Model: tf_efficientnet_b1_ns | Batch Size: 128 | Scheduler: cos
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+100%|██████████| 154/154 [03:44<00:00,  1.46s/it]
+  0%|          | 0/27 [00:00<?, ?it/s]
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3552, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "/tmp/ipykernel_1436/364853370.py", line 126, in <module>
+    for inputs, sample_info in tqdm(val_dataloader):
+  File "/opt/conda/lib/python3.7/site-packages/tqdm/std.py", line 1195, in __iter__
+    for obj in iterable:
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 628, in __next__
+    data = self._next_data()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1316, in _next_data
+    idx, data = self._get_data()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1282, in _get_data
+    success, data = self._try_get_data()
+  File "/opt/conda/lib/python3.7/site-packages/torch/utils/data/dataloader.py", line 1120, in _try_get_data
+    data = self._data_queue.get(timeout=timeout)
+  File "/opt/conda/lib/python3.7/multiprocessing/queues.py", line 104, in get
+    if not self._poll(timeout):
+  File "/opt/conda/lib/python3.7/multiprocessing/connection.py", line 257, in poll
+    return self._poll(timeout)
+  File "/opt/conda/lib/python3.7/multiprocessing/connection.py", line 414, in _poll
+    r = wait([self], timeout)
+  File "/opt/conda/lib/python3.7/multiprocessing/connection.py", line 921, in wait
+    ready = selector.select(timeout)
+  File "/opt/conda/lib/python3.7/selectors.py", line 415, in select
+    fd_event_list = self._selector.poll(timeout)
+KeyboardInterrupt
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2098, in showtraceback
+    stb = value._render_traceback_()
+AttributeError: 'KeyboardInterrupt' object has no attribute '_render_traceback_'
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 1101, in get_records
+    return _fixed_getinnerframes(etb, number_of_lines_of_context, tb_offset)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 248, in wrapped
+    return f(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 281, in _fixed_getinnerframes
+    records = fix_frame_records_filenames(inspect.getinnerframes(etb, context))
+  File "/opt/conda/lib/python3.7/inspect.py", line 1502, in getinnerframes
+    frameinfo = (tb.tb_frame,) + getframeinfo(tb, context)
+  File "/opt/conda/lib/python3.7/inspect.py", line 1460, in getframeinfo
+    filename = getsourcefile(frame) or getfile(frame)
+  File "/opt/conda/lib/python3.7/inspect.py", line 696, in getsourcefile
+    if getattr(getmodule(object, filename), '__loader__', None) is not None:
+  File "/opt/conda/lib/python3.7/inspect.py", line 739, in getmodule
+    f = getabsfile(module)
+  File "/opt/conda/lib/python3.7/inspect.py", line 709, in getabsfile
+    return os.path.normcase(os.path.abspath(_filename))
+  File "/opt/conda/lib/python3.7/posixpath.py", line 385, in abspath
+    return normpath(path)
+  File "/opt/conda/lib/python3.7/posixpath.py", line 366, in normpath
+    new_comps.append(comp)
+

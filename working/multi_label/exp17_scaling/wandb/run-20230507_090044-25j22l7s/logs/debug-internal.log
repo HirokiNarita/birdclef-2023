@@ -1,0 +1,243 @@
+2023-05-07 09:00:45,910 INFO    MainThread:14747 [internal.py:wandb_internal():93] W&B internal server running at pid: 14747, started at: 2023-05-07 09:00:45.909950
+2023-05-07 09:00:45,912 INFO    WriterThread:14747 [datastore.py:open_for_write():75] open: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/run-25j22l7s.wandb
+2023-05-07 09:00:45,914 DEBUG   SenderThread:14747 [sender.py:send():236] send: header
+2023-05-07 09:00:45,914 DEBUG   SenderThread:14747 [sender.py:send():236] send: run
+2023-05-07 09:00:46,244 INFO    SenderThread:14747 [dir_watcher.py:__init__():216] watching files in: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files
+2023-05-07 09:00:46,244 INFO    SenderThread:14747 [sender.py:_start_run_threads():818] run started: 25j22l7s with start time 1683450044
+2023-05-07 09:00:46,247 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:00:46,247 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: check_version
+2023-05-07 09:00:46,248 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:00:46,248 DEBUG   SenderThread:14747 [sender.py:send_request():250] send_request: check_version
+2023-05-07 09:00:46,279 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: run_start
+2023-05-07 09:00:46,294 DEBUG   HandlerThread:14747 [meta.py:__init__():35] meta init
+2023-05-07 09:00:46,295 DEBUG   HandlerThread:14747 [meta.py:__init__():49] meta init done
+2023-05-07 09:00:46,295 DEBUG   HandlerThread:14747 [meta.py:probe():209] probe
+2023-05-07 09:00:46,305 DEBUG   HandlerThread:14747 [git.py:repo():29] git repository is invalid
+2023-05-07 09:00:46,305 DEBUG   HandlerThread:14747 [meta.py:_save_code():87] save code
+2023-05-07 09:00:46,305 WARNING HandlerThread:14747 [meta.py:_save_code():89] unable to save code -- program entry not found
+2023-05-07 09:00:46,305 DEBUG   HandlerThread:14747 [meta.py:_save_pip():53] save pip
+2023-05-07 09:00:46,306 DEBUG   HandlerThread:14747 [meta.py:_save_pip():67] save pip done
+2023-05-07 09:00:46,307 DEBUG   HandlerThread:14747 [meta.py:_save_conda():74] save conda
+2023-05-07 09:00:47,247 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/wandb-summary.json
+2023-05-07 09:00:47,247 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/requirements.txt
+2023-05-07 09:00:47,247 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/conda-environment.yaml
+2023-05-07 09:00:52,247 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/output.log
+2023-05-07 09:00:58,250 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/output.log
+2023-05-07 09:01:08,254 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/output.log
+2023-05-07 09:01:10,255 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/output.log
+2023-05-07 09:01:12,256 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/output.log
+2023-05-07 09:01:14,257 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/output.log
+2023-05-07 09:01:16,257 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/output.log
+2023-05-07 09:01:18,258 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/output.log
+2023-05-07 09:01:20,259 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/output.log
+2023-05-07 09:01:22,260 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/output.log
+2023-05-07 09:01:24,269 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/output.log
+2023-05-07 09:01:25,314 DEBUG   HandlerThread:14747 [meta.py:_save_conda():84] save conda done
+2023-05-07 09:01:25,314 DEBUG   HandlerThread:14747 [meta.py:probe():247] probe done
+2023-05-07 09:01:25,863 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-07 09:01:25,863 DEBUG   SenderThread:14747 [sender.py:send_request():250] send_request: stop_status
+2023-05-07 09:01:25,868 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:25,870 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:25,871 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:25,872 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:25,874 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:25,874 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:25,875 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:25,876 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-07 09:01:25,876 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:25,877 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:25,878 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:25,879 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:25,880 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:25,881 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:25,882 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:25,883 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:25,884 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:25,885 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:25,885 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:25,886 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:25,887 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:25,888 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:25,889 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:25,890 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:26,058 DEBUG   SenderThread:14747 [sender.py:send():236] send: telemetry
+2023-05-07 09:01:26,058 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:26,059 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:26,063 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:26,064 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:26,064 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:26,064 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:26,065 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:26,065 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:26,065 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:26,065 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:26,066 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:26,066 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:26,066 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:26,066 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:26,067 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:26,067 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:26,067 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:26,067 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:26,068 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:26,068 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:26,068 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:26,068 DEBUG   SenderThread:14747 [sender.py:send_request():250] send_request: stop_status
+2023-05-07 09:01:26,258 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:26,258 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:26,259 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:26,259 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:26,259 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:26,260 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:26,260 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:26,260 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:26,261 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:26,261 DEBUG   SenderThread:14747 [sender.py:send():236] send: stats
+2023-05-07 09:01:26,261 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:26,261 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:26,261 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:26,262 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:26,262 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:26,262 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:26,262 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:26,262 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:26,263 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:26,263 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:26,263 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:26,264 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:26,264 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:26,264 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:26,264 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:26,264 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:26,264 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:26,265 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:26,265 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:26,265 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:26,265 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:26,265 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:26,266 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:26,266 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:26,266 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:26,266 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:26,267 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:26,267 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:26,267 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:26,267 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:26,268 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:26,268 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:26,268 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:26,268 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:26,268 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:26,269 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:26,269 DEBUG   SenderThread:14747 [sender.py:send():236] send: files
+2023-05-07 09:01:26,269 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2023-05-07 09:01:26,269 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:26,269 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:26,271 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:26,278 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/wandb-summary.json
+2023-05-07 09:01:26,278 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/output.log
+2023-05-07 09:01:26,278 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_created():269] file/dir created: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/wandb-metadata.json
+2023-05-07 09:01:26,538 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:26,539 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:26,540 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:26,541 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:26,884 INFO    Thread-11 :14747 [upload_job.py:push():138] Uploaded file /tmp/tmpolkdu076wandb/2ar1zdny-wandb-metadata.json
+2023-05-07 09:01:27,278 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/wandb-summary.json
+2023-05-07 09:01:27,436 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:27,437 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:27,438 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:27,439 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:28,278 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/wandb-summary.json
+2023-05-07 09:01:28,279 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/output.log
+2023-05-07 09:01:28,354 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:28,355 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:28,355 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:28,362 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:29,224 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:29,225 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:29,225 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:29,226 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:29,279 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/wandb-summary.json
+2023-05-07 09:01:30,093 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:30,093 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:30,094 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:30,094 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:30,279 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/wandb-summary.json
+2023-05-07 09:01:30,280 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/output.log
+2023-05-07 09:01:30,971 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:30,972 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:30,973 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:30,973 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:31,280 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/wandb-summary.json
+2023-05-07 09:01:31,294 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: stop_status
+2023-05-07 09:01:31,294 DEBUG   SenderThread:14747 [sender.py:send_request():250] send_request: stop_status
+2023-05-07 09:01:31,855 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:31,856 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:31,856 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:31,857 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:32,280 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/wandb-summary.json
+2023-05-07 09:01:32,281 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/output.log
+2023-05-07 09:01:32,724 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:32,725 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:32,725 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:32,728 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:33,281 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/wandb-summary.json
+2023-05-07 09:01:33,619 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:33,620 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:33,620 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:33,621 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:34,281 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/wandb-summary.json
+2023-05-07 09:01:34,282 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/output.log
+2023-05-07 09:01:34,538 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:34,539 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:34,539 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:34,542 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:35,282 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/wandb-summary.json
+2023-05-07 09:01:35,429 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:35,430 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:35,431 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:35,432 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:36,283 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/wandb-summary.json
+2023-05-07 09:01:36,283 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/output.log
+2023-05-07 09:01:36,333 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:36,334 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:36,334 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:36,335 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:37,239 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:37,240 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:37,241 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:37,241 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:37,283 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/wandb-summary.json
+2023-05-07 09:01:38,120 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:38,120 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:38,121 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:38,124 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:38,283 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/wandb-summary.json
+2023-05-07 09:01:38,284 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/output.log
+2023-05-07 09:01:39,020 DEBUG   HandlerThread:14747 [handler.py:handle_request():140] handle_request: partial_history
+2023-05-07 09:01:39,020 DEBUG   SenderThread:14747 [sender.py:send():236] send: history
+2023-05-07 09:01:39,021 DEBUG   SenderThread:14747 [sender.py:send():236] send: summary
+2023-05-07 09:01:39,021 INFO    SenderThread:14747 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2023-05-07 09:01:39,065 WARNING MainThread:14747 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2023-05-07 09:01:39,219 WARNING MainThread:14747 [internal.py:wandb_internal():153] Internal process interrupt: 2
+2023-05-07 09:01:39,220 ERROR   MainThread:14747 [internal.py:wandb_internal():156] Internal process interrupted.
+2023-05-07 09:01:39,284 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/wandb-summary.json
+2023-05-07 09:01:39,362 INFO    HandlerThread:14747 [handler.py:finish():806] shutting down handler
+2023-05-07 09:01:39,362 INFO    WriterThread:14747 [datastore.py:close():279] close: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/run-25j22l7s.wandb
+2023-05-07 09:01:39,363 INFO    SenderThread:14747 [sender.py:finish():1114] shutting down sender
+2023-05-07 09:01:39,363 INFO    SenderThread:14747 [dir_watcher.py:finish():353] shutting down directory watcher
+2023-05-07 09:01:40,285 INFO    Thread-7  :14747 [dir_watcher.py:_on_file_modified():286] file/dir modified: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/output.log
+2023-05-07 09:01:40,286 INFO    SenderThread:14747 [dir_watcher.py:finish():383] scan: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files
+2023-05-07 09:01:40,286 INFO    SenderThread:14747 [dir_watcher.py:finish():397] scan save: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/output.log output.log
+2023-05-07 09:01:40,286 INFO    SenderThread:14747 [dir_watcher.py:finish():397] scan save: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/wandb-metadata.json wandb-metadata.json
+2023-05-07 09:01:40,286 INFO    SenderThread:14747 [dir_watcher.py:finish():397] scan save: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/wandb-summary.json wandb-summary.json
+2023-05-07 09:01:40,291 INFO    SenderThread:14747 [dir_watcher.py:finish():397] scan save: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/requirements.txt requirements.txt
+2023-05-07 09:01:40,295 INFO    SenderThread:14747 [dir_watcher.py:finish():397] scan save: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/conda-environment.yaml conda-environment.yaml
+2023-05-07 09:01:40,295 INFO    SenderThread:14747 [dir_watcher.py:finish():397] scan save: /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/config.yaml config.yaml
+2023-05-07 09:01:40,299 INFO    SenderThread:14747 [file_pusher.py:finish():171] shutting down file pusher
+2023-05-07 09:01:40,299 INFO    SenderThread:14747 [file_pusher.py:join():176] waiting for file pusher
+2023-05-07 09:01:40,891 INFO    Thread-12 :14747 [upload_job.py:push():138] Uploaded file /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/output.log
+2023-05-07 09:01:40,894 INFO    Thread-15 :14747 [upload_job.py:push():138] Uploaded file /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/config.yaml
+2023-05-07 09:01:40,902 INFO    Thread-14 :14747 [upload_job.py:push():138] Uploaded file /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/requirements.txt
+2023-05-07 09:01:40,923 INFO    Thread-13 :14747 [upload_job.py:push():138] Uploaded file /kaggle/working/multi_label/exp17_primary_label_mono2coler/wandb/run-20230507_090044-25j22l7s/files/wandb-summary.json
+2023-05-07 09:01:41,511 INFO    MainThread:14747 [internal.py:handle_exit():80] Internal process exited

@@ -2,3 +2,4 @@
 /pip-lib
 *.pth
 /working/*/wandb/
+*.csv

@@ -1,0 +1,17 @@
+{
+    "os": "Linux-5.4.0-1102-gcp-x86_64-with-debian-bullseye-sid",
+    "python": "3.7.12",
+    "heartbeatAt": "2023-04-15T16:52:14.526868",
+    "startedAt": "2023-04-15T16:52:12.479697",
+    "docker": null,
+    "gpu": "Tesla T4",
+    "gpu_count": 1,
+    "cpu_count": 4,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "host": "91b022bab157",
+    "username": "root",
+    "executable": "/opt/conda/bin/python"
+}

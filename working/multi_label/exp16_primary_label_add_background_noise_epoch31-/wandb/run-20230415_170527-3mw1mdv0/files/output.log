@@ -1,0 +1,14 @@
+
+  0%|          | 0/154 [00:00<?, ?it/s]
+#########################
+#### Training
+#### Fold: 1 | Image Size: (224, 313) | Model: tf_efficientnet_b1_ns | Batch Size: 128 | Scheduler: cos
+#### Num Train: 19,627 | Num Valid: 3,381
+
+  2%|▏         | 3/154 [00:08<05:21,  2.13s/it]
+torch.Size([128, 1280, 7, 10])
+torch.Size([128, 1280, 7, 10])
+
+  3%|▎         | 5/154 [00:09<03:18,  1.33s/it]
+torch.Size([128, 1280, 7, 10])
+
